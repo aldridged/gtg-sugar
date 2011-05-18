@@ -1,0 +1,257 @@
+
+2011-03-07 15:26:29...Begin System Check Process *************
+2011-03-07 15:26:29...Found at least one supported DB Type
+2011-03-07 15:26:29...XML Parsing Support Found
+2011-03-07 15:26:29...MBString Support Found
+2011-03-07 15:26:29.../custom directory and subdirectory check passed
+2011-03-07 15:26:29.../data/upoad directory and subdirectory check passed
+2011-03-07 15:26:29.../cache directory and subdirectory check passed
+2011-03-07 15:26:29.../module  directory and subdirectory check passed
+2011-03-07 15:26:29...php.ini location found. /etc/php.ini
+2011-03-07 15:26:29...Outputting HTML for System check
+2011-03-07 15:26:29...No Errors were found *************
+2011-03-07 15:28:39...Begin DB Check Process *************
+2011-03-07 15:28:39...Basic form info is valid, continuing Process.
+2011-03-07 15:28:39...testing with mysql
+2011-03-07 15:28:39...MySQLI library detected
+2011-03-07 15:28:44...Could not make Connection using  host: 192.168.0.45, usr: root
+2011-03-07 15:28:44...ERROR::  The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password. 1130: Host '192.168.0.45' is not allowed to connect to this MySQL server).
+2011-03-07 15:28:44...Testing priviliged account...
+2011-03-07 15:28:49...ERROR:: The provided database administrator username and/or password is invalid, and a connection to the database could not be established.  Please enter a valid user name and password.  (Error: 1130: Host '192.168.0.45' is not allowed to connect to this MySQL server).
+2011-03-07 15:28:49...FATAL:: errors have been detected!  User will not be allowed to continue.  Errors are as follow:
+2011-03-07 15:28:49..... The provided database host, username, and/or password is invalid, and a connection to the database could not be established.  Please enter a valid host, username and password. 1130: Host '192.168.0.45' is not allowed to connect to this MySQL server).
+2011-03-07 15:28:49..... The provided database administrator username and/or password is invalid, and a connection to the database could not be established.  Please enter a valid user name and password.  (Error: 1130: Host '192.168.0.45' is not allowed to connect to this MySQL server).
+2011-03-07 15:28:49...End DB Check Process *************
+2011-03-07 15:29:55...Begin DB Check Process *************
+2011-03-07 15:29:55...Basic form info is valid, continuing Process.
+2011-03-07 15:29:55...testing with mysql
+2011-03-07 15:29:55...MySQLI library detected
+2011-03-07 15:29:55...Connection made using  host: localhost, usr: root
+2011-03-07 15:29:55...Testing priviliged account...
+2011-03-07 15:29:55...Connection made for Privileged admin account using  host: localhost, usr: root
+2011-03-07 15:29:55...DB not selected, will create dcmaster
+2011-03-07 15:29:55...Passed DB Version check, version is 5.0.77
+2011-03-07 15:29:55...SUCCESS:: no errors detected!
+2011-03-07 15:29:55...End DB Check Process *************
+2011-03-07 15:33:24...calling handleSugarConfig()
+2011-03-07 15:33:24...calling handleLog4Php()
+2011-03-07 15:33:24...calling handleHtaccess()
+2011-03-07 15:33:24...calling handleDbCreateDatabase()
+2011-03-07 15:42:49...Begin System Check Process *************
+2011-03-07 15:42:49...Found at least one supported DB Type
+2011-03-07 15:42:49...XML Parsing Support Found
+2011-03-07 15:42:49...MBString Support Found
+2011-03-07 15:42:49.../custom directory and subdirectory check passed
+2011-03-07 15:42:49.../data/upoad directory and subdirectory check passed
+2011-03-07 15:42:49.../cache directory and subdirectory check passed
+2011-03-07 15:42:49.../module  directory and subdirectory check passed
+2011-03-07 15:42:49...php.ini location found. /etc/php.ini
+2011-03-07 15:42:49...Outputting HTML for System check
+2011-03-07 15:42:49...No Errors were found *************
+2011-03-07 15:43:00...Begin DB Check Process *************
+2011-03-07 15:43:00...Basic form info is valid, continuing Process.
+2011-03-07 15:43:00...testing with mysql
+2011-03-07 15:43:00...MySQLI library detected
+2011-03-07 15:43:00...Connection made using  host: localhost, usr: root
+2011-03-07 15:43:00...Testing priviliged account...
+2011-03-07 15:43:00...Connection made for Privileged admin account using  host: localhost, usr: root
+2011-03-07 15:43:00...ERROR:: The provided Database Name already exists.  You can<br>1.  hit the back button and choose a new database name <br>2.  click next and continue but all existing tables on this database will be dropped.  <strong>This means your tables and data will be blown away.</strong>
+2011-03-07 15:43:00...DB Selected, will reuse dcmaster
+2011-03-07 15:43:00...Passed DB Version check, version is 5.0.77
+2011-03-07 15:43:00...WARNING:: no errors detected, but DB tables will be dropped!, issuing warning to user
+2011-03-07 15:43:00...End DB Check Process *************
+2011-03-07 15:43:18...calling handleSugarConfig()
+2011-03-07 15:43:18...calling handleLog4Php()
+2011-03-07 15:43:18...calling handleHtaccess()
+2011-03-07 15:43:18...calling handleDbCharsetCollation()
+2011-03-07 15:43:18...looping through all the Beans and create their tables
+2011-03-07 15:43:18...processing table acl_actions
+2011-03-07 15:43:18...dropping table acl_actions
+2011-03-07 15:43:18...creating table acl_actions
+2011-03-07 15:43:18...creating Relationship Meta for ACLAction
+2011-03-07 15:43:18...processing table acl_roles
+2011-03-07 15:43:18...dropping table acl_roles
+2011-03-07 15:43:18...creating table acl_roles
+2011-03-07 15:43:18...creating Relationship Meta for ACLRole
+2011-03-07 15:43:18...processing table relationships
+2011-03-07 15:43:18...dropping table relationships
+2011-03-07 15:43:18...creating table relationships
+2011-03-07 15:43:18...creating Relationship Meta for Relationship
+2011-03-07 15:43:18...processing table leads
+2011-03-07 15:43:18...dropping table leads
+2011-03-07 15:43:18...creating table leads
+2011-03-07 15:43:18...creating Relationship Meta for Lead
+2011-03-07 15:43:18...processing table cases
+2011-03-07 15:43:18...dropping table cases
+2011-03-07 15:43:18...creating table cases
+2011-03-07 15:43:18...creating Relationship Meta for Case
+2011-03-07 15:43:18...processing table bugs
+2011-03-07 15:43:18...dropping table bugs
+2011-03-07 15:43:18...creating table bugs
+2011-03-07 15:43:18...creating Relationship Meta for Bug
+2011-03-07 15:43:18...processing table users
+2011-03-07 15:43:18...dropping table users
+2011-03-07 15:43:18...creating table users
+2011-03-07 15:43:18...creating Relationship Meta for User
+2011-03-07 15:43:18...processing table campaign_log
+2011-03-07 15:43:18...dropping table campaign_log
+2011-03-07 15:43:18...creating table campaign_log
+2011-03-07 15:43:18...creating Relationship Meta for CampaignLog
+2011-03-07 15:43:18...processing table project
+2011-03-07 15:43:18...dropping table project
+2011-03-07 15:43:18...creating table project
+2011-03-07 15:43:18...creating Relationship Meta for Project
+2011-03-07 15:43:18...processing table project_task
+2011-03-07 15:43:18...dropping table project_task
+2011-03-07 15:43:18...creating table project_task
+2011-03-07 15:43:18...creating Relationship Meta for ProjectTask
+2011-03-07 15:43:18...processing table campaigns
+2011-03-07 15:43:18...dropping table campaigns
+2011-03-07 15:43:18...creating table campaigns
+2011-03-07 15:43:18...creating Relationship Meta for Campaign
+2011-03-07 15:43:18...processing table prospect_lists
+2011-03-07 15:43:18...dropping table prospect_lists
+2011-03-07 15:43:18...creating table prospect_lists
+2011-03-07 15:43:18...creating Relationship Meta for ProspectList
+2011-03-07 15:43:18...processing table prospects
+2011-03-07 15:43:18...dropping table prospects
+2011-03-07 15:43:18...creating table prospects
+2011-03-07 15:43:18...creating Relationship Meta for Prospect
+2011-03-07 15:43:19...processing table email_marketing
+2011-03-07 15:43:19...dropping table email_marketing
+2011-03-07 15:43:19...creating table email_marketing
+2011-03-07 15:43:19...creating Relationship Meta for EmailMarketing
+2011-03-07 15:43:19...processing table campaign_trkrs
+2011-03-07 15:43:19...dropping table campaign_trkrs
+2011-03-07 15:43:19...creating table campaign_trkrs
+2011-03-07 15:43:19...creating Relationship Meta for CampaignTracker
+2011-03-07 15:43:19...processing table releases
+2011-03-07 15:43:19...dropping table releases
+2011-03-07 15:43:19...creating table releases
+2011-03-07 15:43:19...creating Relationship Meta for Release
+2011-03-07 15:43:19...processing table emailman
+2011-03-07 15:43:19...dropping table emailman
+2011-03-07 15:43:19...creating table emailman
+2011-03-07 15:43:19...creating Relationship Meta for EmailMan
+2011-03-07 15:43:19...processing table schedulers
+2011-03-07 15:43:19...dropping table schedulers
+2011-03-07 15:43:19...creating table schedulers
+2011-03-07 15:43:19...creating Relationship Meta for schedulers
+2011-03-07 15:43:19...processing table schedulers_times
+2011-03-07 15:43:19...dropping table schedulers_times
+2011-03-07 15:43:19...creating table schedulers_times
+2011-03-07 15:43:19...creating Relationship Meta for SchedulersJob
+2011-03-07 15:43:19...processing table contacts
+2011-03-07 15:43:19...dropping table contacts
+2011-03-07 15:43:19...creating table contacts
+2011-03-07 15:43:19...creating Relationship Meta for Contact
+2011-03-07 15:43:19...processing table accounts
+2011-03-07 15:43:19...dropping table accounts
+2011-03-07 15:43:19...creating table accounts
+2011-03-07 15:43:19...creating Relationship Meta for Account
+2011-03-07 15:43:19...processing table opportunities
+2011-03-07 15:43:19...dropping table opportunities
+2011-03-07 15:43:19...creating table opportunities
+2011-03-07 15:43:19...creating Relationship Meta for Opportunity
+2011-03-07 15:43:19...processing table email_templates
+2011-03-07 15:43:19...dropping table email_templates
+2011-03-07 15:43:19...creating table email_templates
+2011-03-07 15:43:19...creating Relationship Meta for EmailTemplate
+2011-03-07 15:43:19...processing table notes
+2011-03-07 15:43:19...dropping table notes
+2011-03-07 15:43:19...creating table notes
+2011-03-07 15:43:19...creating Relationship Meta for Note
+2011-03-07 15:43:19...processing table calls
+2011-03-07 15:43:19...dropping table calls
+2011-03-07 15:43:19...creating table calls
+2011-03-07 15:43:19...creating Relationship Meta for Call
+2011-03-07 15:43:19...processing table emails
+2011-03-07 15:43:19...dropping table emails
+2011-03-07 15:43:19...creating table emails
+2011-03-07 15:43:19...creating Relationship Meta for Email
+2011-03-07 15:43:19...processing table meetings
+2011-03-07 15:43:19...dropping table meetings
+2011-03-07 15:43:19...creating table meetings
+2011-03-07 15:43:19...creating Relationship Meta for Meeting
+2011-03-07 15:43:19...processing table tasks
+2011-03-07 15:43:19...dropping table tasks
+2011-03-07 15:43:19...creating table tasks
+2011-03-07 15:43:19...creating Relationship Meta for Task
+2011-03-07 15:43:19...processing table users
+2011-03-07 15:43:19...processing table users
+2011-03-07 15:43:19...processing table currencies
+2011-03-07 15:43:19...dropping table currencies
+2011-03-07 15:43:19...creating table currencies
+2011-03-07 15:43:19...creating Relationship Meta for Currency
+2011-03-07 15:43:19...processing table tracker
+2011-03-07 15:43:19...dropping table tracker
+2011-03-07 15:43:19...creating table tracker
+2011-03-07 15:43:19...creating Relationship Meta for Tracker
+2011-03-07 15:43:19...processing table import_maps
+2011-03-07 15:43:19...dropping table import_maps
+2011-03-07 15:43:19...creating table import_maps
+2011-03-07 15:43:19...creating Relationship Meta for ImportMap
+2011-03-07 15:43:19...processing table users_last_import
+2011-03-07 15:43:19...dropping table users_last_import
+2011-03-07 15:43:19...creating table users_last_import
+2011-03-07 15:43:19...creating Relationship Meta for UsersLastImport
+2011-03-07 15:43:19...processing table config
+2011-03-07 15:43:19...dropping table config
+2011-03-07 15:43:19...creating table config
+2011-03-07 15:43:19...creating Relationship Meta for Administration
+2011-03-07 15:43:19...processing table upgrade_history
+2011-03-07 15:43:19...dropping table upgrade_history
+2011-03-07 15:43:19...creating table upgrade_history
+2011-03-07 15:43:19...creating Relationship Meta for UpgradeHistory
+2011-03-07 15:43:19...processing table vcals
+2011-03-07 15:43:19...dropping table vcals
+2011-03-07 15:43:19...creating table vcals
+2011-03-07 15:43:19...creating Relationship Meta for vCal
+2011-03-07 15:43:19...processing table versions
+2011-03-07 15:43:19...dropping table versions
+2011-03-07 15:43:19...creating table versions
+2011-03-07 15:43:19...creating Relationship Meta for Version
+2011-03-07 15:43:19...processing table roles
+2011-03-07 15:43:19...dropping table roles
+2011-03-07 15:43:19...creating table roles
+2011-03-07 15:43:19...creating Relationship Meta for Role
+2011-03-07 15:43:19...processing table documents
+2011-03-07 15:43:19...dropping table documents
+2011-03-07 15:43:19...creating table documents
+2011-03-07 15:43:19...creating Relationship Meta for Document
+2011-03-07 15:43:19...processing table document_revisions
+2011-03-07 15:43:19...dropping table document_revisions
+2011-03-07 15:43:19...creating table document_revisions
+2011-03-07 15:43:19...creating Relationship Meta for DocumentRevision
+2011-03-07 15:43:19...processing table fields_meta_data
+2011-03-07 15:43:19...dropping table fields_meta_data
+2011-03-07 15:43:19...creating table fields_meta_data
+2011-03-07 15:43:19...creating Relationship Meta for FieldsMetaData
+2011-03-07 15:43:19...processing table inbound_email
+2011-03-07 15:43:19...dropping table inbound_email
+2011-03-07 15:43:20...creating table inbound_email
+2011-03-07 15:43:20...creating Relationship Meta for InboundEmail
+2011-03-07 15:43:20...processing table saved_search
+2011-03-07 15:43:20...dropping table saved_search
+2011-03-07 15:43:20...creating table saved_search
+2011-03-07 15:43:20...creating Relationship Meta for SavedSearch
+2011-03-07 15:43:20...processing table user_preferences
+2011-03-07 15:43:20...dropping table user_preferences
+2011-03-07 15:43:20...creating table user_preferences
+2011-03-07 15:43:20...creating Relationship Meta for UserPreference
+2011-03-07 15:43:20...processing table 
+2011-03-07 15:43:20...processing table email_addresses
+2011-03-07 15:43:20...dropping table email_addresses
+2011-03-07 15:43:20...creating table email_addresses
+2011-03-07 15:43:20...creating Relationship Meta for EmailAddress
+2011-03-07 15:43:20...processing table sugarfeed
+2011-03-07 15:43:20...dropping table sugarfeed
+2011-03-07 15:43:20...creating table sugarfeed
+2011-03-07 15:43:20...creating Relationship Meta for SugarFeed
+2011-03-07 15:43:20...Begin creating Defaults
+2011-03-07 15:43:20...insert defaults into config table
+2011-03-07 15:43:20...Creating default users
+2011-03-07 15:43:20...Creating default scheduler jobs
+2011-03-07 15:43:20...Enable SugarFeeds
+2011-03-07 15:43:20...populating the db with seed data
+2011-03-07 15:43:20...Installation has completed *********
