@@ -125,9 +125,9 @@ HTML;
 		  	
 		  	$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_prov_price[]' id='product_prov_price$i' size='20' maxlength='50' value='".format_number($row['product_prov_price'])."' title=''></td>";
 
-			$html .= "<td class='dataField'><input tabindex='3' type='text' name='start_date[]' id='start_date$i' size='20' maxlength='50' value='".$row['start_date']."' title=''></td>";
+			$html .= "<td class='dataField'><input tabindex='3' type='text' name='start_date[]' id='start_date$i' size='20' maxlength='50' value='".substr($row['start_date'],0,10)."' title=''></td>";
 
-			$html .= "<td class='dataField'><input tabindex='3' type='text' name='stop_date[]' id='stop_date$i' size='20' maxlength='50' value='".$row['stop_date']."' title=''></td>";
+			$html .= "<td class='dataField'><input tabindex='3' type='text' name='stop_date[]' id='stop_date$i' size='20' maxlength='50' value='".substr($row['stop_date'],0,10)."' title=''></td>";
 		  	
 		  	$html .= "<td class='dataField'><input type='hidden' name='deleted[]' id='deleted$i' value='0'><input type='hidden' name='product_quote_id[]' value='".$row['id']."'><input type='button' class='button' value='".$mod_strings['LBL_REMOVE_PRODUCT_LINE']."' tabindex='3' onclick='markProductLineDeleted($i)'></td>";
 		  	
