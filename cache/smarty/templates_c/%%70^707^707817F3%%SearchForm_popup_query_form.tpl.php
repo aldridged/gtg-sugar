@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-16 10:54:00
+<?php /* Smarty version 2.6.11, created on 2011-05-20 15:33:51
          compiled from cache/modules/Project/SearchForm_popup_query_form.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 4, false),array('function', 'math', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 5, false),array('function', 'sugar_translate', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 14, false),array('function', 'sugar_getimagepath', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 46, false),array('function', 'html_options', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 109, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 4, false),array('function', 'math', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 5, false),array('function', 'sugar_translate', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 14, false),array('function', 'sugar_getimagepath', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 46, false),array('function', 'html_options', 'cache/modules/Project/SearchForm_popup_query_form.tpl', 135, false),)), $this); ?>
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
 <tr>
 	
@@ -113,6 +113,31 @@ weekNumbers:false
 );
 </script>
 
+   	   	</td>
+	
+	<?php echo smarty_function_counter(array('assign' => 'index'), $this);?>
+
+	<?php echo smarty_function_math(array('equation' => "left % right",'left' => $this->_tpl_vars['index'],'right' => $this->_tpl_vars['templateMeta']['maxColumns'],'assign' => 'modVal'), $this);?>
+
+	<?php if (( $this->_tpl_vars['index'] % $this->_tpl_vars['templateMeta']['maxColumns'] == 1 && $this->_tpl_vars['index'] != 1 )): ?>
+		</tr><tr>
+	<?php endif; ?>
+	
+	<td scope="row" nowrap="nowrap" width='10%' >
+		
+		<?php echo smarty_function_sugar_translate(array('label' => 'LBL_FACILITY','module' => 'Project'), $this);?>
+
+    	</td>
+	<td  nowrap="nowrap" width='30%'>
+			
+<?php if (strlen ( $this->_tpl_vars['fields']['facility_c_advanced']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['facility_c_advanced']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['facility_c_advanced']['value']);  endif; ?>  
+<input type='text' name='<?php echo $this->_tpl_vars['fields']['facility_c_advanced']['name']; ?>
+' 
+    id='<?php echo $this->_tpl_vars['fields']['facility_c_advanced']['name']; ?>
+' size='30' 
+    maxlength='255' 
+    value='<?php echo $this->_tpl_vars['value']; ?>
+' title='' tabindex='' > 
    	   	</td>
 	
 	<?php echo smarty_function_counter(array('assign' => 'index'), $this);?>
