@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-17 14:11:09
+<?php /* Smarty version 2.6.11, created on 2011-05-27 08:34:31
          compiled from cache/modules/Users/Popup.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/Users/Popup.tpl', 3, false),array('function', 'sugar_getimagepath', 'cache/modules/Users/Popup.tpl', 72, false),array('function', 'counter', 'cache/modules/Users/Popup.tpl', 131, false),array('function', 'sugar_translate', 'cache/modules/Users/Popup.tpl', 136, false),array('function', 'sugar_evalcolumn_old', 'cache/modules/Users/Popup.tpl', 185, false),array('function', 'sugar_currency_format', 'cache/modules/Users/Popup.tpl', 187, false),array('function', 'multienum_to_array', 'cache/modules/Users/Popup.tpl', 202, false),array('modifier', 'default', 'cache/modules/Users/Popup.tpl', 134, false),array('modifier', 'lower', 'cache/modules/Users/Popup.tpl', 136, false),)), $this); ?>

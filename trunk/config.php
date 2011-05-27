@@ -291,7 +291,7 @@ $sugar_config = array (
     12 => 'htm',
   ),
   'upload_dir' => 'cache/upload/',
-  'upload_maxsize' => 3000000,
+  'upload_maxsize' => 5000000,
   'use_common_ml_dir' => false,
   'use_php_code_json' => true,
   'use_real_names' => true,
