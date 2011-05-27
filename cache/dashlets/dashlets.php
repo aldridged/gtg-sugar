@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-06 10:18:27
+// created: 2011-05-27 15:22:12
 $dashletsFiles = array (
   'AOS_InvoicesDashlet' => 
   array (
@@ -14,6 +14,20 @@ $dashletsFiles = array (
     'class' => 'MyTasksDashlet',
     'meta' => 'modules/Tasks/Dashlets/MyTasksDashlet/MyTasksDashlet.meta.php',
     'module' => 'Tasks',
+  ),
+  'ZuckerReportContainerDashlet' => 
+  array (
+    'file' => 'modules/ZuckerReports/Dashlets/ZuckerReportContainerDashlet/ZuckerReportContainerDashlet.php',
+    'class' => 'ZuckerReportContainerDashlet',
+    'meta' => 'modules/ZuckerReports/Dashlets/ZuckerReportContainerDashlet/ZuckerReportContainerDashlet.meta.php',
+    'icon' => 'modules/ZuckerReports/Dashlets/ZuckerReportContainerDashlet/ZuckerReportContainerDashlet.icon.gif',
+  ),
+  'ZuckerReportDisplayDashlet' => 
+  array (
+    'file' => 'modules/ZuckerReports/Dashlets/ZuckerReportDisplayDashlet/ZuckerReportDisplayDashlet.php',
+    'class' => 'ZuckerReportDisplayDashlet',
+    'meta' => 'modules/ZuckerReports/Dashlets/ZuckerReportDisplayDashlet/ZuckerReportDisplayDashlet.meta.php',
+    'icon' => 'modules/ZuckerReports/Dashlets/ZuckerReportDisplayDashlet/ZuckerReportDisplayDashlet.icon.gif',
   ),
   'AOS_ProductsDashlet' => 
   array (

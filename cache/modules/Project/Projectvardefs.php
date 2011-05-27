@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-06 10:18:33
+// created: 2011-05-27 15:22:52
 $GLOBALS["dictionary"]["Project"] = array (
   'table' => 'project',
   'unified_search' => true,

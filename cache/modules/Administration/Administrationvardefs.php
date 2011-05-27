@@ -1,5 +1,5 @@
 <?php
-// created: 2011-05-27 15:07:39
+// created: 2011-05-27 15:22:39
 $GLOBALS["dictionary"]["Administration"] = array (
   'table' => 'config',
   'comment' => 'System table containing system-wide definitions',

@@ -2,6 +2,11 @@
  //WARNING: The contents of this file are auto-generated
 
 
+
+$app_list_strings['moduleList']['ZuckerReports']='ZuckerReports';
+
+
+
 /**
  * Products, Quotations & Invoices modules.
  * Extensions to SugarCRM
@@ -59,7 +64,6 @@ $app_list_strings['quote_term_dom'][''] = '';
 $app_list_strings['approval_status_dom']['Approved'] = 'Approved';
 $app_list_strings['approval_status_dom']['Not Approved'] = 'Not Approved';
 $app_list_strings['approval_status_dom'][''] = '';
-$app_list_strings['vat_list']['0.0'] = '0.0';
 $app_list_strings['vat_list']['5.0'] = '5.0';
 $app_list_strings['vat_list']['7.5'] = '7.5';
 $app_list_strings['vat_list']['17.5'] = '17.5';
