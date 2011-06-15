@@ -53,5 +53,6 @@ $searchFields[$module_name] =
 		'ticker_symbol'=> array('query_type'=>'default'),
 		'current_user_only'=> array('query_type'=>'default','db_field'=>array('assigned_user_id'),'my_items'=>true, 'vname' => 'LBL_CURRENT_USER_FILTER', 'type' => 'bool'),
 		'assigned_user_id'=> array('query_type'=>'default'),
+		'line_items'=> array('query_type'=>'default', 'operator'=>'innerjoin','innerjoin'=>'INNER JOIN aos_products_quotes ON (aos_products_quotes.parent_id=aos_quotes.id AND aos_products_quotes.description LIKE', 'db_field'=>array('id',),),
 	);
 ?>
