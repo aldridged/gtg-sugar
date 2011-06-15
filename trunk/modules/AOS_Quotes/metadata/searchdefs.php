@@ -43,6 +43,7 @@
 							'billing_address_city',
 							'phone_office',
 							array('name' => 'address_street', 'label' =>'LBL_BILLING_ADDRESS', 'type' => 'name' , 'group'=>'billing_address_street'),
+							array('name'=>'line_items', 'label'=>'Line Items', 'type'=>'name', 'default'=>true),
 							array('name'=>'current_user_only', 'label'=>'LBL_CURRENT_USER_FILTER', 'type'=>'bool'),
 							),
 						'advanced_search' => array(
