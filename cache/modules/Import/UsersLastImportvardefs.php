@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-06 10:40:03
+// created: 2011-06-01 10:25:01
 $GLOBALS["dictionary"]["UsersLastImport"] = array (
   'table' => 'users_last_import',
   'comment' => 'Maintains rows last imported by user',

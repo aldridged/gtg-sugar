@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-06 10:18:54
+<?php /* Smarty version 2.6.11, created on 2011-06-09 15:31:58
          compiled from cache/modules/AOS_PDF_Templates/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/AOS_PDF_Templates/SearchForm_basic.tpl', 6, false),array('function', 'math', 'cache/modules/AOS_PDF_Templates/SearchForm_basic.tpl', 7, false),array('function', 'sugar_translate', 'cache/modules/AOS_PDF_Templates/SearchForm_basic.tpl', 16, false),array('function', 'sugar_getimagepath', 'cache/modules/AOS_PDF_Templates/SearchForm_basic.tpl', 72, false),array('modifier', 'count', 'cache/modules/AOS_PDF_Templates/SearchForm_basic.tpl', 59, false),)), $this); ?>

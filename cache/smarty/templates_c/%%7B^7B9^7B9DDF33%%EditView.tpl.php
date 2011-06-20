@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-13 13:56:48
+<?php /* Smarty version 2.6.11, created on 2011-05-27 16:12:56
          compiled from cache/modules/AOS_Products/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/AOS_Products/EditView.tpl', 36, false),array('function', 'counter', 'cache/modules/AOS_Products/EditView.tpl', 41, false),array('function', 'sugar_translate', 'cache/modules/AOS_Products/EditView.tpl', 46, false),array('function', 'html_options', 'cache/modules/AOS_Products/EditView.tpl', 59, false),array('function', 'sugar_number_format', 'cache/modules/AOS_Products/EditView.tpl', 165, false),array('function', 'sugar_getimagepath', 'cache/modules/AOS_Products/EditView.tpl', 232, false),array('modifier', 'default', 'cache/modules/AOS_Products/EditView.tpl', 42, false),array('modifier', 'strip_semicolon', 'cache/modules/AOS_Products/EditView.tpl', 48, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/AOS_Products/EditView.tpl', 36, false),array('function', 'counter', 'cache/modules/AOS_Products/EditView.tpl', 41, false),array('function', 'sugar_translate', 'cache/modules/AOS_Products/EditView.tpl', 46, false),array('function', 'html_options', 'cache/modules/AOS_Products/EditView.tpl', 59, false),array('function', 'sugar_number_format', 'cache/modules/AOS_Products/EditView.tpl', 185, false),array('function', 'sugar_getimagepath', 'cache/modules/AOS_Products/EditView.tpl', 252, false),array('modifier', 'default', 'cache/modules/AOS_Products/EditView.tpl', 42, false),array('modifier', 'strip_semicolon', 'cache/modules/AOS_Products/EditView.tpl', 48, false),)), $this); ?>
 
 
 <div class="clear"></div>
@@ -129,6 +129,26 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 ' title='' tabindex='101' > 
 </tr>
 <tr>
+<td valign="top" id='glcode_c_label' width='12.5%' scope="row">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_GLCODE','module' => 'AOS_Products'), $this);?>
+
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</td>
+<td valign="top" width='37.5%' colspan='3'>
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+
+<?php if (strlen ( $this->_tpl_vars['fields']['glcode_c']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['glcode_c']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['glcode_c']['value']);  endif; ?>  
+<input type='text' name='<?php echo $this->_tpl_vars['fields']['glcode_c']['name']; ?>
+' 
+id='<?php echo $this->_tpl_vars['fields']['glcode_c']['name']; ?>
+' size='30' 
+maxlength='25' 
+value='<?php echo $this->_tpl_vars['value']; ?>
+' title='GL Code' tabindex='102' > 
+</tr>
+<tr>
 <td valign="top" id='part_number_label' width='12.5%' scope="row">
 <?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_PART_NUMBER','module' => 'AOS_Products'), $this);?>
 
@@ -146,7 +166,7 @@ id='<?php echo $this->_tpl_vars['fields']['part_number']['name']; ?>
 ' size='30' 
 maxlength='25' 
 value='<?php echo $this->_tpl_vars['value']; ?>
-' title='' tabindex='102' > 
+' title='' tabindex='103' > 
 </tr>
 <tr>
 <td valign="top" id='category_label' width='12.5%' scope="row">
@@ -163,7 +183,7 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 " 
 id="<?php echo $this->_tpl_vars['fields']['category']['name']; ?>
 " 
-title='' tabindex="103"  
+title='' tabindex="104"  
 >
 <?php if (isset ( $this->_tpl_vars['fields']['category']['value'] ) && $this->_tpl_vars['fields']['category']['value'] != ''):  echo smarty_function_html_options(array('options' => $this->_tpl_vars['fields']['category']['options'],'selected' => $this->_tpl_vars['fields']['category']['value']), $this);?>
 
@@ -187,7 +207,7 @@ title='' tabindex="103"
 " 
 id="<?php echo $this->_tpl_vars['fields']['type']['name']; ?>
 " 
-title='' tabindex="104"  
+title='' tabindex="105"  
 >
 <?php if (isset ( $this->_tpl_vars['fields']['type']['value'] ) && $this->_tpl_vars['fields']['type']['value'] != ''):  echo smarty_function_html_options(array('options' => $this->_tpl_vars['fields']['type']['options'],'selected' => $this->_tpl_vars['fields']['type']['value']), $this);?>
 
@@ -213,7 +233,7 @@ title='' tabindex="104"
 ' 
 id='<?php echo $this->_tpl_vars['fields']['cost']['name']; ?>
 ' size='30' maxlength='' value='<?php echo smarty_function_sugar_number_format(array('var' => $this->_tpl_vars['value']), $this);?>
-' title='' tabindex='105' > 
+' title='' tabindex='106' > 
 </tr>
 <tr>
 <td valign="top" id='price_label' width='12.5%' scope="row">
@@ -232,7 +252,7 @@ id='<?php echo $this->_tpl_vars['fields']['cost']['name']; ?>
 ' 
 id='<?php echo $this->_tpl_vars['fields']['price']['name']; ?>
 ' size='30' maxlength='' value='<?php echo smarty_function_sugar_number_format(array('var' => $this->_tpl_vars['value']), $this);?>
-' title='' tabindex='106' > 
+' title='' tabindex='107' > 
 </tr>
 <tr>
 <td valign="top" id='url_label' width='12.5%' scope="row">
@@ -252,7 +272,7 @@ id='<?php echo $this->_tpl_vars['fields']['url']['name']; ?>
 ' size='30' 
 maxlength='25' 
 value='<?php echo $this->_tpl_vars['value']; ?>
-' title='' tabindex='107' > 
+' title='' tabindex='108' > 
 </tr>
 <tr>
 <td valign="top" id='contact_label' width='12.5%' scope="row">
@@ -266,7 +286,7 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 
 
 <input type="text" name="<?php echo $this->_tpl_vars['fields']['contact']['name']; ?>
-" class="sqsEnabled" tabindex="108" id="<?php echo $this->_tpl_vars['fields']['contact']['name']; ?>
+" class="sqsEnabled" tabindex="109" id="<?php echo $this->_tpl_vars['fields']['contact']['name']; ?>
 " size="" value="<?php echo $this->_tpl_vars['fields']['contact']['value']; ?>
 " title='' autocomplete="off"  >
 <input type="hidden" name="<?php echo $this->_tpl_vars['fields']['contact']['id_name']; ?>
@@ -278,7 +298,7 @@ value="<?php echo $this->_tpl_vars['fields']['contact_id']['value']; ?>
 <span class="id-ff multiple">
 <button type="button" name="btn_<?php echo $this->_tpl_vars['fields']['contact']['name']; ?>
 " id="btn_<?php echo $this->_tpl_vars['fields']['contact']['name']; ?>
-" tabindex="108" title="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_TITLE']; ?>
+" tabindex="109" title="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_TITLE']; ?>
 " accessKey="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_KEY']; ?>
 " class="button firstChild" value="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_LABEL']; ?>
 " 
@@ -297,7 +317,7 @@ true
 );' ><img src="<?php echo smarty_function_sugar_getimagepath(array('file' => "id-ff-select.png"), $this);?>
 "></button><button type="button" name="btn_clr_<?php echo $this->_tpl_vars['fields']['contact']['name']; ?>
 " id="btn_clr_<?php echo $this->_tpl_vars['fields']['contact']['name']; ?>
-" tabindex="108" title="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_TITLE']; ?>
+" tabindex="109" title="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_TITLE']; ?>
 " accessKey="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_KEY']; ?>
 " class="button lastChild" 
 onclick="this.form.<?php echo $this->_tpl_vars['fields']['contact']['name']; ?>
@@ -336,7 +356,7 @@ enableQS(false);
 '
 rows="6" 
 cols="80" 
-title='' tabindex="109" ><?php echo $this->_tpl_vars['value']; ?>
+title='' tabindex="110" ><?php echo $this->_tpl_vars['value']; ?>
 </textarea>
 <td valign="top" id='_label' width='12.5%' scope="row">
 </td>

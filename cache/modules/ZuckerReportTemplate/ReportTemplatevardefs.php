@@ -1,5 +1,5 @@
 <?php
-// created: 2011-05-27 15:21:51
+// created: 2011-05-27 15:40:48
 $GLOBALS["dictionary"]["ReportTemplate"] = array (
   'table' => 'zucker_reporttemplates',
   'fields' => 

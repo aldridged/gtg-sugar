@@ -274,6 +274,44 @@ maxlength='255'
 value='{$value}' title='' tabindex='110' > 
 </tr>
 <tr>
+<td valign="top" id='prebill_c_label' width='12.5%' scope="row">
+{capture name="label" assign="label"}
+{sugar_translate label='LBL_PREBILL' module='Project'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' >
+{counter name="panelFieldCount"}
+
+{if strval($fields.prebill_c.value) == "1" || strval($fields.prebill_c.value) == "yes" || strval($fields.prebill_c.value) == "on"} 
+{assign var="checked" value="CHECKED"}
+{else}
+{assign var="checked" value=""}
+{/if}
+<input type="hidden" name="{$fields.prebill_c.name}" value="0"> 
+<input type="checkbox" id="{$fields.prebill_c.name}" 
+name="{$fields.prebill_c.name}" 
+value="1" title='' tabindex="111" {$checked} >
+<td valign="top" id='dockname_c_label' width='12.5%' scope="row">
+{capture name="label" assign="label"}
+{sugar_translate label='LBL_DOCKNAME' module='Project'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' >
+{counter name="panelFieldCount"}
+
+{if strlen($fields.dockname_c.value) <= 0}
+{assign var="value" value=$fields.dockname_c.default_value }
+{else}
+{assign var="value" value=$fields.dockname_c.value }
+{/if}  
+<input type='text' name='{$fields.dockname_c.name}' 
+id='{$fields.dockname_c.name}' size='30' 
+maxlength='255' 
+value='{$value}' title='' tabindex='112' > 
+</tr>
+<tr>
 <td valign="top" id='description_label' width='12.5%' scope="row">
 {capture name="label" assign="label"}
 {sugar_translate label='LBL_DESCRIPTION' module='Project'}
@@ -291,7 +329,7 @@ value='{$value}' title='' tabindex='110' >
 <textarea  id='{$fields.description.name}' name='{$fields.description.name}'
 rows="4" 
 cols="60" 
-title='' tabindex="111" >{$value}</textarea>
+title='' tabindex="113" >{$value}</textarea>
 </tr>
 </table>
 </div>
@@ -316,12 +354,12 @@ title='' tabindex="111" >{$value}</textarea>
 <td valign="top" width='37.5%' colspan='3'>
 {counter name="panelFieldCount"}
 
-<input type="text" name="{$fields.assigned_user_name.name}" class="sqsEnabled" tabindex="112" id="{$fields.assigned_user_name.name}" size="" value="{$fields.assigned_user_name.value}" title='' autocomplete="off"  >
+<input type="text" name="{$fields.assigned_user_name.name}" class="sqsEnabled" tabindex="114" id="{$fields.assigned_user_name.name}" size="" value="{$fields.assigned_user_name.value}" title='' autocomplete="off"  >
 <input type="hidden" name="{$fields.assigned_user_name.id_name}" 
 id="{$fields.assigned_user_name.id_name}" 
 value="{$fields.assigned_user_id.value}">
 <span class="id-ff multiple">
-<button type="button" name="btn_{$fields.assigned_user_name.name}" id="btn_{$fields.assigned_user_name.name}" tabindex="112" title="{$APP.LBL_SELECT_BUTTON_TITLE}" accessKey="{$APP.LBL_SELECT_BUTTON_KEY}" class="button firstChild" value="{$APP.LBL_SELECT_BUTTON_LABEL}" 
+<button type="button" name="btn_{$fields.assigned_user_name.name}" id="btn_{$fields.assigned_user_name.name}" tabindex="114" title="{$APP.LBL_SELECT_BUTTON_TITLE}" accessKey="{$APP.LBL_SELECT_BUTTON_KEY}" class="button firstChild" value="{$APP.LBL_SELECT_BUTTON_LABEL}" 
 onclick='open_popup(
 "{$fields.assigned_user_name.module}", 
 600, 
@@ -332,7 +370,7 @@ false,
 {literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"assigned_user_id","user_name":"assigned_user_name"}}{/literal}, 
 "single", 
 true
-);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.assigned_user_name.name}" id="btn_clr_{$fields.assigned_user_name.name}" tabindex="112" title="{$APP.LBL_CLEAR_BUTTON_TITLE}" accessKey="{$APP.LBL_CLEAR_BUTTON_KEY}" class="button lastChild" 
+);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.assigned_user_name.name}" id="btn_clr_{$fields.assigned_user_name.name}" tabindex="114" title="{$APP.LBL_CLEAR_BUTTON_TITLE}" accessKey="{$APP.LBL_CLEAR_BUTTON_KEY}" class="button lastChild" 
 onclick="this.form.{$fields.assigned_user_name.name}.value = ''; this.form.{$fields.assigned_user_name.id_name}.value = '';" 
 value="{$APP.LBL_CLEAR_BUTTON_LABEL}" ><img src="{sugar_getimagepath file="id-ff-clear.png"}"></button>
 </span>

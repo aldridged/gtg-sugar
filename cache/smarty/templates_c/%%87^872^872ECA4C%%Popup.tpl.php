@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-26 15:27:09
+<?php /* Smarty version 2.6.11, created on 2011-06-17 13:52:40
          compiled from cache/modules/AOS_Quotes/Popup.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/AOS_Quotes/Popup.tpl', 3, false),array('function', 'sugar_getimagepath', 'cache/modules/AOS_Quotes/Popup.tpl', 82, false),array('function', 'counter', 'cache/modules/AOS_Quotes/Popup.tpl', 141, false),array('function', 'sugar_translate', 'cache/modules/AOS_Quotes/Popup.tpl', 146, false),array('function', 'sugar_evalcolumn_old', 'cache/modules/AOS_Quotes/Popup.tpl', 195, false),array('function', 'sugar_currency_format', 'cache/modules/AOS_Quotes/Popup.tpl', 197, false),array('function', 'multienum_to_array', 'cache/modules/AOS_Quotes/Popup.tpl', 212, false),array('modifier', 'default', 'cache/modules/AOS_Quotes/Popup.tpl', 144, false),array('modifier', 'lower', 'cache/modules/AOS_Quotes/Popup.tpl', 146, false),)), $this); ?>

@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-01 16:01:58
+// created: 2011-06-17 10:26:42
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -63,6 +63,11 @@ $mod_strings = array (
   'CREATED_OPPORTUNITY' => 'created a <b>NEW</b> opportunity',
   'CREATED_CASE' => 'created a <b>NEW</b> case',
   'CREATED_LEAD' => 'created a <b>NEW</b> lead',
+  'CREATED_ACCOUNT' => 'created a <b>NEW</b> account',
+  'CREATED_PROJECT' => 'created a <b>NEW</b> job',
+  'CREATED_QUOTE' => 'created a <b>NEW</b> quote',
+  'CREATED_ACTIVITY' => 'created a <b>NEW</b> activity',
+  'CREATED_TASK' => 'created a <b>NEW</b> task',
   'FOR' => 'for',
   'CLOSED_CASE' => '<b>CLOSED</b> a case ',
   'CONVERTED_LEAD' => '<b>CONVERTED</b> a lead',

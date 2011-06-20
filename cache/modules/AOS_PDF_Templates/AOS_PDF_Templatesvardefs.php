@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-06 10:18:01
+// created: 2011-05-27 15:56:18
 $GLOBALS["dictionary"]["AOS_PDF_Templates"] = array (
   'table' => 'aos_pdf_templates',
   'audited' => true,

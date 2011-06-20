@@ -115,6 +115,19 @@ array (
         array (
           0 => 
           array (
+            'name' => 'prebill_c',
+            'label' => 'LBL_PREBILL',
+          ),
+          1 => 
+          array (
+            'name' => 'dockname_c',
+            'label' => 'LBL_DOCKNAME',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
             'name' => 'description',
             'comment' => 'Project description',
             'label' => 'LBL_DESCRIPTION',
