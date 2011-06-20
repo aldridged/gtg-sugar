@@ -45,7 +45,7 @@ class ProjectFeed extends FeedLogicBase{
     	global $locale;
         $text = '';
         if(empty($bean->fetched_row)){
-          $text =  '{SugarFeed.CREATED_PROJECT} [' . $bean->module_dir . ':' . $bean->id . ':' . $bean->name.'] {SugarFeed.FOR} [Accounts:' . $bean->account_id . ':' . $bean->account_name . ']: '. $bean->description;
+          $text =  '{SugarFeed.CREATED_PROJECT} [' . $bean->module_dir . ':' . $bean->id . ':' . $bean->name.']: '. $bean->description;
 	}
 		
         if(!empty($text)){ 
