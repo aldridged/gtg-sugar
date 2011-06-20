@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-23 11:34:06
+<?php /* Smarty version 2.6.11, created on 2011-06-17 13:21:17
          compiled from cache/modules/Cases/Popup.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/Cases/Popup.tpl', 3, false),array('function', 'sugar_getimagepath', 'cache/modules/Cases/Popup.tpl', 72, false),array('function', 'counter', 'cache/modules/Cases/Popup.tpl', 131, false),array('function', 'sugar_translate', 'cache/modules/Cases/Popup.tpl', 136, false),array('function', 'sugar_evalcolumn_old', 'cache/modules/Cases/Popup.tpl', 185, false),array('function', 'sugar_currency_format', 'cache/modules/Cases/Popup.tpl', 187, false),array('function', 'multienum_to_array', 'cache/modules/Cases/Popup.tpl', 202, false),array('modifier', 'default', 'cache/modules/Cases/Popup.tpl', 134, false),array('modifier', 'lower', 'cache/modules/Cases/Popup.tpl', 136, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/Cases/Popup.tpl', 3, false),array('function', 'sugar_getimagepath', 'cache/modules/Cases/Popup.tpl', 82, false),array('function', 'counter', 'cache/modules/Cases/Popup.tpl', 141, false),array('function', 'sugar_translate', 'cache/modules/Cases/Popup.tpl', 146, false),array('function', 'sugar_evalcolumn_old', 'cache/modules/Cases/Popup.tpl', 195, false),array('function', 'sugar_currency_format', 'cache/modules/Cases/Popup.tpl', 197, false),array('function', 'multienum_to_array', 'cache/modules/Cases/Popup.tpl', 212, false),array('modifier', 'default', 'cache/modules/Cases/Popup.tpl', 144, false),array('modifier', 'lower', 'cache/modules/Cases/Popup.tpl', 146, false),)), $this); ?>
 
 
 <script type="text/javascript" src="<?php echo smarty_function_sugar_getjspath(array('file' => 'include/javascript/sugar_3.js'), $this);?>
@@ -78,6 +78,25 @@ function clearAll() {
 </td>
 </tr>
 </table>
+	<form action="index.php" method="post" name="MassUpdate" id="MassUpdate">
+	<?php echo $this->_tpl_vars['MODE']; ?>
+
+<input type="hidden" name="mu" value="false" />
+<input type='hidden' name='massupdate' value='true' />
+<?php echo $this->_tpl_vars['massUpdateData']; ?>
+
+<input type='hidden' name='Leads_LEAD_offset' value=''><input type='hidden' name='saved_associated_data' value=''><input type='hidden' name='module' value='<?php echo $this->_tpl_vars['module']; ?>
+'><input type='hidden' name='action' value='Popup'><input type='hidden' name='return_module' value='<?php echo $this->_tpl_vars['module']; ?>
+'><input type='hidden' name='return_action' value='Popup'><input type='hidden' name='hide_clear_button' value='true'><input type='hidden' name='current_query_by_page' value='<?php echo $this->_tpl_vars['current_query']; ?>
+'>
+	
+	<?php echo $this->_tpl_vars['multiSelectData']; ?>
+
+	<input class="button" type="button" value='<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_LABEL']; ?>
+' onclick="send_back_selected('<?php echo $this->_tpl_vars['module']; ?>
+',document.MassUpdate,'mass[]','<?php echo $this->_tpl_vars['APP']['ERR_NOTHING_SELECTED']; ?>
+');">
+
 <?php echo $this->_tpl_vars['jsLang']; ?>
 
 <?php echo $this->_tpl_vars['LIST_HEADER']; ?>
@@ -493,7 +512,8 @@ S1' bgcolor='<?php echo $this->_tpl_vars['_bgColor']; ?>
 
 <?php endif; ?>
 
-<?php echo '
+	</form>
+	<?php echo '
 <script type="text/javascript">
 /* initialize the popup request from the parent */
 if(window.document.forms[\'popup_query_form\'].request_data.value == "")

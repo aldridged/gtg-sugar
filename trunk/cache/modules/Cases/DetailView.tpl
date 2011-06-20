@@ -205,6 +205,20 @@
 {$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}	
 </td>
 </tr>
+<tr>
+<td width='12.5%' scope="row">
+{capture name="label" assign="label"}
+{sugar_translate label='LBL_WORK_LOG' module='Cases'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td width='37.5%' colspan='3'>
+{counter name="panelFieldCount"}
+<span id='work_log'>
+{$fields.work_log.value|escape:'htmlentitydecode'|escape:'html'|url2html|nl2br}
+</span>
+</td>
+</tr>
 </table>
 </div>
 {if $panelFieldCount == 0}

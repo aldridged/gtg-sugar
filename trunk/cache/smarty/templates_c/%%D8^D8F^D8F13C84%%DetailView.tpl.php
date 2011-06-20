@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-27 15:28:49
+<?php /* Smarty version 2.6.11, created on 2011-06-02 10:52:22
          compiled from cache/modules/Cases/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Cases/DetailView.tpl', 29, false),array('function', 'counter', 'cache/modules/Cases/DetailView.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/Cases/DetailView.tpl', 35, false),array('modifier', 'strip_semicolon', 'cache/modules/Cases/DetailView.tpl', 42, false),array('modifier', 'escape', 'cache/modules/Cases/DetailView.tpl', 146, false),array('modifier', 'url2html', 'cache/modules/Cases/DetailView.tpl', 146, false),array('modifier', 'nl2br', 'cache/modules/Cases/DetailView.tpl', 146, false),)), $this); ?>
@@ -261,6 +261,22 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
  <?php echo $this->_tpl_vars['APP']['LBL_BY']; ?>
  <?php echo $this->_tpl_vars['fields']['created_by_name']['value']; ?>
 	
+</td>
+</tr>
+<tr>
+<td width='12.5%' scope="row">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_WORK_LOG','module' => 'Cases'), $this);?>
+
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</td>
+<td width='37.5%' colspan='3'>
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+<span id='work_log'>
+<?php echo ((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=((is_array($_tmp=$this->_tpl_vars['fields']['work_log']['value'])) ? $this->_run_mod_handler('escape', true, $_tmp, 'htmlentitydecode') : smarty_modifier_escape($_tmp, 'htmlentitydecode')))) ? $this->_run_mod_handler('escape', true, $_tmp, 'html') : smarty_modifier_escape($_tmp, 'html')))) ? $this->_run_mod_handler('url2html', true, $_tmp) : url2html($_tmp)))) ? $this->_run_mod_handler('nl2br', true, $_tmp) : smarty_modifier_nl2br($_tmp)); ?>
+
+</span>
 </td>
 </tr>
 </table>

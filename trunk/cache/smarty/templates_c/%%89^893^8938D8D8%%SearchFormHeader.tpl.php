@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-19 13:30:40
+<?php /* Smarty version 2.6.11, created on 2011-05-27 16:12:51
          compiled from cache/modules/AOS_Products/SearchFormHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'cache/modules/AOS_Products/SearchFormHeader.tpl', 3, false),)), $this); ?>

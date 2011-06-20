@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-23 17:03:25
+<?php /* Smarty version 2.6.11, created on 2011-05-27 16:30:22
          compiled from cache/modules/Accounts/form_QuickCreate_Accounts.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Accounts/form_QuickCreate_Accounts.tpl', 36, false),array('function', 'counter', 'cache/modules/Accounts/form_QuickCreate_Accounts.tpl', 41, false),array('function', 'sugar_translate', 'cache/modules/Accounts/form_QuickCreate_Accounts.tpl', 46, false),array('function', 'html_options', 'cache/modules/Accounts/form_QuickCreate_Accounts.tpl', 146, false),array('function', 'sugar_getimagepath', 'cache/modules/Accounts/form_QuickCreate_Accounts.tpl', 197, false),array('modifier', 'default', 'cache/modules/Accounts/form_QuickCreate_Accounts.tpl', 42, false),array('modifier', 'strip_semicolon', 'cache/modules/Accounts/form_QuickCreate_Accounts.tpl', 48, false),)), $this); ?>

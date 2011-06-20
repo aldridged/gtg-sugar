@@ -84,6 +84,26 @@ maxlength='255'
 value='{$value}' title='' tabindex='101' > 
 </tr>
 <tr>
+<td valign="top" id='glcode_c_label' width='12.5%' scope="row">
+{capture name="label" assign="label"}
+{sugar_translate label='LBL_GLCODE' module='AOS_Products'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' colspan='3'>
+{counter name="panelFieldCount"}
+
+{if strlen($fields.glcode_c.value) <= 0}
+{assign var="value" value=$fields.glcode_c.default_value }
+{else}
+{assign var="value" value=$fields.glcode_c.value }
+{/if}  
+<input type='text' name='{$fields.glcode_c.name}' 
+id='{$fields.glcode_c.name}' size='30' 
+maxlength='25' 
+value='{$value}' title='GL Code' tabindex='102' > 
+</tr>
+<tr>
 <td valign="top" id='part_number_label' width='12.5%' scope="row">
 {capture name="label" assign="label"}
 {sugar_translate label='LBL_PART_NUMBER' module='AOS_Products'}
@@ -101,7 +121,7 @@ value='{$value}' title='' tabindex='101' >
 <input type='text' name='{$fields.part_number.name}' 
 id='{$fields.part_number.name}' size='30' 
 maxlength='25' 
-value='{$value}' title='' tabindex='102' > 
+value='{$value}' title='' tabindex='103' > 
 </tr>
 <tr>
 <td valign="top" id='category_label' width='12.5%' scope="row">
@@ -115,7 +135,7 @@ value='{$value}' title='' tabindex='102' >
 
 <select name="{$fields.category.name}" 
 id="{$fields.category.name}" 
-title='' tabindex="103"  
+title='' tabindex="104"  
 >
 {if isset($fields.category.value) && $fields.category.value != ''}
 {html_options options=$fields.category.options selected=$fields.category.value}
@@ -136,7 +156,7 @@ title='' tabindex="103"
 
 <select name="{$fields.type.name}" 
 id="{$fields.type.name}" 
-title='' tabindex="104"  
+title='' tabindex="105"  
 >
 {if isset($fields.type.value) && $fields.type.value != ''}
 {html_options options=$fields.type.options selected=$fields.type.value}
@@ -162,7 +182,7 @@ title='' tabindex="104"
 {assign var="value" value=$fields.cost.value }
 {/if}  
 <input type='text' name='{$fields.cost.name}' 
-id='{$fields.cost.name}' size='30' maxlength='' value='{sugar_number_format var=$value}' title='' tabindex='105' > 
+id='{$fields.cost.name}' size='30' maxlength='' value='{sugar_number_format var=$value}' title='' tabindex='106' > 
 </tr>
 <tr>
 <td valign="top" id='price_label' width='12.5%' scope="row">
@@ -181,7 +201,7 @@ id='{$fields.cost.name}' size='30' maxlength='' value='{sugar_number_format var=
 {assign var="value" value=$fields.price.value }
 {/if}  
 <input type='text' name='{$fields.price.name}' 
-id='{$fields.price.name}' size='30' maxlength='' value='{sugar_number_format var=$value}' title='' tabindex='106' > 
+id='{$fields.price.name}' size='30' maxlength='' value='{sugar_number_format var=$value}' title='' tabindex='107' > 
 </tr>
 <tr>
 <td valign="top" id='url_label' width='12.5%' scope="row">
@@ -201,7 +221,7 @@ id='{$fields.price.name}' size='30' maxlength='' value='{sugar_number_format var
 <input type='text' name='{$fields.url.name}' 
 id='{$fields.url.name}' size='30' 
 maxlength='25' 
-value='{$value}' title='' tabindex='107' > 
+value='{$value}' title='' tabindex='108' > 
 </tr>
 <tr>
 <td valign="top" id='contact_label' width='12.5%' scope="row">
@@ -213,12 +233,12 @@ value='{$value}' title='' tabindex='107' >
 <td valign="top" width='37.5%' colspan='3'>
 {counter name="panelFieldCount"}
 
-<input type="text" name="{$fields.contact.name}" class="sqsEnabled" tabindex="108" id="{$fields.contact.name}" size="" value="{$fields.contact.value}" title='' autocomplete="off"  >
+<input type="text" name="{$fields.contact.name}" class="sqsEnabled" tabindex="109" id="{$fields.contact.name}" size="" value="{$fields.contact.value}" title='' autocomplete="off"  >
 <input type="hidden" name="{$fields.contact.id_name}" 
 id="{$fields.contact.id_name}" 
 value="{$fields.contact_id.value}">
 <span class="id-ff multiple">
-<button type="button" name="btn_{$fields.contact.name}" id="btn_{$fields.contact.name}" tabindex="108" title="{$APP.LBL_SELECT_BUTTON_TITLE}" accessKey="{$APP.LBL_SELECT_BUTTON_KEY}" class="button firstChild" value="{$APP.LBL_SELECT_BUTTON_LABEL}" 
+<button type="button" name="btn_{$fields.contact.name}" id="btn_{$fields.contact.name}" tabindex="109" title="{$APP.LBL_SELECT_BUTTON_TITLE}" accessKey="{$APP.LBL_SELECT_BUTTON_KEY}" class="button firstChild" value="{$APP.LBL_SELECT_BUTTON_LABEL}" 
 onclick='open_popup(
 "{$fields.contact.module}", 
 600, 
@@ -229,7 +249,7 @@ false,
 {literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"contact_id","name":"contact"}}{/literal}, 
 "single", 
 true
-);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.contact.name}" id="btn_clr_{$fields.contact.name}" tabindex="108" title="{$APP.LBL_CLEAR_BUTTON_TITLE}" accessKey="{$APP.LBL_CLEAR_BUTTON_KEY}" class="button lastChild" 
+);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.contact.name}" id="btn_clr_{$fields.contact.name}" tabindex="109" title="{$APP.LBL_CLEAR_BUTTON_TITLE}" accessKey="{$APP.LBL_CLEAR_BUTTON_KEY}" class="button lastChild" 
 onclick="this.form.{$fields.contact.name}.value = ''; this.form.{$fields.contact.id_name}.value = '';" 
 value="{$APP.LBL_CLEAR_BUTTON_LABEL}" ><img src="{sugar_getimagepath file="id-ff-clear.png"}"></button>
 </span>
@@ -261,7 +281,7 @@ enableQS(false);
 <textarea  id='{$fields.description.name}' name='{$fields.description.name}'
 rows="6" 
 cols="80" 
-title='' tabindex="109" >{$value}</textarea>
+title='' tabindex="110" >{$value}</textarea>
 <td valign="top" id='_label' width='12.5%' scope="row">
 </td>
 <td valign="top" width='37.5%' >

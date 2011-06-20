@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-17 13:39:01
+<?php /* Smarty version 2.6.11, created on 2011-06-16 10:14:52
          compiled from cache/modules/Project/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Project/EditView.tpl', 37, false),array('function', 'counter', 'cache/modules/Project/EditView.tpl', 42, false),array('function', 'sugar_translate', 'cache/modules/Project/EditView.tpl', 46, false),array('function', 'html_options', 'cache/modules/Project/EditView.tpl', 83, false),array('function', 'sugar_getimagepath', 'cache/modules/Project/EditView.tpl', 102, false),array('modifier', 'default', 'cache/modules/Project/EditView.tpl', 43, false),array('modifier', 'strip_semicolon', 'cache/modules/Project/EditView.tpl', 54, false),)), $this); ?>
@@ -348,6 +348,46 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 ' title='' tabindex='110' > 
 </tr>
 <tr>
+<td valign="top" id='prebill_c_label' width='12.5%' scope="row">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_PREBILL','module' => 'Project'), $this);?>
+
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</td>
+<td valign="top" width='37.5%' >
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+
+<?php if (strval ( $this->_tpl_vars['fields']['prebill_c']['value'] ) == '1' || strval ( $this->_tpl_vars['fields']['prebill_c']['value'] ) == 'yes' || strval ( $this->_tpl_vars['fields']['prebill_c']['value'] ) == 'on'): ?> 
+<?php $this->assign('checked', 'CHECKED');  else:  $this->assign('checked', "");  endif; ?>
+<input type="hidden" name="<?php echo $this->_tpl_vars['fields']['prebill_c']['name']; ?>
+" value="0"> 
+<input type="checkbox" id="<?php echo $this->_tpl_vars['fields']['prebill_c']['name']; ?>
+" 
+name="<?php echo $this->_tpl_vars['fields']['prebill_c']['name']; ?>
+" 
+value="1" title='' tabindex="111" <?php echo $this->_tpl_vars['checked']; ?>
+ >
+<td valign="top" id='dockname_c_label' width='12.5%' scope="row">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_DOCKNAME','module' => 'Project'), $this);?>
+
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</td>
+<td valign="top" width='37.5%' >
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+
+<?php if (strlen ( $this->_tpl_vars['fields']['dockname_c']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['dockname_c']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['dockname_c']['value']);  endif; ?>  
+<input type='text' name='<?php echo $this->_tpl_vars['fields']['dockname_c']['name']; ?>
+' 
+id='<?php echo $this->_tpl_vars['fields']['dockname_c']['name']; ?>
+' size='30' 
+maxlength='255' 
+value='<?php echo $this->_tpl_vars['value']; ?>
+' title='' tabindex='112' > 
+</tr>
+<tr>
 <td valign="top" id='description_label' width='12.5%' scope="row">
 <?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_DESCRIPTION','module' => 'Project'), $this);?>
 
@@ -364,7 +404,7 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 '
 rows="4" 
 cols="60" 
-title='' tabindex="111" ><?php echo $this->_tpl_vars['value']; ?>
+title='' tabindex="113" ><?php echo $this->_tpl_vars['value']; ?>
 </textarea>
 </tr>
 </table>
@@ -395,7 +435,7 @@ title='' tabindex="111" ><?php echo $this->_tpl_vars['value']; ?>
 
 
 <input type="text" name="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
-" class="sqsEnabled" tabindex="112" id="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
+" class="sqsEnabled" tabindex="114" id="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
 " size="" value="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['value']; ?>
 " title='' autocomplete="off"  >
 <input type="hidden" name="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['id_name']; ?>
@@ -407,7 +447,7 @@ value="<?php echo $this->_tpl_vars['fields']['assigned_user_id']['value']; ?>
 <span class="id-ff multiple">
 <button type="button" name="btn_<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
 " id="btn_<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
-" tabindex="112" title="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_TITLE']; ?>
+" tabindex="114" title="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_TITLE']; ?>
 " accessKey="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_KEY']; ?>
 " class="button firstChild" value="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_LABEL']; ?>
 " 
@@ -426,7 +466,7 @@ true
 );' ><img src="<?php echo smarty_function_sugar_getimagepath(array('file' => "id-ff-select.png"), $this);?>
 "></button><button type="button" name="btn_clr_<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
 " id="btn_clr_<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
-" tabindex="112" title="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_TITLE']; ?>
+" tabindex="114" title="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_TITLE']; ?>
 " accessKey="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_KEY']; ?>
 " class="button lastChild" 
 onclick="this.form.<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>

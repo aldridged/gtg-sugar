@@ -1,5 +1,5 @@
 <?php
-// created: 2011-05-10 10:41:10
+// created: 2011-05-27 15:56:18
 $GLOBALS["dictionary"]["AOS_Products_Quotes"] = array (
   'table' => 'aos_products_quotes',
   'audited' => true,

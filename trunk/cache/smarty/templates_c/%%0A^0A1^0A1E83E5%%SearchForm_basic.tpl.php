@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2011-05-13 10:12:50
+<?php /* Smarty version 2.6.11, created on 2011-06-15 16:14:28
          compiled from cache/modules/AOS_Quotes/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 6, false),array('function', 'math', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 7, false),array('function', 'sugar_translate', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 16, false),array('function', 'sugar_getimagepath', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 151, false),array('modifier', 'count', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 138, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 6, false),array('function', 'math', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 7, false),array('function', 'sugar_translate', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 16, false),array('function', 'sugar_getimagepath', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 178, false),array('modifier', 'count', 'cache/modules/AOS_Quotes/SearchForm_basic.tpl', 165, false),)), $this); ?>
 
 
 
@@ -103,6 +103,32 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 <input type='text' name='<?php echo $this->_tpl_vars['fields']['address_street_basic']['name']; ?>
 ' 
     id='<?php echo $this->_tpl_vars['fields']['address_street_basic']['name']; ?>
+' size='30' 
+     
+    value='<?php echo $this->_tpl_vars['value']; ?>
+' title='' tabindex='' > 
+   	   	</td>
+	<?php echo smarty_function_counter(array('assign' => 'index'), $this);?>
+
+	<?php echo smarty_function_math(array('equation' => "left % right",'left' => $this->_tpl_vars['index'],'right' => $this->_tpl_vars['templateMeta']['maxColumns'],'assign' => 'modVal'), $this);?>
+
+	<?php if (( $this->_tpl_vars['index'] % $this->_tpl_vars['templateMeta']['maxColumns'] == 1 && $this->_tpl_vars['index'] != 1 )): ?>
+		</tr><tr>
+	<?php endif; ?>
+	
+	<td scope="row" nowrap="nowrap" width='1%' >
+		
+		<?php echo smarty_function_sugar_translate(array('label' => 'Line Items','module' => 'AOS_Quotes'), $this);?>
+
+    	</td>
+
+	
+	<td  nowrap="nowrap" width='1%'>
+			
+<?php if (strlen ( $this->_tpl_vars['fields']['line_items_basic']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['line_items_basic']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['line_items_basic']['value']);  endif; ?>  
+<input type='text' name='<?php echo $this->_tpl_vars['fields']['line_items_basic']['name']; ?>
+' 
+    id='<?php echo $this->_tpl_vars['fields']['line_items_basic']['name']; ?>
 ' size='30' 
      
     value='<?php echo $this->_tpl_vars['value']; ?>

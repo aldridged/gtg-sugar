@@ -124,6 +124,34 @@
 	
 	<td scope="row" nowrap="nowrap" width='1%' >
 		
+		{sugar_translate label='Line Items' module='AOS_Quotes'}
+    	</td>
+
+	
+	<td  nowrap="nowrap" width='1%'>
+			
+{if strlen($fields.line_items_basic.value) <= 0}
+{assign var="value" value=$fields.line_items_basic.default_value }
+{else}
+{assign var="value" value=$fields.line_items_basic.value }
+{/if}  
+<input type='text' name='{$fields.line_items_basic.name}' 
+    id='{$fields.line_items_basic.name}' size='30' 
+     
+    value='{$value}' title='' tabindex='' > 
+   	   	</td>
+	{counter assign=index}
+	{math equation="left % right"
+   		  left=$index
+          right=$templateMeta.maxColumns
+          assign=modVal
+    }
+	{if ($index % $templateMeta.maxColumns == 1 && $index != 1)}
+		</tr><tr>
+	{/if}
+	
+	<td scope="row" nowrap="nowrap" width='1%' >
+		
 		{sugar_translate label='LBL_CURRENT_USER_FILTER' module='AOS_Quotes'}
     	</td>
 

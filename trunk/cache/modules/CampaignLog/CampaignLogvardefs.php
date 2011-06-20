@@ -1,5 +1,5 @@
 <?php
-// created: 2011-05-04 10:01:47
+// created: 2011-05-27 15:56:17
 $GLOBALS["dictionary"]["CampaignLog"] = array (
   'audited' => false,
   'comment' => 'Tracks items of interest that occurred after you send an email campaign',
