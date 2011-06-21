@@ -58,7 +58,7 @@ $moduleList[] = 'Documents';
 $moduleList[] = 'Cases';
 $moduleList[] = 'Project';
 $moduleList[] = 'Bugs';
-
+$moduleList[] = 'Tasks';
 
 
 
@@ -243,7 +243,7 @@ $adminOnlyList = array(
                     );
 
 
-$modInvisListActivities = array('Calls', 'Meetings','Notes','Tasks','Calendar');
+$modInvisListActivities = array('Calls', 'Meetings','Notes',/*'Tasks',*/'Calendar');
 
 
 
