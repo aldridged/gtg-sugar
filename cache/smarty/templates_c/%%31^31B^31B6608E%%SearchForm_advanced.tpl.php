@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-06-02 10:56:19
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:38:19
          compiled from cache/modules/Cases/SearchForm_advanced.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Cases/SearchForm_advanced.tpl', 4, false),array('function', 'math', 'cache/modules/Cases/SearchForm_advanced.tpl', 5, false),array('function', 'sugar_translate', 'cache/modules/Cases/SearchForm_advanced.tpl', 14, false),array('function', 'sugar_getimagepath', 'cache/modules/Cases/SearchForm_advanced.tpl', 71, false),array('function', 'html_options', 'cache/modules/Cases/SearchForm_advanced.tpl', 90, false),)), $this); ?>
@@ -132,7 +132,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 ' 
     id='<?php echo $this->_tpl_vars['fields']['workgroup_c_advanced']['name']; ?>
 ' size='30' 
-    maxlength='255' 
+    maxlength='100' 
     value='<?php echo $this->_tpl_vars['value']; ?>
 ' title='' tabindex='' > 
    	   	</td>

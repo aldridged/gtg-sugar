@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-01 17:27:08
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:28:40
          compiled from themes/Sugar5/tpls/_welcome.tpl */ ?>
 <?php if ($this->_tpl_vars['AUTHENTICATED']): ?>
 <div id="welcome">

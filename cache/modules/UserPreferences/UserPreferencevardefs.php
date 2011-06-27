@@ -1,5 +1,5 @@
 <?php
-// created: 2011-05-27 15:21:51
+// created: 2011-06-27 16:38:06
 $GLOBALS["dictionary"]["UserPreference"] = array (
   'table' => 'user_preferences',
   'fields' => 

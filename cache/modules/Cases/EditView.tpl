@@ -197,23 +197,23 @@ value='{$value}' title='' tabindex='105' >
 id='{$fields.jobnumber_c.name}' size='30' 
 maxlength='255' 
 value='{$value}' title='' tabindex='106' > 
-<td valign="top" id='resolveddate_c_label' width='12.5%' scope="row">
+<td valign="top" id='duedate_c_label' width='12.5%' scope="row">
 {capture name="label" assign="label"}
-{sugar_translate label='LBL_RESOLVEDDATE' module='Cases'}
+{sugar_translate label='LBL_DUEDATE' module='Cases'}
 {/capture}
 {$label|strip_semicolon}:
 </td>
 <td valign="top" width='37.5%' >
 {counter name="panelFieldCount"}
 
-{assign var=date_value value=$fields.resolveddate_c.value }
-<input autocomplete="off" type="text" name="{$fields.resolveddate_c.name}" id="{$fields.resolveddate_c.name}" value="{$date_value}" title=''  tabindex='107' size="11" maxlength="10">
-<img border="0" src="{sugar_getimagepath file='jscalendar.gif'}" alt="{$APP.LBL_ENTER_DATE}" id="{$fields.resolveddate_c.name}_trigger" align="absmiddle" />
+{assign var=date_value value=$fields.duedate_c.value }
+<input autocomplete="off" type="text" name="{$fields.duedate_c.name}" id="{$fields.duedate_c.name}" value="{$date_value}" title=''  tabindex='107' size="11" maxlength="10">
+<img border="0" src="{sugar_getimagepath file='jscalendar.gif'}" alt="{$APP.LBL_ENTER_DATE}" id="{$fields.duedate_c.name}_trigger" align="absmiddle" />
 <script type="text/javascript">
 Calendar.setup ({ldelim}
-inputField : "{$fields.resolveddate_c.name}",
+inputField : "{$fields.duedate_c.name}",
 daFormat : "{$CALENDAR_FORMAT}",
-button : "{$fields.resolveddate_c.name}_trigger",
+button : "{$fields.duedate_c.name}_trigger",
 singleClick : true,
 dateStr : "{$date_value}",
 step : 1,
@@ -285,6 +285,35 @@ cols="80"
 title='' tabindex="110" >{$value}</textarea>
 </tr>
 <tr>
+<td valign="top" id='resolveddate_c_label' width='12.5%' scope="row">
+{capture name="label" assign="label"}
+{sugar_translate label='LBL_RESOLVEDDATE' module='Cases'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td valign="top" width='37.5%' >
+{counter name="panelFieldCount"}
+
+{assign var=date_value value=$fields.resolveddate_c.value }
+<input autocomplete="off" type="text" name="{$fields.resolveddate_c.name}" id="{$fields.resolveddate_c.name}" value="{$date_value}" title=''  tabindex='111' size="11" maxlength="10">
+<img border="0" src="{sugar_getimagepath file='jscalendar.gif'}" alt="{$APP.LBL_ENTER_DATE}" id="{$fields.resolveddate_c.name}_trigger" align="absmiddle" />
+<script type="text/javascript">
+Calendar.setup ({ldelim}
+inputField : "{$fields.resolveddate_c.name}",
+daFormat : "{$CALENDAR_FORMAT}",
+button : "{$fields.resolveddate_c.name}_trigger",
+singleClick : true,
+dateStr : "{$date_value}",
+step : 1,
+weekNumbers:false
+{rdelim}
+);
+</script>
+<td valign="top" id='_label' width='12.5%' scope="row">
+</td>
+<td valign="top" width='37.5%' >
+</tr>
+<tr>
 <td valign="top" id='resolution_label' width='12.5%' scope="row">
 {capture name="label" assign="label"}
 {sugar_translate label='LBL_RESOLUTION' module='Cases'}
@@ -302,7 +331,7 @@ title='' tabindex="110" >{$value}</textarea>
 <textarea  id='{$fields.resolution.name}' name='{$fields.resolution.name}'
 rows="4" 
 cols="60" 
-title='' tabindex="111" >{$value}</textarea>
+title='' tabindex="113" >{$value}</textarea>
 </tr>
 </table>
 </div>
@@ -327,12 +356,12 @@ title='' tabindex="111" >{$value}</textarea>
 <td valign="top" width='37.5%' colspan='3'>
 {counter name="panelFieldCount"}
 
-<input type="text" name="{$fields.assigned_user_name.name}" class="sqsEnabled" tabindex="112" id="{$fields.assigned_user_name.name}" size="" value="{$fields.assigned_user_name.value}" title='' autocomplete="off"  >
+<input type="text" name="{$fields.assigned_user_name.name}" class="sqsEnabled" tabindex="114" id="{$fields.assigned_user_name.name}" size="" value="{$fields.assigned_user_name.value}" title='' autocomplete="off"  >
 <input type="hidden" name="{$fields.assigned_user_name.id_name}" 
 id="{$fields.assigned_user_name.id_name}" 
 value="{$fields.assigned_user_id.value}">
 <span class="id-ff multiple">
-<button type="button" name="btn_{$fields.assigned_user_name.name}" id="btn_{$fields.assigned_user_name.name}" tabindex="112" title="{$APP.LBL_SELECT_BUTTON_TITLE}" accessKey="{$APP.LBL_SELECT_BUTTON_KEY}" class="button firstChild" value="{$APP.LBL_SELECT_BUTTON_LABEL}" 
+<button type="button" name="btn_{$fields.assigned_user_name.name}" id="btn_{$fields.assigned_user_name.name}" tabindex="114" title="{$APP.LBL_SELECT_BUTTON_TITLE}" accessKey="{$APP.LBL_SELECT_BUTTON_KEY}" class="button firstChild" value="{$APP.LBL_SELECT_BUTTON_LABEL}" 
 onclick='open_popup(
 "{$fields.assigned_user_name.module}", 
 600, 
@@ -343,7 +372,7 @@ false,
 {literal}{"call_back_function":"set_return","form_name":"EditView","field_to_name_array":{"id":"assigned_user_id","user_name":"assigned_user_name"}}{/literal}, 
 "single", 
 true
-);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.assigned_user_name.name}" id="btn_clr_{$fields.assigned_user_name.name}" tabindex="112" title="{$APP.LBL_CLEAR_BUTTON_TITLE}" accessKey="{$APP.LBL_CLEAR_BUTTON_KEY}" class="button lastChild" 
+);' ><img src="{sugar_getimagepath file="id-ff-select.png"}"></button><button type="button" name="btn_clr_{$fields.assigned_user_name.name}" id="btn_clr_{$fields.assigned_user_name.name}" tabindex="114" title="{$APP.LBL_CLEAR_BUTTON_TITLE}" accessKey="{$APP.LBL_CLEAR_BUTTON_KEY}" class="button lastChild" 
 onclick="this.form.{$fields.assigned_user_name.name}.value = ''; this.form.{$fields.assigned_user_name.id_name}.value = '';" 
 value="{$APP.LBL_CLEAR_BUTTON_LABEL}" ><img src="{sugar_getimagepath file="id-ff-clear.png"}"></button>
 </span>
@@ -367,15 +396,16 @@ enableQS(false);
 <td valign="top" width='37.5%' >
 {counter name="panelFieldCount"}
 
-{if strlen($fields.workgroup_c.value) <= 0}
-{assign var="value" value=$fields.workgroup_c.default_value }
+<select name="{$fields.workgroup_c.name}" 
+id="{$fields.workgroup_c.name}" 
+title='' tabindex="115"  
+>
+{if isset($fields.workgroup_c.value) && $fields.workgroup_c.value != ''}
+{html_options options=$fields.workgroup_c.options selected=$fields.workgroup_c.value}
 {else}
-{assign var="value" value=$fields.workgroup_c.value }
-{/if}  
-<input type='text' name='{$fields.workgroup_c.name}' 
-id='{$fields.workgroup_c.name}' size='30' 
-maxlength='255' 
-value='{$value}' title='' tabindex='113' > 
+{html_options options=$fields.workgroup_c.options selected=$fields.workgroup_c.default}
+{/if}
+</select>
 <td valign="top" id='ticketnumber_c_label' width='12.5%' scope="row">
 {capture name="label" assign="label"}
 {sugar_translate label='LBL_TICKETNUMBER' module='Cases'}
@@ -393,7 +423,7 @@ value='{$value}' title='' tabindex='113' >
 <input type='text' name='{$fields.ticketnumber_c.name}' 
 id='{$fields.ticketnumber_c.name}' size='30' 
 maxlength='255' 
-value='{$value}' title='' tabindex='114' > 
+value='{$value}' title='' tabindex='116' > 
 </tr>
 <tr>
 <td valign="top" id='work_log_label' width='12.5%' scope="row">
@@ -413,7 +443,7 @@ value='{$value}' title='' tabindex='114' >
 <textarea  id='{$fields.work_log.name}' name='{$fields.work_log.name}'
 rows="4" 
 cols="60" 
-title='' tabindex="115" >{$value}</textarea>
+title='' tabindex="117" >{$value}</textarea>
 </tr>
 </table>
 </div>
@@ -463,7 +493,7 @@ addToValidate('EditView', 'contactname_c', 'varchar', false,'{/literal}{sugar_tr
 addToValidate('EditView', 'contactphone_c', 'phone', false,'{/literal}{sugar_translate label='LBL_CONTACTPHONE' module='Cases'}{literal}' );
 addToValidate('EditView', 'ticketnumber_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_TICKETNUMBER' module='Cases'}{literal}' );
 addToValidate('EditView', 'category_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_CATEGORY' module='Cases'}{literal}' );
-addToValidate('EditView', 'workgroup_c', 'varchar', false,'{/literal}{sugar_translate label='LBL_WORKGROUP' module='Cases'}{literal}' );
+addToValidate('EditView', 'workgroup_c', 'enum', false,'{/literal}{sugar_translate label='LBL_WORKGROUP' module='Cases'}{literal}' );
 addToValidateBinaryDependency('EditView', 'assigned_user_name', 'alpha', false,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Cases'}{literal}: {/literal}{sugar_translate label='LBL_ASSIGNED_TO' module='Cases'}{literal}', 'assigned_user_id' );
 addToValidateBinaryDependency('EditView', 'account_name', 'alpha', true,'{/literal}{sugar_translate label='ERR_SQS_NO_MATCH_FIELD' module='Cases'}{literal}: {/literal}{sugar_translate label='LBL_ACCOUNT_NAME' module='Cases'}{literal}', 'account_id' );
 </script><script language="javascript">if(typeof sqs_objects == 'undefined'){var sqs_objects = new Array;}sqs_objects['EditView_account_name']={"form":"EditView","method":"query","modules":["Accounts"],"group":"or","field_list":["name","id"],"populate_list":["EditView_account_name","account_id"],"conditions":[{"name":"name","op":"like_custom","end":"%","value":""}],"required_list":["account_id"],"order":"name","limit":"30","no_match_text":"No Match"};sqs_objects['EditView_assigned_user_name']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>{/literal}

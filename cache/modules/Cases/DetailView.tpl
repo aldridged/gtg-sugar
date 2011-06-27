@@ -103,6 +103,32 @@
 <tr>
 <td width='12.5%' scope="row">
 {capture name="label" assign="label"}
+{sugar_translate label='LBL_DUEDATE' module='Cases'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td width='37.5%' >
+{counter name="panelFieldCount"}
+<span id='duedate_c'>
+<span id='{$fields.duedate_c.name}'>{$fields.duedate_c.value}</span>
+</span>
+</td>
+<td width='12.5%' scope="row">
+{capture name="label" assign="label"}
+{sugar_translate label='LBL_RESOLVEDDATE' module='Cases'}
+{/capture}
+{$label|strip_semicolon}:
+</td>
+<td width='37.5%' >
+{counter name="panelFieldCount"}
+<span id='resolveddate_c'>
+<span id='{$fields.resolveddate_c.name}'>{$fields.resolveddate_c.value}</span>
+</span>
+</td>
+</tr>
+<tr>
+<td width='12.5%' scope="row">
+{capture name="label" assign="label"}
 {sugar_translate label='LBL_TYPE' module='Cases'}
 {/capture}
 {$label|strip_semicolon}:

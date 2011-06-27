@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-01 17:27:08
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:28:30
          compiled from themes/Sugar5/tpls/footer.tpl */ ?>
 <!--end body panes-->
         </td></tr></table>

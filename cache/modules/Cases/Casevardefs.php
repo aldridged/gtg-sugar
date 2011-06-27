@@ -1,5 +1,5 @@
 <?php
-// created: 2011-05-27 15:22:27
+// created: 2011-06-27 16:38:05
 $GLOBALS["dictionary"]["Case"] = array (
   'table' => 'cases',
   'audited' => true,
@@ -515,18 +515,21 @@ $GLOBALS["dictionary"]["Case"] = array (
       'source' => 'custom_fields',
       'name' => 'workgroup_c',
       'vname' => 'LBL_WORKGROUP',
-      'type' => 'varchar',
+      'type' => 'enum',
       'massupdate' => '0',
-      'default' => NULL,
+      'default' => 'Operations',
       'comments' => '',
       'help' => '',
       'importable' => 'true',
       'duplicate_merge' => 'disabled',
       'duplicate_merge_dom_value' => '0',
-      'audited' => false,
+      'audited' => true,
       'reportable' => true,
-      'len' => '255',
+      'len' => 100,
       'size' => '20',
+      'options' => 'workgroup_list',
+      'studio' => 'visible',
+      'dependency' => NULL,
       'id' => 'Casesworkgroup_c',
       'custom_module' => 'Cases',
     ),

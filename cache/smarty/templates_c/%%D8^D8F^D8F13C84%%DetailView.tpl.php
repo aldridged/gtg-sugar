@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2011-06-02 10:52:22
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:46:06
          compiled from cache/modules/Cases/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Cases/DetailView.tpl', 29, false),array('function', 'counter', 'cache/modules/Cases/DetailView.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/Cases/DetailView.tpl', 35, false),array('modifier', 'strip_semicolon', 'cache/modules/Cases/DetailView.tpl', 42, false),array('modifier', 'escape', 'cache/modules/Cases/DetailView.tpl', 146, false),array('modifier', 'url2html', 'cache/modules/Cases/DetailView.tpl', 146, false),array('modifier', 'nl2br', 'cache/modules/Cases/DetailView.tpl', 146, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Cases/DetailView.tpl', 29, false),array('function', 'counter', 'cache/modules/Cases/DetailView.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/Cases/DetailView.tpl', 35, false),array('modifier', 'strip_semicolon', 'cache/modules/Cases/DetailView.tpl', 42, false),array('modifier', 'escape', 'cache/modules/Cases/DetailView.tpl', 172, false),array('modifier', 'url2html', 'cache/modules/Cases/DetailView.tpl', 172, false),array('modifier', 'nl2br', 'cache/modules/Cases/DetailView.tpl', 172, false),)), $this); ?>
 
 
 <table cellpadding="1" cellspacing="0" border="0" width="100%" class="actionsContainer">
@@ -135,6 +135,38 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 "><?php endif;  echo $this->_tpl_vars['fields']['account_name']['value']; ?>
 
 <?php if (! empty ( $this->_tpl_vars['fields']['account_id']['value'] )): ?></a><?php endif; ?>
+</td>
+</tr>
+<tr>
+<td width='12.5%' scope="row">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_DUEDATE','module' => 'Cases'), $this);?>
+
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</td>
+<td width='37.5%' >
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+<span id='duedate_c'>
+<span id='<?php echo $this->_tpl_vars['fields']['duedate_c']['name']; ?>
+'><?php echo $this->_tpl_vars['fields']['duedate_c']['value']; ?>
+</span>
+</span>
+</td>
+<td width='12.5%' scope="row">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_RESOLVEDDATE','module' => 'Cases'), $this);?>
+
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</td>
+<td width='37.5%' >
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+<span id='resolveddate_c'>
+<span id='<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+'><?php echo $this->_tpl_vars['fields']['resolveddate_c']['value']; ?>
+</span>
+</span>
 </td>
 </tr>
 <tr>

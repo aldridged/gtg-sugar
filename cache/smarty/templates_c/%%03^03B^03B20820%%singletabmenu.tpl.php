@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-06-07 09:51:23
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:29:05
          compiled from include/SubPanel/tpls/singletabmenu.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getimagepath', 'include/SubPanel/tpls/singletabmenu.tpl', 84, false),)), $this); ?>

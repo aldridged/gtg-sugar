@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2011-06-02 10:53:30
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:45:49
          compiled from cache/modules/Cases/SearchForm_basic.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Cases/SearchForm_basic.tpl', 6, false),array('function', 'math', 'cache/modules/Cases/SearchForm_basic.tpl', 7, false),array('function', 'sugar_translate', 'cache/modules/Cases/SearchForm_basic.tpl', 16, false),array('function', 'html_options', 'cache/modules/Cases/SearchForm_basic.tpl', 76, false),array('function', 'sugar_getimagepath', 'cache/modules/Cases/SearchForm_basic.tpl', 118, false),array('modifier', 'count', 'cache/modules/Cases/SearchForm_basic.tpl', 105, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'cache/modules/Cases/SearchForm_basic.tpl', 6, false),array('function', 'math', 'cache/modules/Cases/SearchForm_basic.tpl', 7, false),array('function', 'sugar_translate', 'cache/modules/Cases/SearchForm_basic.tpl', 16, false),array('function', 'html_options', 'cache/modules/Cases/SearchForm_basic.tpl', 49, false),array('function', 'sugar_getimagepath', 'cache/modules/Cases/SearchForm_basic.tpl', 110, false),array('modifier', 'count', 'cache/modules/Cases/SearchForm_basic.tpl', 97, false),)), $this); ?>
 
 
 
@@ -49,14 +49,8 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', '
 	
 	<td  nowrap="nowrap" width='1%'>
 			
-<?php if (strlen ( $this->_tpl_vars['fields']['workgroup_c_basic']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['workgroup_c_basic']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['workgroup_c_basic']['value']);  endif; ?>  
-<input type='text' name='<?php echo $this->_tpl_vars['fields']['workgroup_c_basic']['name']; ?>
-' 
-    id='<?php echo $this->_tpl_vars['fields']['workgroup_c_basic']['name']; ?>
-' size='30' 
-    maxlength='255' 
-    value='<?php echo $this->_tpl_vars['value']; ?>
-' title='' tabindex='' > 
+<?php echo smarty_function_html_options(array('name' => 'workgroup_c_basic[]','options' => $this->_tpl_vars['fields']['workgroup_c_basic']['options'],'size' => '6','style' => "width: 150px",'multiple' => '1','selected' => $this->_tpl_vars['fields']['workgroup_c_basic']['value']), $this);?>
+
    	   	</td>
 	<?php echo smarty_function_counter(array('assign' => 'index'), $this);?>
 

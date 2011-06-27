@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-06 08:53:44
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:28:50
          compiled from include/DetailView/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'include/DetailView/DetailView.tpl', 47, false),array('function', 'sugar_evalcolumn', 'include/DetailView/DetailView.tpl', 108, false),array('function', 'sugar_field', 'include/DetailView/DetailView.tpl', 113, false),array('modifier', 'count', 'include/DetailView/DetailView.tpl', 80, false),)), $this); ?>
