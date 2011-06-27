@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-07 13:20:35
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:37:16
          compiled from modules/Connectors/connectors/formatters/ext/rest/linkedin/tpls/default.tpl */ ?>
 {*
 /*********************************************************************************

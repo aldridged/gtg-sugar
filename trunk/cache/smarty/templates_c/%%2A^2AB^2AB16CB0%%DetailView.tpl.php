@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-06-20 15:12:11
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:39:29
          compiled from cache/modules/AOS_Quotes/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/AOS_Quotes/DetailView.tpl', 38, false),array('function', 'counter', 'cache/modules/AOS_Quotes/DetailView.tpl', 43, false),array('function', 'sugar_translate', 'cache/modules/AOS_Quotes/DetailView.tpl', 48, false),array('modifier', 'strip_semicolon', 'cache/modules/AOS_Quotes/DetailView.tpl', 50, false),array('modifier', 'escape', 'cache/modules/AOS_Quotes/DetailView.tpl', 191, false),array('modifier', 'url2html', 'cache/modules/AOS_Quotes/DetailView.tpl', 191, false),array('modifier', 'nl2br', 'cache/modules/AOS_Quotes/DetailView.tpl', 191, false),array('modifier', 'strip_tags', 'cache/modules/AOS_Quotes/DetailView.tpl', 248, false),)), $this); ?>
@@ -395,11 +395,16 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
 <?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
 :
 </td>
-<td width='37.5%' colspan='5'>
+<td width='37.5%' colspan='3'>
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 <?php echo $this->_tpl_vars['LINE_ITEMS']; ?>
 	
+</td>
+<td width='12.5%' scope="row">
+&nbsp;
+</td>
+<td width='37.5%' >
 </td>
 </tr>
 </table>

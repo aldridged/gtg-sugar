@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-06-02 10:53:29
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:46:31
          compiled from cache/modules/Cases/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Cases/EditView.tpl', 36, false),array('function', 'counter', 'cache/modules/Cases/EditView.tpl', 41, false),array('function', 'sugar_translate', 'cache/modules/Cases/EditView.tpl', 45, false),array('function', 'html_options', 'cache/modules/Cases/EditView.tpl', 77, false),array('function', 'sugar_getimagepath', 'cache/modules/Cases/EditView.tpl', 129, false),array('modifier', 'default', 'cache/modules/Cases/EditView.tpl', 42, false),array('modifier', 'strip_semicolon', 'cache/modules/Cases/EditView.tpl', 53, false),)), $this); ?>
@@ -274,8 +274,8 @@ id='<?php echo $this->_tpl_vars['fields']['jobnumber_c']['name']; ?>
 maxlength='255' 
 value='<?php echo $this->_tpl_vars['value']; ?>
 ' title='' tabindex='106' > 
-<td valign="top" id='resolveddate_c_label' width='12.5%' scope="row">
-<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_RESOLVEDDATE','module' => 'Cases'), $this);?>
+<td valign="top" id='duedate_c_label' width='12.5%' scope="row">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_DUEDATE','module' => 'Cases'), $this);?>
 
 <?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
 :
@@ -284,22 +284,22 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
-<?php $this->assign('date_value', $this->_tpl_vars['fields']['resolveddate_c']['value']); ?>
-<input autocomplete="off" type="text" name="<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
-" id="<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+<?php $this->assign('date_value', $this->_tpl_vars['fields']['duedate_c']['value']); ?>
+<input autocomplete="off" type="text" name="<?php echo $this->_tpl_vars['fields']['duedate_c']['name']; ?>
+" id="<?php echo $this->_tpl_vars['fields']['duedate_c']['name']; ?>
 " value="<?php echo $this->_tpl_vars['date_value']; ?>
 " title=''  tabindex='107' size="11" maxlength="10">
 <img border="0" src="<?php echo smarty_function_sugar_getimagepath(array('file' => 'jscalendar.gif'), $this);?>
 " alt="<?php echo $this->_tpl_vars['APP']['LBL_ENTER_DATE']; ?>
-" id="<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+" id="<?php echo $this->_tpl_vars['fields']['duedate_c']['name']; ?>
 _trigger" align="absmiddle" />
 <script type="text/javascript">
 Calendar.setup ({
-inputField : "<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+inputField : "<?php echo $this->_tpl_vars['fields']['duedate_c']['name']; ?>
 ",
 daFormat : "<?php echo $this->_tpl_vars['CALENDAR_FORMAT']; ?>
 ",
-button : "<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+button : "<?php echo $this->_tpl_vars['fields']['duedate_c']['name']; ?>
 _trigger",
 singleClick : true,
 dateStr : "<?php echo $this->_tpl_vars['date_value']; ?>
@@ -376,6 +376,46 @@ title='' tabindex="110" ><?php echo $this->_tpl_vars['value']; ?>
 </textarea>
 </tr>
 <tr>
+<td valign="top" id='resolveddate_c_label' width='12.5%' scope="row">
+<?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_RESOLVEDDATE','module' => 'Cases'), $this);?>
+
+<?php $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+</td>
+<td valign="top" width='37.5%' >
+<?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+
+<?php $this->assign('date_value', $this->_tpl_vars['fields']['resolveddate_c']['value']); ?>
+<input autocomplete="off" type="text" name="<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+" id="<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+" value="<?php echo $this->_tpl_vars['date_value']; ?>
+" title=''  tabindex='111' size="11" maxlength="10">
+<img border="0" src="<?php echo smarty_function_sugar_getimagepath(array('file' => 'jscalendar.gif'), $this);?>
+" alt="<?php echo $this->_tpl_vars['APP']['LBL_ENTER_DATE']; ?>
+" id="<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+_trigger" align="absmiddle" />
+<script type="text/javascript">
+Calendar.setup ({
+inputField : "<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+",
+daFormat : "<?php echo $this->_tpl_vars['CALENDAR_FORMAT']; ?>
+",
+button : "<?php echo $this->_tpl_vars['fields']['resolveddate_c']['name']; ?>
+_trigger",
+singleClick : true,
+dateStr : "<?php echo $this->_tpl_vars['date_value']; ?>
+",
+step : 1,
+weekNumbers:false
+}
+);
+</script>
+<td valign="top" id='_label' width='12.5%' scope="row">
+</td>
+<td valign="top" width='37.5%' >
+</tr>
+<tr>
 <td valign="top" id='resolution_label' width='12.5%' scope="row">
 <?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_RESOLUTION','module' => 'Cases'), $this);?>
 
@@ -392,7 +432,7 @@ title='' tabindex="110" ><?php echo $this->_tpl_vars['value']; ?>
 '
 rows="4" 
 cols="60" 
-title='' tabindex="111" ><?php echo $this->_tpl_vars['value']; ?>
+title='' tabindex="113" ><?php echo $this->_tpl_vars['value']; ?>
 </textarea>
 </tr>
 </table>
@@ -423,7 +463,7 @@ title='' tabindex="111" ><?php echo $this->_tpl_vars['value']; ?>
 
 
 <input type="text" name="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
-" class="sqsEnabled" tabindex="112" id="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
+" class="sqsEnabled" tabindex="114" id="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
 " size="" value="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['value']; ?>
 " title='' autocomplete="off"  >
 <input type="hidden" name="<?php echo $this->_tpl_vars['fields']['assigned_user_name']['id_name']; ?>
@@ -435,7 +475,7 @@ value="<?php echo $this->_tpl_vars['fields']['assigned_user_id']['value']; ?>
 <span class="id-ff multiple">
 <button type="button" name="btn_<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
 " id="btn_<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
-" tabindex="112" title="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_TITLE']; ?>
+" tabindex="114" title="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_TITLE']; ?>
 " accessKey="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_KEY']; ?>
 " class="button firstChild" value="<?php echo $this->_tpl_vars['APP']['LBL_SELECT_BUTTON_LABEL']; ?>
 " 
@@ -454,7 +494,7 @@ true
 );' ><img src="<?php echo smarty_function_sugar_getimagepath(array('file' => "id-ff-select.png"), $this);?>
 "></button><button type="button" name="btn_clr_<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
 " id="btn_clr_<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
-" tabindex="112" title="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_TITLE']; ?>
+" tabindex="114" title="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_TITLE']; ?>
 " accessKey="<?php echo $this->_tpl_vars['APP']['LBL_CLEAR_BUTTON_KEY']; ?>
 " class="button lastChild" 
 onclick="this.form.<?php echo $this->_tpl_vars['fields']['assigned_user_name']['name']; ?>
@@ -487,14 +527,18 @@ enableQS(false);
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
-<?php if (strlen ( $this->_tpl_vars['fields']['workgroup_c']['value'] ) <= 0):  $this->assign('value', $this->_tpl_vars['fields']['workgroup_c']['default_value']);  else:  $this->assign('value', $this->_tpl_vars['fields']['workgroup_c']['value']);  endif; ?>  
-<input type='text' name='<?php echo $this->_tpl_vars['fields']['workgroup_c']['name']; ?>
-' 
-id='<?php echo $this->_tpl_vars['fields']['workgroup_c']['name']; ?>
-' size='30' 
-maxlength='255' 
-value='<?php echo $this->_tpl_vars['value']; ?>
-' title='' tabindex='113' > 
+<select name="<?php echo $this->_tpl_vars['fields']['workgroup_c']['name']; ?>
+" 
+id="<?php echo $this->_tpl_vars['fields']['workgroup_c']['name']; ?>
+" 
+title='' tabindex="115"  
+>
+<?php if (isset ( $this->_tpl_vars['fields']['workgroup_c']['value'] ) && $this->_tpl_vars['fields']['workgroup_c']['value'] != ''):  echo smarty_function_html_options(array('options' => $this->_tpl_vars['fields']['workgroup_c']['options'],'selected' => $this->_tpl_vars['fields']['workgroup_c']['value']), $this);?>
+
+<?php else:  echo smarty_function_html_options(array('options' => $this->_tpl_vars['fields']['workgroup_c']['options'],'selected' => $this->_tpl_vars['fields']['workgroup_c']['default']), $this);?>
+
+<?php endif; ?>
+</select>
 <td valign="top" id='ticketnumber_c_label' width='12.5%' scope="row">
 <?php ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_TICKETNUMBER','module' => 'Cases'), $this);?>
 
@@ -512,7 +556,7 @@ id='<?php echo $this->_tpl_vars['fields']['ticketnumber_c']['name']; ?>
 ' size='30' 
 maxlength='255' 
 value='<?php echo $this->_tpl_vars['value']; ?>
-' title='' tabindex='114' > 
+' title='' tabindex='116' > 
 </tr>
 <tr>
 <td valign="top" id='work_log_label' width='12.5%' scope="row">
@@ -531,7 +575,7 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 '
 rows="4" 
 cols="60" 
-title='' tabindex="115" ><?php echo $this->_tpl_vars['value']; ?>
+title='' tabindex="117" ><?php echo $this->_tpl_vars['value']; ?>
 </textarea>
 </tr>
 </table>
@@ -606,7 +650,7 @@ addToValidate(\'EditView\', \'contactname_c\', \'varchar\', false,\'';  echo sma
 addToValidate(\'EditView\', \'contactphone_c\', \'phone\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_CONTACTPHONE','module' => 'Cases'), $this); echo '\' );
 addToValidate(\'EditView\', \'ticketnumber_c\', \'varchar\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_TICKETNUMBER','module' => 'Cases'), $this); echo '\' );
 addToValidate(\'EditView\', \'category_c\', \'varchar\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_CATEGORY','module' => 'Cases'), $this); echo '\' );
-addToValidate(\'EditView\', \'workgroup_c\', \'varchar\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_WORKGROUP','module' => 'Cases'), $this); echo '\' );
+addToValidate(\'EditView\', \'workgroup_c\', \'enum\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'LBL_WORKGROUP','module' => 'Cases'), $this); echo '\' );
 addToValidateBinaryDependency(\'EditView\', \'assigned_user_name\', \'alpha\', false,\'';  echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'Cases'), $this); echo ': ';  echo smarty_function_sugar_translate(array('label' => 'LBL_ASSIGNED_TO','module' => 'Cases'), $this); echo '\', \'assigned_user_id\' );
 addToValidateBinaryDependency(\'EditView\', \'account_name\', \'alpha\', true,\'';  echo smarty_function_sugar_translate(array('label' => 'ERR_SQS_NO_MATCH_FIELD','module' => 'Cases'), $this); echo ': ';  echo smarty_function_sugar_translate(array('label' => 'LBL_ACCOUNT_NAME','module' => 'Cases'), $this); echo '\', \'account_id\' );
 </script><script language="javascript">if(typeof sqs_objects == \'undefined\'){var sqs_objects = new Array;}sqs_objects[\'EditView_account_name\']={"form":"EditView","method":"query","modules":["Accounts"],"group":"or","field_list":["name","id"],"populate_list":["EditView_account_name","account_id"],"conditions":[{"name":"name","op":"like_custom","end":"%","value":""}],"required_list":["account_id"],"order":"name","limit":"30","no_match_text":"No Match"};sqs_objects[\'EditView_assigned_user_name\']={"form":"EditView","method":"get_user_array","field_list":["user_name","id"],"populate_list":["assigned_user_name","assigned_user_id"],"required_list":["assigned_user_id"],"conditions":[{"name":"user_name","op":"like_custom","end":"%","value":""}],"limit":"30","no_match_text":"No Match"};</script>'; ?>

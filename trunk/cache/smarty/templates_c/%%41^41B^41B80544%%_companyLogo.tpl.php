@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-01 17:27:08
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:28:40
          compiled from themes/Sugar5/tpls/_companyLogo.tpl */ ?>
 <div id="companyLogo">
     <a href="index.php?module=Home&action=index" border="0">

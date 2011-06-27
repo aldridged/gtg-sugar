@@ -79,8 +79,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'resolveddate_c',
-            'label' => 'LBL_RESOLVEDDATE',
+            'name' => 'duedate_c',
+            'label' => 'LBL_DUEDATE',
           ),
         ),
         5 => 
@@ -112,6 +112,15 @@ array (
           ),
         ),
         8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'resolveddate_c',
+            'label' => 'LBL_RESOLVEDDATE',
+          ),
+          1 => '',
+        ),
+        9 => 
         array (
           0 => 
           array (

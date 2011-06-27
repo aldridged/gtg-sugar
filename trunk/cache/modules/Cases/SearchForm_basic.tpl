@@ -48,15 +48,7 @@
 	
 	<td  nowrap="nowrap" width='1%'>
 			
-{if strlen($fields.workgroup_c_basic.value) <= 0}
-{assign var="value" value=$fields.workgroup_c_basic.default_value }
-{else}
-{assign var="value" value=$fields.workgroup_c_basic.value }
-{/if}  
-<input type='text' name='{$fields.workgroup_c_basic.name}' 
-    id='{$fields.workgroup_c_basic.name}' size='30' 
-    maxlength='255' 
-    value='{$value}' title='' tabindex='' > 
+{html_options name='workgroup_c_basic[]' options=$fields.workgroup_c_basic.options size="6" style="width: 150px" multiple="1" selected=$fields.workgroup_c_basic.value}
    	   	</td>
 	{counter assign=index}
 	{math equation="left % right"

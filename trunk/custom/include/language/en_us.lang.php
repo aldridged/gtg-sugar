@@ -26,3 +26,14 @@ $GLOBALS['app_list_strings']['case_priority_dom']=array (
   'NeedTech' => 'Need Tech',
   'Completed' => 'Completed',
 );
+$GLOBALS['app_list_strings']['workgroup_list']=array (
+  'Billing' => 'Billing',
+  'Closed' => 'Closed',
+  'Customer Follow Up' => 'Customer Follow Up',
+  'EandI Division' => 'E&I Division',
+  'Field Technician' => 'Field Technician',
+  'Operations' => 'Operations',
+  'Professional Services' => 'Professional Services',
+  'Technical Services' => 'Technical Services',
+  'Telecom Engineering' => 'Telecom Engineering',
+);

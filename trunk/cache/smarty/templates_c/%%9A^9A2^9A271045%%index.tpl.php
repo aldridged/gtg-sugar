@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-06 08:47:08
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:28:49
          compiled from modules/Administration/index.tpl */ ?>
 <div class="dashletPanelMenu">
 <div class="hd"><div class="tl"></div><div class="hd-center"></div><div class="tr"></div></div>

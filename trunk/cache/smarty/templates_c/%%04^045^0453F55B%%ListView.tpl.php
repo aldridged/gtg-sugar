@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-06 08:45:27
+<?php /* Smarty version 2.6.11, created on 2011-06-27 16:28:46
          compiled from include/SugarFields/Fields/Base/ListView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_fetch', 'include/SugarFields/Fields/Base/ListView.tpl', 39, false),)), $this); ?>

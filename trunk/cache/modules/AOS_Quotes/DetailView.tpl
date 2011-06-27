@@ -320,9 +320,14 @@
 {/capture}
 {$label|strip_semicolon}:
 </td>
-<td width='37.5%' colspan='5'>
+<td width='37.5%' colspan='3'>
 {counter name="panelFieldCount"}
 {$LINE_ITEMS}	
+</td>
+<td width='12.5%' scope="row">
+&nbsp;
+</td>
+<td width='37.5%' >
 </td>
 </tr>
 </table>
