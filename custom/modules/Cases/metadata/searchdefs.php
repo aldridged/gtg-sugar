@@ -66,7 +66,7 @@ array (
       ),
       'workgroup_c' => 
       array (
-        'type' => 'varchar',
+        'type' => 'enum',
         'default' => true,
         'label' => 'LBL_WORKGROUP',
         'width' => '10%',
