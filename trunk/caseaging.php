@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
 /* Monitor Case Aging and mail as appropriate */
 /* Load required classes*/
