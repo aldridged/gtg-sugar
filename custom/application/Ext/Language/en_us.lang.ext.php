@@ -2,11 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
-
-$app_list_strings['moduleList']['ZuckerReports']='ZuckerReports';
-
-
-
 /**
  * Products, Quotations & Invoices modules.
  * Extensions to SugarCRM
@@ -95,5 +90,10 @@ $app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Quotes';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Invoices';
 $app_list_strings['pdf_template_type_dom']['Quotes'] = 'Quotes';
 $app_list_strings['pdf_template_type_dom']['Invoices'] = 'Invoices';
+
+
+
+$app_list_strings['moduleList']['ZuckerReports']='ZuckerReports';
+
 
 ?>
