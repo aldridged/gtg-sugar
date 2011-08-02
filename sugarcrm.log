@@ -6384,3 +6384,4 @@ Tue Aug  2 13:42:40 2011 [19977][66109aec-e6ce-ae9e-7239-4d793a9d1417][FATAL] Mi
 Tue Aug  2 13:44:01 2011 [19972][66109aec-e6ce-ae9e-7239-4d793a9d1417][FATAL] Notifications: e-mail successfully sent
 Tue Aug  2 13:59:14 2011 [14104][66109aec-e6ce-ae9e-7239-4d793a9d1417][FATAL] Notifications: e-mail successfully sent
 Tue Aug  2 14:06:05 2011 [19977][66109aec-e6ce-ae9e-7239-4d793a9d1417][FATAL] Missing relationship definition aos_products_project. skipping aos_products_project subpanel
+Tue Aug  2 14:54:28 2011 [19974][8d00f788-59be-528a-9493-4d793a472fb7][FATAL] Missing relationship definition aos_products_project. skipping aos_products_project subpanel
