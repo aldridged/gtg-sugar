@@ -1,7 +1,8 @@
 <?php 
  //WARNING: The contents of this file are auto-generated
 
- 
-include("modules/ZuckerReports/MenuExt.php");
 
+ // created: 2011-07-15 13:56:00
+
+ 
 ?>

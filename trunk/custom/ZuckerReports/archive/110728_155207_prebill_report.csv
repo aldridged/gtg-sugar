@@ -1,0 +1,581 @@
+account	job	Site	name	GLCode	AFE	PO	Rep	description	startdate	stopdate	price	rate	
+Adriatic Marine	5001992	Mediteranean	Satellite Phone, Irridium-TM	4043055000000			shawno	4807685704	2011-03-01		55.00	Month
+Adriatic Marine	5001993	MV Aegean	Satellite Phone, Irridium-TM	4043055000000			shawno	4802637764	2011-03-01		55.00	Month
+Adriatic Marine	5001994	MV Adriatic	Satellite Phone, Irridium-TM	4043055000000			shawno	4804563171	2011-03-01		55.00	Month
+Adriatic Marine	5001995	MV Arctic	Satellite Phone, Irridium-TM	4043055000000			shawno	4807686335	2011-03-01		55.00	Month
+Adriatic Marine	5001996	MV Caspian	Oceans mail-TM	4043055000000			shawno	caspian@oceans.net Renewal 6/11	2011-06-01		400.00	Yearly
+Adriatic Marine	5001996	MV Caspian	Satellite Phone, Irridium-TM	4043055000000			shawno	4802637072	2011-03-01		55.00	Month
+Adriatic Marine	5001997	All boats	Phone Number, Iridium-TM	4045055000050		All boats	shawno	4802636002	2011-03-01		55.00	Month
+Adriatic Marine	5002226	MV UnReel	KVH Mini M Service-TM	4043055000000		MV UnReel	shawno		2011-04-29		50.00	month
+Adriatic Marine	5002226	MV UnReel	Phone Number, Iridium	4045050000050		MV UnReel	shawno	1.50/minute Data= 765079319	2011-04-29		1.50	Minute
+Adriatic Marine	5002226	MV UnReel	Phone Number, Iridium	4045050000050		MV UnReel	shawno	1.50/minute Fax= 765079318	2011-04-29		1.50	Minute
+Adriatic Marine	5002226	MV UnReel	Phone Number, Iridium	4045050000050		MV UnReel	shawno	1.50/minute V2= 765079317	2011-04-29		1.50	Minute
+Adriatic Marine	5002226	MV UnReel	Phone Number, Iridium	4045050000050		MV UnReel	shawno	1.50/minute V1= 765079316	2011-04-29		1.50	Minute
+American Land & Exploration	5000281	Server Group 1	NOC, Colocation	4010050000000			jerrelb	6 Rack Spaces	2007-01-01		150.00	Month
+American Land & Exploration	5000281	Server Group 1	Internet, 1M LUS On-Net	4011050000000			jerrelb	12.166.223.27 & 12.166.223.28	2007-01-01		100.00	Month
+Anglo-Suisse	5001999	WD 117G	Space Segment 512/256-TM	4013055000000	09-FC-082	ASOP6046/ASOP6052	stevel		2011-03-01		2100.00	Month
+Anglo-Suisse	5001999	WD 117G	VSAT Terminal Standard-TM	4013055000000	09-FC-082	ASOP6046/ASOP6052	stevel	Modem: 114129	2011-03-01		0.00	
+Anglo-Suisse	5001999	WD 117G	VSAT Dish, 1.2M Fixed-TM	4043055000000	09-FC-082	ASOP6046/ASOP6052	stevel		2011-03-01		0.00	
+Apache Construction	5000685	Lafayette Office	DS3 Point to Point	4045050000055		Re: DS/AVPN Lafayette	tracyp	LUS Ckt ID - 6306866012 1015000685	2008-07-22		3195.00	Month
+Beau Soleil Marine, LLC	5002068	MV Leader	Phone Number, Iridium-TM	4045055000050			shawno	4802637053	2011-03-01		55.00	Month
+BHP Billiton	5002002	MV Harvey Carrier	Satellite Phone, MSAT G2-TM	4043055000000		3200146629	shawno	MTID billing # 155012	2011-03-01		600.00	Month
+BHP Billiton	5002002	MV Harvey Carrier	Phone number, MSAT G2-TM	4045055000050		3200146629	shawno	8662131750	2011-03-01		20.00	Month
+BHP Billiton	5002002	MV Harvey Carrier	Call Barring-TM	4045055000050		3200146629	shawno		2011-03-01		12.00	Month
+BHP Billiton	5002003	Fourchon Shorebase	Satellite Phone, MSAT G2-TM	4043055000000		3200146629	shawno	MTID billing #118950	2011-03-01		600.00	Month
+BHP Billiton	5002003	Fourchon Shorebase	Call Barring-TM	4045055000050		3200146629	shawno		2011-03-01		12.00	Month
+BHP Billiton	5002003	Fourchon Shorebase	Phone number, MSAT G2-TM	4045055000050		3200146629	shawno	8772650301	2011-03-01		20.00	Month
+BHP Billiton	5002004	Houma Airbase	Satellite Phone, MSAT G2-TM	4043055000000		3200146629	shawno	MTID Billing #117626	2011-03-01		350.00	Month
+BHP Billiton	5002004	Houma Airbase	Phone number, MSAT G2-TM	4045055000050		3200146629	shawno	8776024044	2011-03-01		20.00	Month
+BHP Billiton	5002005	MV Amber	Call Barring-TM	4045055000050		3200146629	shawno		2011-03-01		12.00	Month
+BHP Billiton	5002005	MV Amber	Phone number, MSAT G2-TM	4045055000050		3200146629	shawno	8772650299	2011-03-01		20.00	Month
+BHP Billiton	5002005	MV Amber	Satellite Phone, MSAT G2-TM	4043055000000		3200146629	shawno	MTID billing # 118949	2011-03-01		600.00	Month
+BHP Billiton	5002006	MV C-Performer	Satellite Phone, MSAT G2-TM	4043055000000		3200146629	shawno	MTID billing #120474	2011-03-01		600.00	Month
+BHP Billiton	5002006	MV C-Performer	Phone number, MSAT G2-TM	4045055000050		3200146629	shawno	8772654272	2011-03-01		20.00	Month
+BHP Billiton	5002006	MV C-Performer	Call Barring-TM	4045055000050		3200146629	shawno		2011-03-01		12.00	Month
+BHP Billiton	5002007	MV Allie Chouest	Call Barring-TM	4045055000050		3200146629	shawno		2011-03-01		12.00	Month
+BHP Billiton	5002007	MV Allie Chouest	Satellite Phone, MSAT G2-TM	4043055000000		3200146629	shawno	MTID billing #154832	2011-03-01		600.00	Month
+BHP Billiton	5002007	MV Allie Chouest	Phone number, MSAT G2-TM	4045055000050		3200146629	shawno	8008519982	2011-03-01		20.00	Month
+BHP Billiton	5002008	MV Fast Skipper	Satellite Phone, MSAT G2-TM	4043055000000		3200146629	shawno		2011-03-01		600.00	Month
+BHP Billiton	5002008	MV Fast Skipper	Phone number, MSAT G2-TM	4045055000050		3200146629	shawno	8775986309	2011-03-01		20.00	Month
+BHP Billiton	5002008	MV Fast Skipper	Call Barring-TM	4045055000050		3200146629	shawno		2011-03-01		12.00	Month
+Black Elk Energy	5002236	HI442A	Space Segment 512/256-TM	4013055000000			tracyp		2011-05-01		2000.00	Month
+Black Elk Energy	5002236	HI442A	VSAT Terminal Standard-TM	4013055000000			tracyp		2011-05-01		0.00	
+Black Elk Energy	5002236	HI442A	VSAT Dish, 1.2M Fixed-TM	4043055000000			tracyp		2011-05-01		0.00	
+Black Elk Energy	5002236	HI442A	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050901	2011-05-01		0.00	
+Black Elk Energy	5002236	HI442A	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050902	2011-05-01		0.00	
+Black Elk Energy	5002236	HI442A	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050903	2011-05-01		0.00	
+Black Elk Energy	5002236	HI442A	Phone Number, Vendor Provided-TM	4045055000050			tracyp	Fax 3372059020	2011-05-01		0.00	
+Black Elk Energy	5002236	HI442A	Fax Machine-TM	4043055000000			tracyp		2011-05-01		0.00	
+Black Elk Energy	5002236	HI442A	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050900	2011-05-01		0.00	
+Black Elk Energy	5002237	WD32	VSAT Dish, 1.2M Fixed-TM	4043055000000			tracyp		2011-05-01		0.00	
+Black Elk Energy	5002237	WD32	VSAT Terminal Standard-TM	4013055000000			tracyp	Modem: 114758	2011-05-01		0.00	
+Black Elk Energy	5002237	WD32	Space Segment 512/256-TM	4013055000000			tracyp		2011-05-01		1500.00	Month
+Black Elk Energy	5002237	WD32	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050892	2011-05-01		0.00	
+Black Elk Energy	5002237	WD32	Phone Number, Vendor Provided-TM	4045055000050			tracyp	Fax 3372059027	2011-05-01		0.00	
+Black Elk Energy	5002237	WD32	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050891	2011-05-01		0.00	
+Black Elk Energy	5002238	SS219B	VSAT Dish, 1.2M Fixed-TM	4043055000000			tracyp		2011-05-01		0.00	
+Black Elk Energy	5002238	SS219B	VSAT Terminal Standard-TM	4013055000000			tracyp		2011-05-01		0.00	
+Black Elk Energy	5002238	SS219B	Space Segment 256/128-TM	4013055000000			tracyp		2011-05-01		1500.00	Month
+Black Elk Energy	5002238	SS219B	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050894	2011-05-01		0.00	
+Black Elk Energy	5002238	SS219B	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050895	2011-05-01		0.00	
+Black Elk Energy	5002238	SS219B	Phone Number, Vendor Provided-TM	4045055000050			tracyp	Fax 3372059025	2011-05-01		0.00	
+Black Elk Energy	5002239	SS219A	VSAT Dish, 1.2M Fixed-TM	4043055000000			tracyp		2011-05-01		0.00	
+Black Elk Energy	5002239	SS219A	VSAT Terminal Standard-TM	4013055000000			tracyp	Modem: 114211	2011-05-01		0.00	
+Black Elk Energy	5002239	SS219A	Space Segment 512/256-TM	4013055000000			tracyp		2011-05-01		2000.00	Month
+Black Elk Energy	5002239	SS219A	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050898	2011-05-01		0.00	
+Black Elk Energy	5002239	SS219A	Phone Number, Vendor Provided-TM	4045055000050			tracyp	Fax 3372059026	2011-05-01		0.00	
+Black Elk Energy	5002239	SS219A	Phone Number, Lafayette-TM	4045055000050			tracyp	3372050897	2011-05-01		0.00	
+Bordelon Marine	5002009	MV Marcel Bordelon	Fax Machine-TM	4043055000000			shawno	Brother MFC290C	2011-03-01		0.00	
+Bordelon Marine	5002009	MV Marcel Bordelon	Phone Number, Houma-TM	4045055000050			shawno	9852622475	2011-03-01		0.00	
+Bordelon Marine	5002009	MV Marcel Bordelon	Phone Number, Houma-TM	4045055000050			shawno	9852622128	2011-03-01		0.00	
+Bordelon Marine	5002009	MV Marcel Bordelon	Phone Number, Houma-TM	4045055000050			shawno	Fax 9857469092	2011-03-01		0.00	
+Bordelon Marine	5002009	MV Marcel Bordelon	VSAT Terminal Gilat-TM	4013055000000			shawno		2011-03-01		0.00	
+Bordelon Marine	5002009	MV Marcel Bordelon	VSAT dish, Azimuth .85m-TM	4043055000000			shawno		2011-03-01		0.00	
+Bordelon Marine	5002009	MV Marcel Bordelon	Space Segment 1024/512-TM	4013055000000			shawno		2011-03-01		3000.00	Month
+Bradley & Moreau Real Title	5000244	Camelia Blvd	2-Way Complete, Ported	4045050000050			waltm	Camelia Main Line 3372354660	2008-04-01		29.99	Month
+Bradley & Moreau Real Title	5000244	Camelia Blvd	2-Way, VoIP Trunk	4045050000055			waltm	Adds two Consecutive calls 3372354660-A	2008-04-01		29.99	Month
+Bradley & Moreau Real Title	5000244	Camelia Blvd	2-Way, DID	4045050000050			waltm	7.99 each 3373669154-82&9070	2008-04-01		231.70	Month
+Bradley & Moreau Real Title	5000244	Camelia Blvd	Internet, 3M LUS On-Net	4011050000000			waltm	On DC SPR @ Camilla Blvd 1015000244	2008-01-01		325.00	Month
+Bradley & Moreau Real Title	5000244	Camelia Blvd	Interconnect, VoIP	4045050000055			waltm	1005000244	2008-04-01		312.50	Month
+Bradley & Moreau Real Title	5000244	Camelia Blvd	Internet, 3M LUS On-Net	4011050000000			waltm	On DC SPR @ St Mary St 1025000244	2008-05-15		325.00	Month
+Bradley & Moreau Real Title	5000244	Camelia Blvd	2-Way Complete, Ported	4045050000050			waltm	Camelia Fax, email to receptionist. 3372354647	2008-04-01		29.99	Month
+C&G Boats	5002010	MV Ms. Maggie	Phone Number, Iridium-TM	4045055000050			shawno	4802634854	2011-03-01		55.00	Month
+Cajun Maritime, LLC	5002011	Office	Satellite phone, Inmarsat-TM	4043055000000		63571	admin	sim 898709910416141894 870776442969	2011-03-01		25.00	Month
+Danos Deep Water Vessels	5002013	MV Olivia Rae	Phone Number, Iridium-TM	4045055000050		SO1194	shawno	4802635734	2011-03-01		55.00	Month
+Deep Water Vessel Operations No.2, LLC. (DV02)	5002071	MV Gulf Tiger	Phone Number, Iridium-TM	4045055000050			shawno	4802635229	2011-03-01		55.00	Month
+Dorsey Offshore LLC	5002014	MV Rene	Phone number, MSAT G2-TM	4045055000050			shawno	877-265-6355 6007008141, MTID 153132	2011-03-01		50.00	Month
+Dorsey Offshore LLC	5002014	MV Rene	Call Barring-TM	4045055000050			shawno		2011-03-01		12.00	Month
+Dynamic Offshore	5002023	VR 371 Construction	Phone Number, Houston-TM	4045055000050		6R1068	stevel	7133382683	2011-03-01		0.00	
+Dynamic Offshore	5002023	VR 371 Construction	Phone Number, Houston-TM	4045055000050		6R1068	stevel	7133382119	2011-03-01		0.00	
+Dynamic Offshore	5002023	VR 371 Construction	Phone Number, Houston-TM	4045055000050		6R1068	stevel	7133382682	2011-03-01		0.00	
+Dynamic Offshore	5002023	VR 371 Construction	VSAT Terminal Standard-TM	4013055000000		6R1068	stevel	mdem 55730. 5000 series	2011-03-01		85.00	Day
+Dynamic Offshore	5002023	VR 371 Construction	VSAT Dish, 1.2M Fixed-TM	4043055000000		6R1068	stevel		2011-03-01		0.00	
+Dynamic Offshore	5002023	VR 371 Construction	Phone Number, Houston-TM	4045055000050		6R1068	stevel	Fax 8324262933	2011-03-01		0.00	
+Dynamic Offshore	5002025	EI 7 S/L 19269002	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Dynamic Offshore	5002025	EI 7 S/L 19269002	Fax Machine-TM	4043055000000			stevel	Brother MFC290C	2011-03-01		0.00	
+Dynamic Offshore	5002025	EI 7 S/L 19269002	Phone Number, Houston-TM	4045055000050			stevel	7134222970	2011-03-01		0.00	
+Dynamic Offshore	5002025	EI 7 S/L 19269002	Phone Number, Houston-TM	4045055000050			stevel	7134222971	2011-03-01		0.00	
+Dynamic Offshore	5002025	EI 7 S/L 19269002	Phone Number, Houston-TM	4045055000050			stevel	Fax 2819903027	2011-03-01		0.00	
+Dynamic Offshore	5002025	EI 7 S/L 19269002	Space Segment 256/128-TM	4013055000000			stevel		2011-03-01		1465.00	Month
+Dynamic Offshore	5002025	EI 7 S/L 19269002	VSAT Terminal Standard-TM	4013055000000			stevel	Modem: 116420	2011-03-01		0.00	
+Dynamic Offshore	5002027	VR 332	VSAT Terminal Standard-TM	4013055000000		VR332-080309-TT1	stevel	Modem: 55067	2011-03-01		0.00	
+Dynamic Offshore	5002027	VR 332	VSAT Dish, 1.2M Fixed-TM	4043055000000		VR332-080309-TT1	stevel		2011-03-01		0.00	
+Dynamic Offshore	5002027	VR 332	Space Segment 256/128-TM	4013055000000		VR332-080309-TT1	stevel		2011-03-01		1465.00	Month
+Dynamic Offshore	5002027	VR 332	Phone Number, Houston-TM	4045055000050		VR332-080309-TT1	stevel	7139666054	2011-03-01		0.00	
+Dynamic Offshore	5002027	VR 332	Phone Number, Houston-TM	4045055000050		VR332-080309-TT1	stevel	Fax 2816280027	2011-03-01		0.00	
+Dynamic Offshore	5002027	VR 332	Phone Number, Houston-TM	4045055000050		VR332-080309-TT1	stevel	7139666055	2011-03-01		0.00	
+Dynamic Offshore	5002029	VR 315	VSAT Dish, 1.2M Fixed-TM	4043055000000		VR315-080309-TT3	stevel		2011-03-01		0.00	
+Dynamic Offshore	5002029	VR 315	VSAT Terminal Standard-TM	4013055000000		VR315-080309-TT3	stevel	Modem: 57206	2011-03-01		0.00	
+Dynamic Offshore	5002029	VR 315	Phone Number, Houston-TM	4045055000050		VR315-080309-TT3	stevel	7139666052	2011-03-01		0.00	
+Dynamic Offshore	5002029	VR 315	Phone Number, Houston-TM	4045055000050		VR315-080309-TT3	stevel	7139604861	2011-03-01		0.00	
+Dynamic Offshore	5002029	VR 315	Space Segment 256/128-TM	4013055000000		VR315-080309-TT3	stevel		2011-03-01		1465.00	Month
+Dynamic Offshore	5002029	VR 315	Phone Number, Houston-TM	4045055000050		VR315-080309-TT3	stevel	7139666053	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002015	VR 362	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Dynamic Offshore Bandon	5002015	VR 362	VSAT Terminal Standard-TM	4013055000000			stevel	Modem: 120030	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002015	VR 362	Space Segment 256/128-TM	4013055000000			stevel		2011-03-01		1465.00	Month
+Dynamic Offshore Bandon	5002015	VR 362	Phone Number, Houston-TM	4045055000050			stevel	7134222258	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002015	VR 362	Phone Number, Houston-TM	4045055000050			stevel	7134222259	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002015	VR 362	Fax Machine-TM	4043055000000			stevel	Brother MFC290C	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002015	VR 362	Phone Number, Houston-TM	4045055000050			stevel	fax 7139604589	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002016	EC 320	VSAT Dish, 1.2M Fixed-TM	4043055000000		EC-320-12509RI	stevel		2011-03-01		0.00	
+Dynamic Offshore Bandon	5002016	EC 320	VSAT Terminal Standard-TM	4013055000000		EC-320-12509RI	stevel	Modem: 117196	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002016	EC 320	Space Segment 256/128-TM	4013055000000		EC-320-12509RI	stevel		2011-03-01		1465.00	Month
+Dynamic Offshore Bandon	5002016	EC 320	Fax Machine-TM	4043055000000		EC-320-12509RI	stevel		2011-03-01		0.00	
+Dynamic Offshore Bandon	5002016	EC 320	Phone Number, Houston-TM	4045055000050		EC-320-12509RI	stevel	8324158009	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002016	EC 320	Phone Number, Houston-TM	4045055000050		EC-320-12509RI	stevel	8324158010	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002016	EC 320	Phone Number, Houston-TM	4045055000050		EC-320-12509RI	stevel	Fax 8324262947	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002020	VR 196	Space Segment 256/128-TM	4013055000000			stevel		2011-03-01		1465.00	Month
+Dynamic Offshore Bandon	5002020	VR 196	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Dynamic Offshore Bandon	5002020	VR 196	VSAT Terminal Standard-TM	4013055000000			stevel	Modem: 116328	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002020	VR 196	Phone Number, Houston-TM	4045055000050			stevel	8324158015	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002020	VR 196	Phone Number, Houston-TM	4045055000050			stevel	8324158016	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002020	VR 196	Phone Number, Houston-TM	4045055000050			stevel	8324262946	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002022	EC 332	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Dynamic Offshore Bandon	5002022	EC 332	VSAT Terminal Standard-TM	4013055000000			stevel	Modem: 117153	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002022	EC 332	Phone Number, Houston-TM	4045055000050			stevel	Fax 8324262948	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002022	EC 332	Phone Number, Houston-TM	4045055000050			stevel	8324158012	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002022	EC 332	Phone Number, Houston-TM	4045055000050			stevel	8324158011	2011-03-01		0.00	
+Dynamic Offshore Bandon	5002022	EC 332	Space Segment 256/128-TM	4013055000000			stevel		2011-03-01		1465.00	Month
+Dynamic Offshore Resources	5001619	VE 272	Phone Number, Lafayette	4045050000050			stevel	3372109521	2010-07-09		0.00	
+Dynamic Offshore Resources	5001619	VE 272	VSAT Dish, 1.2M Fixed	4043050000000			stevel		2010-07-09		0.00	
+Dynamic Offshore Resources	5001619	VE 272	VSAT Terminal Standard	4013050000000			stevel	Modem: 53986 VSAT 1028	2010-07-09		0.00	
+Dynamic Offshore Resources	5001619	VE 272	Space Segment 512/512	4013050000000			stevel		2010-07-09		1500.00	Month
+Dynamic Offshore Resources	5001619	VE 272	Phone Number, Lafayette	4045050000050			stevel	3372109520	2010-07-09		0.00	
+Dynamic Offshore SPN	5002030	EC 330B	VSAT Terminal Standard-TM	4013055000000			stevel	Modem: 56878	2011-03-01		0.00	
+Dynamic Offshore SPN	5002030	EC 330B	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Dynamic Offshore SPN	5002030	EC 330B	Space Segment 256/128-TM	4013055000000			stevel		2011-03-01		1465.00	Month
+Dynamic Offshore SPN	5002030	EC 330B	Phone Number, Houston-TM	4045055000050			stevel	7139666321	2011-03-01		0.00	
+Dynamic Offshore SPN	5002030	EC 330B	Fax Machine-TM	4043055000000			stevel	Brother MFC290C	2011-03-01		0.00	
+Dynamic Offshore SPN	5002030	EC 330B	Phone Number, Houston-TM	4045055000050			stevel	Fax 7139604862	2011-03-01		0.00	
+Dynamic Offshore SPN	5002030	EC 330B	Phone Number, Houston-TM	4045055000050			stevel	7139666355	2011-03-01		0.00	
+Energy Partners Ltd	5000063	ST 41B	VSAT Terminal Internet Only	4013050000000			jerrelb	VSAT-1021 56911	2007-05-22		0.00	
+Energy Partners Ltd	5000063	ST 41B	Space Segment 256/256	4013050000000			jerrelb		2007-05-22		27.50	Day
+ENI Petroleum	5000151	Various	Phone Number, Iridium	4045050000050			tracyp	MST3105 881693115456	2007-08-23		0.00	
+ENI Petroleum	5000151	Various	Phone Number, Iridium	4045050000050			tracyp	MST3106 881693115446	2007-08-23		0.00	
+ENI Petroleum	5000151	Various	Phone Number, Iridium	4045050000050			tracyp	MST3108 881693115458	2007-08-23		0.00	
+ENI Petroleum	5000151	Various	Phone Number, Iridium	4045050000050			tracyp	MST3107 881693115447	2007-08-23		0.00	
+ENI Petroleum	5000151	Various	Satellite Phone, Irridium	4043050000000			tracyp	MST-3105	2007-08-23		50.00	Month
+ENI Petroleum	5000151	Various	Satellite Phone, Irridium	4043050000000			tracyp	MST-3107	2007-08-23		50.00	Month
+ENI Petroleum	5000151	Various	Satellite Phone, Irridium	4043050000000			tracyp	MST-3108	2007-08-23		50.00	Month
+ENI Petroleum	5000151	Various	Satellite Phone, Irridium	4043050000000			tracyp	MST-3106	2007-08-23		50.00	Month
+Fugro Geo Services	5000194	M/V Enterprise	Space Segment 512/512	4013050000000			waltm		2011-06-13		1215.00	month
+Fugro Geo Services	5000194	M/V Enterprise	Phone Number, Iridium	4045050000050			waltm	Local N.O number 504 355 0742 881641498532	2007-12-14		65.00	Month
+Fugro Geo Services	5000194	M/V Enterprise	Phone Number, Lafayette	4045050000050			waltm	3372109531	2007-10-22		0.00	
+Fugro Geo Services	5000194	M/V Enterprise	Phone Number, Lafayette	4045050000050			waltm	3372109530	2007-10-22		0.00	
+Fugro Geo Services	5000194	M/V Enterprise	VSAT Dish, Orbit AL 7103	4043050000000			waltm	orbit dish customer owned	2007-10-22		0.00	
+Fugro Geo Services	5000346	MV Universal Surveyor	Space Segment 512/512	4013050000000			waltm		2011-06-13		1215.00	month
+Fugro Geo Services	5000346	MV Universal Surveyor	Satellite Phone, Irridium	4043050000000			waltm	Customer owned phone 881641499112	2008-01-25		65.00	Month
+Fugro Geo Services	5000346	MV Universal Surveyor	Phone Number, Lafayette	4045050000050			waltm	3372109526	2008-02-11		0.00	
+Fugro Geo Services	5000346	MV Universal Surveyor	Phone Number, Houma	4045050000050			waltm	9857728526	2008-02-11		0.00	
+Fugro Geo Services	5000346	MV Universal Surveyor	VSAT Terminal Standard	4013050000000			waltm	Customer owned 059980	2008-02-11		0.00	
+Fugro Geo Services	5000346	MV Universal Surveyor	VSAT Dish, Orbit AL 7103	4043050000000			waltm	Customer owned.	2008-02-11		0.00	
+Fugro Geo Services	5000421	Spare Unit Irridium	Phone Number, Iridium	4045050000050			waltm	New Orleans number 504-355-0751 881641401642	2008-03-05		65.00	Month
+Fugro Geo Services	5000421	Spare Unit Irridium	Phone Number, Iridium	4045050000050			waltm	881641437323	2008-09-01		65.00	Month
+Fugro Geo Services	5000421	Spare Unit Irridium	Airtime, Irridium	4045050000050			waltm	Local number 337-889-0133	2008-09-01		1.45	Minute
+GJTBS	5000279		Internet, 6M LUS On-Net	4011050000000			jerrelb	Upgraded as per Tim Proctor 1015000279	2008-04-03		565.00	Month
+Gobal Oilfield Contractors LLC	5002036	MV Lady Eldine	Phone Number, Iridium-TM	4045055000050			admin	4807555737	2011-03-01		55.00	Month
+GOL Supply Boats	5002049	MV Kline Danos	VSAT Terminal Standard-TM	4013055000000			shawno		2011-04-24		0.00	
+GOL Supply Boats	5002049	MV Kline Danos	VSAT Dish, KVH V7-TM	4043055000000			shawno	VSAT-5005	2011-04-24		0.00	
+GOL Supply Boats	5002049	MV Kline Danos	Space Segment 512/256-TM	4013055000000			shawno		2011-04-24		195.00	Day
+GOL Supply Boats	5002049	MV Kline Danos	Phone Number, Houston-TM	4045055000050			shawno	2819210707	2011-04-24		0.00	
+GOL Supply Boats	5002049	MV Kline Danos	Phone Number, Houston-TM	4045055000050			shawno	2819210706	2011-04-24		0.00	
+GOL Supply Boats	5002049	MV Kline Danos	Phone Number, Iridium-TM	4045055000050			shawno	4802635947	2011-03-01		55.00	Month
+GOL Supply Boats	5002049	MV Kline Danos	Oceans mail-TM	4043055000000			shawno	4/1/2010 renewal E-Mail: klinedanos@ocens.net	2011-03-01		400.00	Yearly
+GOL Supply Boats	5002214	MV Olivia Rae	Phone Number, Vendor Provided	4045050000050			shawno	Fax line on SATFAX 985-601-2594 FAX	2011-04-01		0.00	
+GOL Supply Boats	5002214	MV Olivia Rae	VSAT dish, Azimuth .85m-TM	4043055000000			shawno	AT10033 antenna, AT10041 ACU	2011-04-01		0.00	
+GOL Supply Boats	5002214	MV Olivia Rae	VSAT Terminal Gilat-TM	4013055000000			shawno	GS10033, RB10117, co10008, vo10130, st10096	2011-04-01		0.00	
+GOL Supply Boats	5002214	MV Olivia Rae	Fax Machine-TM	4043055000000			shawno	MFC-295 CN, fx10142	2011-04-01		0.00	
+GOL Supply Boats	5002214	MV Olivia Rae	Phone Number, New Orleans-TM	4045055000050			shawno	985-746-9257	2011-04-01		0.00	
+GOL Supply Boats	5002214	MV Olivia Rae	Phone Number, New Orleans-TM	4045055000050			shawno	985-746-9256	2011-04-01		0.00	
+GOL Supply Boats	5002214	MV Olivia Rae	Space Segment 1024/256-TM	4013055000000			shawno		2011-04-01		2650.00	Month
+Gulf Coast Tugs Inc	5002053	MV Larry J Hebert	Phone Number, Iridium-TM	4045055000050			shawno	4802635290	2011-03-01		55.00	Month
+Gulf Offshore Marine	5002054	MV Miss Carli	Phone Number, Iridium-TM	4045055000050			shawno	4802635621	2011-03-01		55.00	Month
+Helis Oil & gas	5000278		Internet, 2M LUS On-Net	4011050000000			shawno		2007-01-01		300.00	Month
+Hilcorp Energy Company	5000219	Redfish point	Space Segment 512/256	4013050000000			tracyp		2007-11-19		26.00	Day
+Hilcorp Energy Company	5000219	Redfish point	Phone Number, Houston	4045050000050			tracyp	8324614521	2007-11-19		0.00	
+Hilcorp Energy Company	5000219	Redfish point	Phone Number, Houston	4045050000050			tracyp	8324614522	2007-11-19		0.00	
+Hilcorp Energy Company	5000289	Pearsall Line	Space Segment 64/64	4013050000000	761368	AFE: 761368	tracyp	modem s/n 064403 Switch s/n 00g801533 Dilly	2007-12-05		300.00	Month
+Hilcorp Energy Company	5000289	Pearsall Line	Space Segment 64/64	4013050000000	761368	AFE: 761368	tracyp	modem s/n 55379 Switch s/n 00g801342 Tilden	2007-12-05		300.00	Month
+Hilcorp Energy Company	5000289	Pearsall Line	Space Segment 64/64	4013050000000	761368	AFE: 761368	tracyp	modem s/n 080609 Switch s/n 00g801359 Mayo	2007-12-05		300.00	Month
+Hilcorp Energy Company	5000289	Pearsall Line	Space Segment 64/64	4013050000000	761368	AFE: 761368	tracyp	modem s/n 080780 Switch s/n 00g800677 Pearsall	2007-12-05		300.00	Month
+Hilcorp Energy Company	5000289	Pearsall Line	Space Segment 64/64	4013050000000	761368	AFE: 761368	tracyp	modem s/n 064655 Switch s/n 00g801343 Three Rivers	2007-12-05		300.00	Month
+Hilcorp Energy Company	5000290	Mirando Line	Space Segment 64/64	4013050000000	761367	AFE: 761367	tracyp	modem s/n 063046 switch s/n 00g801532 Freer	2007-12-05		300.00	Month
+Hilcorp Energy Company	5000290	Mirando Line	Space Segment 64/64	4013050000000	761367	AFE: 761367	tracyp	modem s/n 063741 switch s/n 00g801344 Benevides	2007-12-05		300.00	Month
+Hilcorp Energy Company	5000290	Mirando Line	Space Segment 64/64	4013050000000	761367	AFE: 761367	tracyp	modem s/n 063944 switch s/n 00g801345 Aqua Dulce	2007-12-05		300.00	Month
+Hilcorp Energy Company	5000290	Mirando Line	Space Segment 64/64	4013050000000	761367	AFE: 761367	tracyp	modem s/n 080708 switch s/n 00g801531 Mirando	2007-12-05		300.00	Month
+Hilcorp Energy Company	5001675	Kenedy TX	Space Segment 512/128	4013050000000			tracyp		2010-09-27		0.00	
+Hilcorp Energy Company	5001675	Kenedy TX	VSAT Dish, 1.2M Fixed	4043050000000			tracyp		2010-09-27		0.00	
+Hilcorp Energy Company	5001675	Kenedy TX	VSAT Terminal Internet Only	4013050000000			tracyp	VSAT-1251	2010-09-27		40.00	Day
+J Brady Marine	5002060	Customer Office	Talkgroup, MSAT G2-TM	4043055000000			shawno	19843474 MTID #154817	2011-03-02		138.95	Month
+J Brady Marine	5002061	MV Tradewind	Satellite TV, DirecTV-TM	4013055000000			shawno	6LF0174 card # 0017 8792 0865 	2011-06-24		8.00	day
+J Brady Marine	5002061	MV Tradewind	Talkgroup, MSAT G2-TM	4043055000000			shawno	16411128 MTID #154738	2011-03-01		138.95	Month
+J Brady Marine	5002061	MV Tradewind	Call Barring-TM	4045055000050			shawno		2011-03-01		12.00	Month
+J Brady Marine	5002061	MV Tradewind	Phone number, MSAT G2-TM	4045055000050			shawno	8662157889	2011-03-01		20.00	Month
+J Brady Marine	5002062	MV Leeza Rene	Talkgroup, MSAT G2-TM	4043055000000			shawno	16408090 MTID #154765	2011-03-01		138.95	Month
+J Brady Marine	5002062	MV Leeza Rene	Phone number, MSAT G2-TM	4045055000050			shawno	8775642613	2011-03-01		20.00	Month
+J Brady Marine	5002062	MV Leeza Rene	Call Barring-TM	4045055000050			shawno		2011-03-01		12.00	Month
+J Brady Marine	5002233	MV Gulf Ranger	Call Barring	4045050000050			shawno	337-365-6494 713-422-5342 337-898-2104 713-403-5537 713-204-9466 985-414-0465 508-922-0528 985-637-7160 985-665-1397	2011-06-02		12.00	month
+J Brady Marine	5002233	MV Gulf Ranger	Talkgroup, MSAT G2-TM	4043055000000			shawno	16409896 MTID # 157401 866-292-7704	2011-05-03		138.95	Month
+JNB Operatiing	5002063	MV Angela	Phone Number, Iridium-TM	4045055000050			shawno	4804568066	2011-03-01		55.00	Month
+JNB Operatiing	5002064	MV Miss Caroline	Phone Number, Iridium-TM	4045055000050			shawno	4804567501	2011-03-01		55.00	Month
+JNB Operatiing	5002065	MV Judy Francis	Phone Number, Iridium-TM	4045055000050			shawno	4804589221	2011-03-01		55.00	Month
+JNB Operatiing	5002066	MV Wildcat	Phone Number, Iridium-TM	4045055000050			shawno	4804567649	2011-03-01		55.00	Month
+JNB Operatiing	5002067	MV Miss Bet	Phone Number, Iridium-TM	4045055000050			shawno	4802635932	2011-03-01		55.00	Month
+JNB Operatiing	5002070	MV Mr Lloyd	Phone Number, Iridium-TM	4045055000050			shawno	4804567469	2011-03-01		55.00	Month
+KMB Vessels	5002052	MV Ms Taylor	Phone Number, Iridium-TM	4045055000050			shawno	4802635251	2011-03-01		55.00	Month
+KMB Vessels	5002072	MV Marc C	Phone number, Inmarsat-TM	4045055000050			admin	4802636945	2011-03-01		55.00	Month
+L&M Botruc	5002073	MV Botruc 41	Space Segment 1024/512	4013050000000			shawno	Newcom X5 modem 068622	2011-06-01		150.00	day
+L&M Botruc	5002073	MV Botruc 41	Space Segment 1024/512	4013050000000			shawno	Newcom X5 modem 068622	2011-06-01		150.00	day
+L&M Botruc	5002073	MV Botruc 41	Switch, Ethernet 8 Port-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Switch, Ethernet 8 Port-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Phone Number, Houma-TM	4045055000050			shawno	985-772-8558 	2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Phone Number, Houma-TM	4045055000050			shawno	985-772-8558 	2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Phone Number, Houma-TM	4045055000050			shawno	985-772-8559 	2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Phone Number, Houma-TM	4045055000050			shawno	985-772-8559 	2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Fax Machine-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Fax Machine-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	VSAT Terminal Gilat-TM	4013055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	VSAT Terminal Gilat-TM	4013055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	VSAT dish, Azimuth 1m-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	VSAT dish, Azimuth 1m-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Phone Number, Houma-TM	4045055000050			shawno	985-772-8524 fax 	2011-03-01		0.00	
+L&M Botruc	5002073	MV Botruc 41	Phone Number, Houma-TM	4045055000050			shawno	985-772-8524 fax 	2011-03-01		0.00	
+L&M Botruc	5002074	MV Botruc 40	Phone Number, New Orleans-TM	4045055000050			shawno	985-772-8547 	2011-03-01		0.00	
+L&M Botruc	5002074	MV Botruc 40	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax 985-746-4841	2011-03-01		0.00	
+L&M Botruc	5002074	MV Botruc 40	Fax Machine-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002074	MV Botruc 40	VSAT dish, Azimuth 1m-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002074	MV Botruc 40	Switch, Ethernet 8 Port-TM	4043055000000			shawno		2011-03-01		0.00	
+L&M Botruc	5002074	MV Botruc 40	Phone Number, New Orleans-TM	4045055000050			shawno	985-772-8548	2011-03-01		0.00	
+L&M Botruc	5002074 ***	MV Botruc 40	VSAT Terminal Standard-TM	4013055000000			shawno	Modem 115723	2011-07-20		0.00	
+L&M Botruc	5002074 ***	MV Botruc 40	Space Segment 1024/512-TM	4013055000000			shawno		2011-07-20		2950.00	month
+L&M Botruc	5002075	Sim card rental	Phone Number, Iridium-TM	4045055000050			shawno	SIM #8988169414001188588 4802635254	2011-03-01		55.00	Month
+L&M Botruc	5002075	Sim card rental	Phone Number, Iridium-TM	4045055000050			shawno	SIM #8988169414001188596 4802635255	2011-03-01		55.00	Month
+L&M Botruc	5002075	Sim card rental	Phone Number, Iridium-TM	4045055000050			shawno	SIM #8988169414001188604 4802635256	2011-03-01		55.00	Month
+L&M Botruc	5002279	MV C-truc 4	Phone Number, Houma-TM	4045055000050			shawno	9857728545	2011-06-30		0.00	
+L&M Botruc	5002279	MV C-truc 4	Phone Number, Houma-TM	4045055000050			shawno	9857728544	2011-06-30		0.00	
+L&M Botruc	5002279	MV C-truc 4	Space Segment 256/128-TM	4013055000000			shawno		2011-06-30		2215.00	month
+L&M Botruc	5002279	MV C-truc 4	VSAT Dish, KVH V7-TM	4043055000000			shawno		2011-06-30		0.00	
+L&M Botruc	5002279	MV C-truc 4	VSAT Terminal Standard-TM	4013055000000			shawno	VSAT-5004	2011-06-30		0.00	
+L&M Botruc	5002280	MV C-truc 5	Fax Machine-TM	4043055000000			shawno	FAX-2134	2011-06-21		0.00	
+L&M Botruc	5002280	MV C-truc 5	Computer, LAPTOP-TM	4043055000000			shawno	gzz593NB501595, customer owned	2011-06-21		0.00	
+L&M Botruc	5002280	MV C-truc 5	VSAT Terminal Standard-TM	4013055000000			shawno	VSAT-5015	2011-06-21		0.00	
+L&M Botruc	5002280	MV C-truc 5	VSAT Dish, KVH V7-TM	4043055000000			shawno		2011-06-21		0.00	
+L&M Botruc	5002280	MV C-truc 5	Space Segment 256/128-TM	4013055000000			shawno		2011-06-21		2215.00	month
+L&M Botruc	5002280	MV C-truc 5	Phone Number, Houma-TM	4045055000050			shawno	9857728535	2011-06-21		0.00	
+L&M Botruc	5002280	MV C-truc 5	Phone Number, Houma-TM	4045055000050			shawno	9857728536	2011-06-21		0.00	
+LH Fournier & Associates, Inc.	5002050	MV Lanie Marie	Phone Number, Iridium-TM	4045055000050			shawno	4802637041	2011-03-01		55.00	Month
+LLOG Exploration	5000087	WC-31 Prod.	Space Segment 512/128	4013050000000			tracyp		2007-06-23		1500.00	Month
+LLOG Exploration	5000087	WC-31 Prod.	Phone Number, Lafayette	4045050000050			tracyp	3372109515	2007-06-23		0.00	
+LLOG Exploration	5000087	WC-31 Prod.	Phone Number, Lafayette	4045050000050			tracyp	3372109516	2007-06-23		0.00	
+LLOG Exploration	5000096	HI 170	2-Way Radio, VHF Mobile	4043050000000			tracyp	MOB-5005	2009-05-05		228.00	Month
+LLOG Exploration	5000096	HI 170	Space Segment 512/128	4013050000000			tracyp		2007-07-15		1500.00	Month
+LLOG Exploration	5000096	HI 170	Phone Number, Lafayette	4045050000050			tracyp	3372109514	2007-07-15		0.00	
+LLOG Exploration	5000096	HI 170	Phone Number, Lafayette	4045050000050			tracyp	3372109513	2007-07-15		0.00	
+M2M Data Corporation	5002079		Phone Number, BGAN-TM	4045055000050		3188	shawno	SIM #898709910412479389 772393983	2011-03-01		46.20	Month
+M2M Data Corporation	5002079		Static Ip Address, BGAN-TM	4043055000000		3188	shawno		2011-03-01		26.60	Month
+M2M Data Corporation	5002080		Phone Number, BGAN-TM	4045055000050			shawno	SIM #898709908412337431 772181758	2011-03-01		46.20	Month
+M2M Data Corporation	5002080		Static Ip Address, BGAN-TM	4043055000000			shawno		2011-03-01		26.60	Month
+M2M Data Corporation	5002081		Static Ip Address, BGAN-TM	4043055000000		3122	shawno		2011-03-01		26.60	Month
+M2M Data Corporation	5002081		Phone Number, BGAN-TM	4045055000050		3122	shawno	SIM #898700910412474087 772393576	2011-03-01		46.20	Month
+Maritech Resources Inc	5002085	HIA560	VSAT Terminal Standard-TM	4013055000000			stevel		2011-03-01		0.00	
+Maritech Resources Inc	5002085	HIA560	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Maritech Resources Inc	5002085	HIA560	Space Segment 256/128-TM	4013055000000			stevel		2011-03-01		1500.00	Month
+Maritech Resources Inc	5002085	HIA560	Fax Machine-TM	4043055000000			stevel		0000-00-00		0.00	
+Maritech Resources Inc	5002085	HIA560	Phone Number, Lafayette-TM	4045055000050			stevel	3372050245	2011-03-01		0.00	
+Maritech Resources Inc	5002085	HIA560	Phone Number, Vendor Provided-TM	4045055000050			stevel	Fax 3372057943	2011-03-01		0.00	
+Maritech Resources Inc	5002085	HIA560	Phone Number, Lafayette-TM	4045055000050			stevel	3372050246	2011-03-01		0.00	
+Maritech Resources Inc	5002087	EI129	VSAT Terminal Gilat-TM	4013055000000			stevel		2011-03-01		0.00	
+Maritech Resources Inc	5002087	EI129	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Maritech Resources Inc	5002087	EI129	Phone Number, Lafayette-TM	4045055000050			stevel	3372050882	2011-03-01		0.00	
+Maritech Resources Inc	5002087	EI129	Phone Number, Lafayette-TM	4045055000050			stevel	3372050883	2011-03-01		0.00	
+Maritech Resources Inc	5002087	EI129	Phone Number, Vendor Provided-TM	4045055000050			stevel	Fax 3372059023	2011-03-01		0.00	
+Maritech Resources Inc	5002087	EI129	Space Segment 1024/512-TM	4013055000000			stevel		2011-03-01		2300.00	Month
+Maritech Resources Inc	5002087	EI129	Phone Number, Lafayette-TM	4045055000050			stevel	3372050881	2011-03-01		0.00	
+Maritech Resources Inc	5002088	VR252	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Maritech Resources Inc	5002088	VR252	Space Segment 512/256-TM	4013055000000			stevel		2011-03-01		2000.00	Month
+Maritech Resources Inc	5002088	VR252	VSAT Terminal Standard-TM	4013055000000			stevel	Modem: 113831	2011-03-01		0.00	
+Maritech Resources Inc	5002088	VR252	Phone Number, Lafayette-TM	4045055000050			stevel	3372050878	2011-03-01		0.00	
+Maritech Resources Inc	5002088	VR252	Phone Number, Lafayette-TM	4045055000050			stevel	3372050879	2011-03-01		0.00	
+Maritech Resources Inc	5002088	VR252	Phone Number, Vendor Provided-TM	4045055000050			stevel	Fax 3372059024	2011-03-01		0.00	
+Maritech Resources Inc	5002089	VR250	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+Maritech Resources Inc	5002089	VR250	VSAT Terminal Gilat-TM	4013055000000			stevel		2011-03-01		0.00	
+Maritech Resources Inc	5002089	VR250	Space Segment 1024/512-TM	4013055000000			stevel		2011-03-01		2300.00	Month
+Maritech Resources Inc	5002089	VR250	Phone Number, Lafayette-TM	4045055000050			stevel	3372050886	2011-03-01		0.00	
+Maritech Resources Inc	5002089	VR250	Phone Number, Lafayette-TM	4045055000050			stevel	3372050885	2011-03-01		0.00	
+Maritech Resources Inc	5002089	VR250	Phone Number, Vendor Provided-TM	4045055000050			stevel	Fax 3372059022	2011-03-01		0.00	
+Maritech Resources Inc	5002095	MV Greg Danos	Phone number, MSAT G2-TM	4045055000050			stevel	8773039878	2011-03-01		20.00	Month
+Maritech Resources Inc	5002095	MV Greg Danos	Satellite Phone, MSAT G2-TM	4043055000000			stevel	MTID#154756	2011-03-01		500.00	Month
+Mark & Emmett Marine	5002096	Mark Bruce&#039;s phone	Phone Number, Iridium-TM	4045055000050			shawno	SIM #8988169514000419817 881651465006	2011-03-01		55.00	Month
+Master Jimbo Inc	5002133	MV Master Jimbo	Satellite Phone, Irridium-TM	4043055000000			shawno	SIM#8988169414001188653 4082635370	2011-03-01		55.00	Month
+Matagorda Island Gas Operations, LLC	5002000	MI 632A	VSAT Terminal Standard-TM	4013055000000		SO #1114	stevel	Modem: 54842	2011-03-01		0.00	
+Matagorda Island Gas Operations, LLC	5002000	MI 632A	VSAT Dish, 1.2M Fixed-TM	4043055000000		SO #1114	stevel		2011-03-01		0.00	
+Matagorda Island Gas Operations, LLC	5002000	MI 632A	Space Segment 256/128-TM	4013055000000		SO #1114	stevel		2011-03-01		1550.00	Month
+Mid-South Computer Networking INC	5002404	MV Seacor Charles F. McCall	Phone Number, Vendor Provided	4045050000050			waltm	0116531581733	2011-06-01			
+Mid-South Computer Networking INC	5002404	MV Seacor Charles F. McCall	Phone Number, Vendor Provided	4045050000050			waltm	9857464809	2011-06-01			
+Mid-South Computer Networking INC	5002404	MV Seacor Charles F. McCall	Space Segment 256/128	4013050000000			waltm		2011-06-01		1795.00	month
+Mid-South Computer Networking INC	5002404	MV Seacor Charles F. McCall	VSAT Dish, KVH V7	4043050000000			waltm	091200003 Customer owned 	2011-06-01			
+Mid-South Computer Networking INC	5002404	MV Seacor Charles F. McCall	VSAT Terminal Standard	4013050000000			waltm	modem 144109250918 Customer owned	2011-06-01			
+Mid-South Computer Networking INC	5002405	MV Seacor Chief Bayou KuKu	Phone Number, Vendor Provided	4045050000050			waltm	0116531581737	2011-06-01			
+Mid-South Computer Networking INC	5002405	MV Seacor Chief Bayou KuKu	Phone Number, Vendor Provided	4045050000050			waltm	9857464791	2011-06-01			
+Mid-South Computer Networking INC	5002405	MV Seacor Chief Bayou KuKu	Space Segment 256/128	4013050000000			waltm		2011-06-01		1795.50	month
+Mid-South Computer Networking INC	5002405	MV Seacor Chief Bayou KuKu	VSAT Dish, KVH V7	4043050000000			waltm	100302711 Customer owned	2011-06-01			
+Mid-South Computer Networking INC	5002405	MV Seacor Chief Bayou KuKu	VSAT Terminal Standard	4013050000000			waltm	144109250936	2011-06-01			
+Mid-South Computer Networking INC	5002406	MV Seacor Heimdal	Phone Number, Vendor Provided	4045050000050			waltm	9857464785	2011-06-01			
+Mid-South Computer Networking INC	5002406	MV Seacor Heimdal	Phone Number, Vendor Provided	4045050000050			waltm	9857464826	2011-06-01			
+Mid-South Computer Networking INC	5002406	MV Seacor Heimdal	Space Segment 512/256	4013050000000			waltm		2011-06-01		2695.50	month
+Mid-South Computer Networking INC	5002406	MV Seacor Heimdal	VSAT Dish, KVH V7	4043050000000			waltm	100500005 customer owned	2011-06-01			
+Mid-South Computer Networking INC	5002406	MV Seacor Heimdal	VSAT Terminal Standard	4013050000000			waltm	144109391074 customer owned	2011-06-01			
+Millennium Supply Boats, LLC	5002051	MV Joel Paul	Phone Number, Iridium-TM	4045055000050			shawno	4802637832	2011-03-01		55.00	Month
+Monica Ann LLC	5002097	MV Monica Ann	Phone Number, Iridium-TM	4045055000050			shawno	SIM #898816951400041973 887651428636	2011-03-01		55.00	Month
+Montco Offshore, Inc.	5002186	LB Paul	Phone Number, Houston	4045050000050			shawno	2819210751	2011-04-30		0.00	
+Montco Offshore, Inc.	5002186	LB Paul	Fax Machine	4043050000000			shawno	FAX-2114	2011-04-30		12.00	Day
+Montco Offshore, Inc.	5002186	LB Paul	Phone Number, Houston	4045050000050			shawno	2819210752	2011-04-30		0.00	
+Montco Offshore, Inc.	5002186	LB Paul	VSAT Terminal Standard	4013050000000			shawno	VSAT-5007	2011-04-30		0.00	
+Montco Offshore, Inc.	5002186	LB Paul	Space Segment 512/256	4013050000000			shawno		2011-04-30		4450.00	Month
+Montco Offshore, Inc.	5002186	LB Paul	VSAT Dish, KVH V7	4043050000000			shawno		2011-04-30		0.00	
+MR Zachary LLC	5002098	MV Mr Zachary	Phone Number, Iridium-TM	4045055000050			shawno	SIM #8988169514000419460 4807566449	2011-03-01		55.00	Month
+MS Lauren LLC	5002099	MV Miss Lauren	Phone number, Inmarsat-TM	4045055000050			shawno	SIM #8988169514000419361 4802635788	2011-03-01		55.00	Month
+MS Yvonne LLC	5002100	MV Miss Yvonne	Phone Number, Iridium-TM	4045055000050			admin	SIM #8988169224000450636 4802637629	2011-03-01		55.00	Month
+Murphy Exploration and Production	5000002	Madusa	Long Distance	4045050000053			tracyp	Irridium Airtime	2007-01-19		1.25	Minute
+Murphy Exploration and Production	5000002	Madusa	Satellite Phone, Irridium	4043050000000			tracyp	9505A w/docking station MST-3102	2007-01-19		485.00	Month
+Murphy Exploration and Production	5000002	Madusa	Phone Number, Iridium	4045050000050			tracyp	SIM#8988169414000161511 Direct Call 504-355-0138 881641448633	2007-01-19		0.00	
+Murphy Exploration and Production	5000016	Front Runner	Long Distance	4045050000053	SRO# 7250244	AFE: SRO# 7250244	tracyp		2007-01-19		1.25	Minute
+Murphy Exploration and Production	5000016	Front Runner	Satellite Phone, Irridium	4043050000000	SRO# 7250244	AFE: SRO# 7250244	tracyp	9505A w/docking station MST-3101	2007-01-19		485.00	Month
+Murphy Exploration and Production	5000016	Front Runner	Phone Number, Iridium	4045050000050	SRO# 7250244	AFE: SRO# 7250244	tracyp	SIM#8988169414000160398Direct Call 504-355-0137 881641448634	2007-01-19		0.00	
+Offshore Liftboats	5002110	LB Cameron	VSAT Dish, .96M Auto-Acquire-TM	4043055000000			shawno		2011-03-01		0.00	
+Offshore Liftboats	5002110	LB Cameron	VSAT Terminal Standard-TM	4013055000000			shawno	Modem: 116499	2011-03-01		0.00	
+Offshore Liftboats	5002110	LB Cameron	Space Segment 512/256-TM	4013055000000			shawno		2011-03-01		2500.00	Month
+Offshore Liftboats	5002110	LB Cameron	Phone Number, New Orleans-TM	4045055000050			shawno	9857464440	2011-03-01		0.00	
+Offshore Liftboats	5002110	LB Cameron	Phone Number, New Orleans-TM	4045055000050			shawno	9857464439	2011-03-01		0.00	
+Offshore Liftboats	5002110	LB Cameron	Phone Number, New Orleans-TM	4045055000050			shawno	9857464441	2011-03-01		0.00	
+Offshore Liftboats	5002110	LB Cameron	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax 9852353022	2011-03-01		0.00	
+Offshore Liftboats	5002110	LB Cameron	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax 9852353023	2011-03-01		0.00	
+Offshore Liftboats	5002110	LB Cameron	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax 9852353021	2011-03-01		0.00	
+Offshore Liftboats	5002112	LB Jonie	VSAT Terminal Standard-TM	4013055000000			shawno	Modem: 115801	2011-03-01		0.00	
+Offshore Liftboats	5002112	LB Jonie	VSAT dish, Azimuth .85m-TM	4043055000000			shawno		2011-03-01		0.00	
+Offshore Liftboats	5002112	LB Jonie	Space Segment 256/128-TM	4013055000000			shawno		2011-03-01		2650.00	Month
+Offshore Liftboats	5002112	LB Jonie	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax 9854769323	2011-03-01		0.00	
+Offshore Liftboats	5002112	LB Jonie	Phone Number, Houston-TM	4045055000050			shawno	7134422561	2011-03-01		0.00	
+Offshore Liftboats	5002112	LB Jonie	Fax Machine-TM	4043055000000			shawno		2011-03-01		0.00	
+Offshore Liftboats	5002112	LB Jonie	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax 7139604858	2011-03-01		0.00	
+Offshore Liftboats	5002112	LB Jonie	Phone Number, New Orleans-TM	4045055000050			shawno	9857464444	2011-03-01		0.00	
+Offshore Liftboats	5002112	LB Jonie	Phone Number, Houston-TM	4045055000050			shawno	7134422562	2011-03-01		0.00	
+Orion	5000246	Ranch	VSAT Terminal Standard	4013050000000			admin		2007-11-01		0.00	
+Orion	5000246	Ranch	Phone Number, Lafayette	4045050000050			admin	3372109506	2007-11-01		0.00	
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Phone Number, Houma-TM	4045055000050			shawno	9857728555	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Phone Number, Houma-TM	4045055000050			shawno	9857728554	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002113	DB William Kallop	VSAT dish, Azimuth 1m-TM	4043055000000			shawno		2011-03-01		2600.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	VSAT Terminal Standard-TM	4013055000000			shawno	Modem: 103172	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Space Segment 512/256-TM	4013055000000			shawno		2011-03-01		1465.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Fax Machine-TM	4043055000000			shawno	Customer provides fax line from Houma	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Call Barring-TM	4045055000050			shawno		2011-03-01		10.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Phone Number, New Orleans-TM	4045055000050			shawno	9857464977	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Network Monitoring-TM	4021055000000			shawno		2011-03-01		200.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Satellite Phone, Irridium-TM	4043055000000			shawno	SIM #8988169514000416508	2011-03-01		210.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Phone Number, Iridium-TM	4045055000050			shawno	4804586456	2011-03-01		55.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Satellite Phone, MSAT G2-TM	4043055000000			shawno	MTID#117919	2011-03-01		300.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Phone, Bell Style Coinless-TM	4043055000000			shawno		2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Talkgroup, MSAT G2-TM	4043055000000			shawno		2011-03-01		71.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Phone Number, New Orleans-TM	4045055000050			shawno	9857464972	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Phone number, MSAT G2-TM	4045055000050			shawno	866-292-2902	2011-03-01		10.00	Month
+OSFI/ Offshore Specialty	5002113	DB William Kallop	Phone, Bell Style Coinless-TM	4043055000000			shawno		2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002116	MV Capain Bill	Phone Number, Houma-TM	4045055000050			shawno	9857728551	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002116	MV Capain Bill	VSAT dish, Azimuth .85m-TM	4043055000000			shawno		2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002116	MV Capain Bill	VSAT Terminal Standard-TM	4013055000000			shawno	Modem: 103283	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002116	MV Capain Bill	Space Segment, 128/64-TM	4013055000000			shawno		2011-03-01		2000.00	Month
+OSFI/ Offshore Specialty	5002116	MV Capain Bill	Phone Number, New Orleans-TM	4045055000050			shawno	9857469254	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002116	MV Capain Bill	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax Line 9857464843	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Phone Number, Houma-TM	4045055000050		SO #1266	shawno	9857728553	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Phone Number, Houma-TM	4045055000050		SO #1266	shawno	9857728552	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	VSAT dish, Azimuth 1m-TM	4043055000000		SO #1266	shawno		2011-03-01		2600.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	VSAT Terminal Standard-TM	4013055000000		SO #1266	shawno	Modem: 103277	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Space Segment 512/256-TM	4013055000000		SO #1266	shawno		2011-03-01		1465.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Talkgroup, MSAT G2-TM	4043055000000		SO #1266	shawno		2011-03-01		71.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Fax Machine-TM	4043055000000		SO #1266	shawno		0000-00-00		0.00	
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Phone Number, New Orleans-TM	4045055000050		SO #1266	shawno	9857464976	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Phone Number, Iridium-TM	4045055000050		SO #1266	shawno	4804586454	2011-03-01		55.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Satellite Phone, Irridium-TM	4043055000000		SO #1266	shawno	SIM #8988169514000418561	2011-03-01		210.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Network Monitoring-TM	4021055000000		SO #1266	shawno		2011-03-01		200.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Satellite Phone, MSAT G2-TM	4043055000000		SO #1266	shawno	MTID#154849	2011-03-01		300.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Call Barring-TM	4045055000050		SO #1266	shawno		2011-03-01		10.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Phone Number, New Orleans-TM	4045055000050		SO #1266	shawno	9857464975	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Phone number, MSAT G2-TM	4045055000050		SO #1266	shawno	8772659141	2011-03-01		10.00	Month
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Phone, Bell Style Coinless-TM	4043055000000		SO #1266	shawno		2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002117	DB Swing Thompson	Phone, Bell Style Coinless-TM	4043055000000		SO #1266	shawno		2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002118	MV Offshore King	Phone Number, Houma-TM	4045055000050			shawno	9857728557	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002118	MV Offshore King	Space Segment, 128/64-TM	4013055000000			shawno		2011-03-01		2000.00	Month
+OSFI/ Offshore Specialty	5002118	MV Offshore King	VSAT Terminal Standard-TM	4013055000000			shawno	Modem: 115793	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002118	MV Offshore King	VSAT dish, Azimuth .85m-TM	4043055000000			shawno		2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002118	MV Offshore King	Phone Number, New Orleans-TM	4045055000050			shawno	9854644293	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002118	MV Offshore King	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax Line 9857469091	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002119	MV Mr Gilbert	Phone Number, Houma-TM	4045055000050			shawno	985-772-8556	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002119	MV Mr Gilbert	VSAT dish, Azimuth .85m-TM	4043055000000			shawno		2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002119	MV Mr Gilbert	VSAT Terminal Standard-TM	4013055000000			shawno	Modem: 120175	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002119	MV Mr Gilbert	Space Segment, 128/64-TM	4013055000000			shawno		2011-03-01		2000.00	Month
+OSFI/ Offshore Specialty	5002119	MV Mr Gilbert	Phone Number, New Orleans-TM	4045055000050			shawno	9857469265	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002119	MV Mr Gilbert	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax Line 9857469322	2011-03-01		0.00	
+OSFI/ Offshore Specialty	5002306	MV Brazos Express	Satellite Phone, MSAT G2-TM	4043055000000			shawno	ESN 16409197	2011-06-26		350.00	month
+OSFI/ Offshore Specialty	5002306	MV Brazos Express	Call Barring-TM	4045055000050			shawno		2011-06-26		15.00	month
+OSFI/ Offshore Specialty	5002306	MV Brazos Express	Phone number, MSAT G2-TM	4045055000050			shawno	88772656946	2011-06-26		75.00	month
+OSFI/ Offshore Specialty	5002306	MV Brazos Express	Phone number, MSAT G2-TM	4045055000050			shawno		2011-06-26		1.20	minute
+OSFI/ Offshore Specialty	5002308	MV Thyphoon Express	Phone number, MSAT G2-TM	4045055000050			shawno		2011-06-25		1.20	minute
+OSFI/ Offshore Specialty	5002308	MV Thyphoon Express	Call Barring-TM	4045055000050			shawno		2011-06-25		15.00	month
+OSFI/ Offshore Specialty	5002308	MV Thyphoon Express	Phone number, MSAT G2-TM	4045055000050			shawno	8662480374	2011-06-25		75.00	month
+OSFI/ Offshore Specialty	5002308	MV Thyphoon Express	Satellite Phone, MSAT G2-TM	4043055000000			shawno	ESN 16409206	2011-06-25		350.00	month
+Pisces Energy	5000546	Lafayette Office	Phone Number, Vendor Provided	4045050000050			tracyp	Troy DID: 337.806.1304 3379841524	2008-06-06		34.99	Month
+Pisces Energy	5000546	Lafayette Office	Internet, 3M LUS Off-Net	4012050000000			tracyp	Changed offices on 12/16/10	2010-12-16		487.50	Month
+Pisces Energy	5000546	Lafayette Office	2-Way Complete, Native	4045050000050			tracyp	3373669918	2008-06-06		34.99	Month
+Pisces Energy	5000546	Lafayette Office	Hosted PBX Service	4045050000050			tracyp	Wayne DID: 337.806.1302 1015000546	2008-06-06		250.00	Month
+Pisces Energy	5000584	EW 1003	Phone Number, New Orleans	4045050000050			tracyp	5043219501	2008-07-08		0.00	
+Pisces Energy	5000584	EW 1003	Phone Number, New Orleans	4045050000050			tracyp	5043219500	2008-07-08		0.00	
+Pisces Energy	5000584	EW 1003	Satellite TV, DirecTV	4013050000000			tracyp	1st receiver 004686578164	2008-07-08		150.00	Month
+Pisces Energy	5000584	EW 1003	Satellite TV, DirecTV	4013050000000			tracyp	2nd receiver 002392347486	2008-07-08		50.00	Month
+Pisces Energy	5000584	EW 1003	VSAT Dish, SeaTel 4006	4043050000000			tracyp		2009-09-18		0.00	
+Pisces Energy	5000584	EW 1003	Space Segment 512/384	4013050000000			tracyp		2008-07-08		3500.00	Month
+Pisces Energy	5000584	EW 1003	VSAT Terminal Standard	4013050000000			tracyp	053983	2008-07-08		0.00	
+Pisces Energy	5000584	EW 1003	2-Way Radio, Marine Mobile	4043050000000			tracyp	ch 1 159.75 pl 94.8 ch2 159.96 pl 91.5  TW10003	2008-07-08		0.00	
+Pisces Energy	5000605	VK 385	Phone Number, New Orleans	4045050000050			tracyp	5043219521	2008-07-03		0.00	
+Pisces Energy	5000605	VK 385	VSAT Dish, 1.2M Fixed	4043050000000			tracyp		2008-07-03		0.00	
+Pisces Energy	5000605	VK 385	VSAT Terminal Standard	4013050000000			tracyp	Modem: 80798 VSAT-1077	2008-07-03		0.00	
+Pisces Energy	5000605	VK 385	2-Way Radio, VHF Mobile	4043050000000			tracyp	ch 1 159.75 pl 94.8 ch2 159.96 pl 91.5 Cus. Owned MOB-5006	2008-07-03		0.00	
+Pisces Energy	5000605	VK 385	Satellite TV, DirecTV	4013050000000			tracyp	012754459647	2008-10-08		150.00	Month
+Pisces Energy	5000605	VK 385	Phone Number, New Orleans	4045050000050			tracyp	5043219520	2008-07-03		0.00	
+Pisces Energy	5000605	VK 385	Space Segment 512/256	4013050000000			tracyp		2008-07-03		1650.00	Month
+Pisces Energy	5000606	MP 265	Phone Number, New Orleans	4045050000050			tracyp	5043219522	2008-07-14		0.00	
+Pisces Energy	5000606	MP 265	Space Segment 512/256	4013050000000			tracyp		2008-07-14		1650.00	Month
+Pisces Energy	5000606	MP 265	VSAT Dish, 1.2M Fixed	4043050000000			tracyp		2008-07-14		0.00	
+Pisces Energy	5000606	MP 265	VSAT Terminal Standard	4013050000000			tracyp	Modem: 53605 VSAT-1045	2008-07-14		0.00	
+Pisces Energy	5000606	MP 265	2-Way Radio, VHF Mobile	4043050000000			tracyp	ch 1 159.75 pl 94.8 ch 2 159.96 pl 91.5 Cus. Owned MOB-5012	2008-07-14		0.00	
+Pisces Energy	5000606	MP 265	Satellite TV, DirecTV	4013050000000			tracyp	012754734726	2008-07-14		150.00	Month
+Pisces Energy	5000606	MP 265	Phone Number, New Orleans	4045050000050			tracyp	fax line 5043219523	2008-07-14		0.00	
+Pisces Energy	5000606	MP 265	Satellite TV, DirecTV	4013050000000			tracyp	second receiver a10gb8ha311429	2008-10-07		50.00	Month
+Pisces Energy	5000607	ST 204	Phone Number, New Orleans	4045050000050			tracyp	5043219505	2008-07-04		0.00	
+Pisces Energy	5000607	ST 204	VSAT Dish, 1.2M Fixed	4043050000000			tracyp		2008-07-04		0.00	
+Pisces Energy	5000607	ST 204	VSAT Terminal Standard	4013050000000			tracyp	Modem: 76504 VSAT-1051	2008-07-04		0.00	
+Pisces Energy	5000607	ST 204	2-Way Radio, VHF Mobile	4043050000000			tracyp	ch 1 159.75 pl 94.8 ch2 159.96 pl 91.5 MOB-5002	2008-07-04		0.00	
+Pisces Energy	5000607	ST 204	Satellite TV, DirecTV	4013050000000			tracyp	second receiver 004694458490	2009-07-01		50.00	Month
+Pisces Energy	5000607	ST 204	Satellite TV, DirecTV	4013050000000			tracyp	receiver for pesky	2009-09-23		50.00	Month
+Pisces Energy	5000607	ST 204	Phone Number, New Orleans	4045050000050			tracyp	5043219506	2008-07-04		0.00	
+Pisces Energy	5000607	ST 204	Space Segment 512/256	4013050000000			tracyp		2008-07-04		1650.00	Month
+Pisces Energy	5000607	ST 204	Satellite TV, DirecTV	4013050000000			tracyp	012751586939	2008-07-04		150.00	Month
+Pisces Energy	5000617	HI 523 A	Phone Number, Lafayette	4045050000050			tracyp	3372109545	2008-07-12		0.00	
+Pisces Energy	5000617	HI 523 A	Phone Number, Lafayette	4045050000050			tracyp	3372109546	2008-07-12		0.00	
+Pisces Energy	5000617	HI 523 A	VSAT Dish, 1.2M Fixed	4043050000000			tracyp		2008-07-12		0.00	
+Pisces Energy	5000617	HI 523 A	VSAT Terminal Standard	4013050000000			tracyp	Modem: 76745 VSAT-1055	2008-07-12		0.00	
+Pisces Energy	5000617	HI 523 A	Space Segment 64/64	4013050000000			tracyp		2009-11-01		925.00	Month
+Pisces Energy	5000619	VER 356	Phone Number, Lafayette	4045050000050			tracyp	3372109548	2008-07-13		0.00	
+Pisces Energy	5000619	VER 356	Phone Number, Lafayette	4045050000050			tracyp	3372109549	2008-07-13		0.00	
+Pisces Energy	5000619	VER 356	VSAT Dish, 1.2M Fixed	4043050000000			tracyp		2008-07-13		0.00	
+Pisces Energy	5000619	VER 356	Space Segment 512/256	4013050000000			tracyp		2008-07-13		1650.00	Month
+Pisces Energy	5000619	VER 356	VSAT Terminal Standard	4013050000000			tracyp	Modem: 82547 VSAT-1090	2008-07-13		0.00	
+Pisces Energy	5000619	VER 356	Satellite TV, DirecTV	4013050000000			tracyp	added 12/2/10; second receiver never on acct REB 012754582398	2008-07-13		50.00	Month
+Pisces Energy	5000619	VER 356	Satellite TV, DirecTV	4013050000000			tracyp	012757297994	2008-07-13		150.00	Month
+Pisces Energy	5000620	EC 81	Phone Number, Lafayette	4045050000050			tracyp	3372109543	2008-07-14		0.00	
+Pisces Energy	5000620	EC 81	Satellite TV, DirecTV	4013050000000			tracyp	029391697348	2008-07-14		150.00	Month
+Pisces Energy	5000620	EC 81	VSAT Terminal Standard	4013050000000			tracyp	VSAT-1018	2008-07-14		0.00	
+Pisces Energy	5000620	EC 81	Satellite TV, DirecTV	4013050000000			tracyp	Second rcvr added 12/2/10 REB 004686632946	2008-07-14		50.00	Month
+Pisces Energy	5000620	EC 81	Phone Number, Lafayette	4045050000050			tracyp	3372109547	2008-07-14		0.00	
+Pisces Energy	5000620	EC 81	VSAT Dish, 1.2M Fixed	4043050000000			tracyp		2008-07-14		0.00	
+Pisces Energy	5000620	EC 81	Space Segment 512/256	4013050000000			tracyp		2008-07-14		1650.00	Month
+Pisces Energy	5000621	WC 504	Phone Number, Lafayette	4045050000050			tracyp	3372109533	2008-07-11		0.00	
+Pisces Energy	5000621	WC 504	VSAT Dish, 1.2M Fixed	4043050000000			tracyp		2008-07-11		0.00	
+Pisces Energy	5000621	WC 504	Space Segment 512/256	4013050000000			tracyp		2008-07-11		1650.00	Month
+Pisces Energy	5000621	WC 504	VSAT Terminal Standard	4013050000000			tracyp	Modem: 83048 VSAT-1069	2008-07-11		0.00	
+Pisces Energy	5000621	WC 504	Satellite TV, DirecTV	4013050000000			tracyp	a10gb8kn610739	2008-10-17		150.00	Month
+Pisces Energy	5000621	WC 504	Phone Number, Lafayette	4045050000050			tracyp	3372109532	2008-07-11		0.00	
+Pisces Energy	5000654	Cameron Shorebase	2-Way Radio, VHF Mobile	4043050000000			tracyp	ch1 159.75 pl 94.8 ch2 159.96 pl 91,5 Customer own MOB-5034	2008-12-05		0.00	
+Pisces Energy	5000654	Cameron Shorebase	2-Way Radio, Marine Mobile	4043050000000			tracyp	Customer owned MMR-4009	2008-12-05		0.00	
+Pisces Energy	5000654	Cameron Shorebase	Phone Number, Vendor Provided	4045050000050			tracyp	Cameron Communications 3377752255	2008-12-05		0.00	
+Pisces Energy	5000654	Cameron Shorebase	Phone Number, Vendor Provided	4045050000050			tracyp	Cameron Communications 3377752254	2008-12-05		0.00	
+Pisces Energy	5000747	WD 54	2-Way Radio, VHF Hand Held	4043050000000			tracyp	customer owned 8F470715	0000-00-00		0.00	
+Pisces Energy	5000747	WD 54	2-Way Radio, VHF Hand Held	4043050000000			tracyp	customer owned 8F470719	0000-00-00		0.00	
+Ryan Marine Services	5002123	MV Citation	VSAT Terminal Standard-TM	4013055000000			shawno	Modem: 133631	2011-03-01		0.00	
+Ryan Marine Services	5002123	MV Citation	Space Segment 256/128-TM	4013055000000			shawno		2011-03-01		3000.00	Month
+Ryan Marine Services	5002123	MV Citation	Fax Machine-TM	4043055000000			shawno		0000-00-00		0.00	
+Ryan Marine Services	5002123	MV Citation	Phone Number, Vendor Provided-TM	4045055000050			shawno	4095151450	2011-03-01		0.00	
+Ryan Marine Services	5002123	MV Citation	Phone Number, Vendor Provided-TM	4045055000050			shawno	4095151451	2011-03-01		0.00	
+Ryan Marine Services	5002123	MV Citation	Phone Number, Vendor Provided-TM	4045055000050			shawno	Fax Line 4093540438	2011-03-01		0.00	
+Ryan Marine Services	5002123	MV Citation	VSAT dish, Azimuth .85m-TM	4043055000000			shawno		2011-03-01		0.00	
+S2 Energy1, LP	5002124	SS64	VSAT Terminal Standard-TM	4013055000000			stevel	Modem: 93402	2011-03-01		0.00	
+S2 Energy1, LP	5002124	SS64	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel		2011-03-01		0.00	
+S2 Energy1, LP	5002124	SS64	Space Segment 256/128-TM	4013055000000			stevel		2011-03-01		1500.00	Month
+S2 Energy1, LP	5002124	SS64	Phone Number, New Orleans-TM	4045055000050			stevel	9856644864	2011-03-01		0.00	
+S2 Energy1, LP	5002124	SS64	Phone Number, New Orleans-TM	4045055000050			stevel	9856644865	2011-03-01		0.00	
+S2 Energy1, LP	5002124	SS64	Phone Number, New Orleans-TM	4045055000050			stevel	Fax Number 9856030077	2011-03-01		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	VSAT Dish, 1.2M Fixed	4043050000000			tracyp	Harvest Oil and Gas LLC, Grand Bay Field VSAT-1008	2007-02-22		1440.00	Month
+Saratoga Resources Inc	5000001	Grand Bay	BWA, Alvarion	4043050000000			tracyp	The Harvest Group LLC, Main Pass 52	2007-02-22		1440.00	Month
+Saratoga Resources Inc	5000001	Grand Bay	BWA, Alvarion	4043050000000			tracyp	The Harvest Group LLC, Brenton Sound 32	2007-02-22		1440.00	Month
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, New Orleans	4045050000050			tracyp	Grand Bay 504-321-9510	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, New Orleans	4045050000050			tracyp	Grand Bay Fax 504-321-9512	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, New Orleans	4045050000050			tracyp	Grand Bay Comp Station Fax 504-321-9513	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, New Orleans	4045050000050			tracyp	Main Pass 52 Fax 504-321-9514	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, New Orleans	4045050000050			tracyp	Brenton Sound 32 504-321-9515	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, Houma	4045050000050			tracyp	Grand Bay 985-772-8500	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, Houma	4045050000050			tracyp	Grand Bay 985-772-8501	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, Houma	4045050000050			tracyp	Grand Bay Comp Station 985-772-8503	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, Houma	4045050000050			tracyp	Main Pass 52 985-772-8504	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, Houma	4045050000050			tracyp	Brenton Sound 32 985-772-8505	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 4-line	4043050000000			tracyp	At&T Grand Bay	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 4-line	4043050000000			tracyp	At&T Grand Bay	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 4-line	4043050000000			tracyp	At&T Grand Bay	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 4-line	4043050000000			tracyp	At&T Grand Bay	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 4-line	4043050000000			tracyp	At&T Grand Bay	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 4-line	4043050000000			tracyp	At&T Grand Bay	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 2-line	4043050000000			tracyp	Panasonic Grand Bay Comp Station	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 2-line	4043050000000			tracyp	Panasonic Brenton Sound 32	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	BWA, Alvarion AU Base	4043050000000			tracyp	Grand Bay	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	BWA, Alvarion 5.8GHz Poitn to Point	4043050000000			tracyp	Grand Bay to MP52	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	BWA, Alvarion 5.8GHz Poitn to Point	4043050000000			tracyp	MP52 to BS32	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	BWA, Alvarion SU Remote	4043050000000			tracyp	Grand Bay Comp Station	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	BWA, Alvarion SU Remote	4043050000000			tracyp	Grand Bay TB12	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Switch, Ethernet 8 Port	4043050000000			tracyp	MP52	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Switch, Ethernet 8 Port	4043050000000			tracyp	BS32	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, New Orleans	4045050000050			tracyp	Grand Bay 504-321-9511	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone Number, New Orleans	4045050000050			tracyp	Brenton Sound 32 Fax 504-321-9516	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 2-line	4043050000000			tracyp	Panasonic Main Pass 52	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Phone, Analog 2-line	4043050000000			tracyp	Panasonic Brenton Sound 32	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	BWA, Alvarion SU Remote	4043050000000			tracyp	Grand Bay TB1	2007-02-22		0.00	
+Saratoga Resources Inc	5000001	Grand Bay	Switch, Ethernet 8 Port	4043050000000			tracyp	Grand Bay Comp Station	2007-02-22		0.00	
+Shelf Workboats LLC	5002126	MV Shelf Achiever	Satellite Phone, MSAT G2-TM	4043055000000			shawno	8777013405	2011-03-01		65.00	Month
+Shelf Workboats LLC	5002126	MV Shelf Achiever	Call Barring-TM	4045055000050			shawno		2011-03-01		12.00	Month
+Sojitz Energy Venture, Inc.	5000178	VR 70	Satellite Phone, Irridium	4043050000000			shawno	Customer owned 300214010431340	2007-09-15		0.00	
+Sojitz Energy Venture, Inc.	5000178	VR 70	Phone Number, Iridium	4045050000050			shawno	Direct dial 985-354-0212 881621415753	2007-09-15		40.00	Month
+Sojitz Energy Venture, Inc.	5000179	VR 86	Satellite Phone, Irridium	4043050000000			shawno	customer owned 300214010435400	2007-09-15		0.00	
+Sojitz Energy Venture, Inc.	5000179	VR 86	Phone Number, Iridium	4045050000050			shawno	Direct dial 985-354-0214 881621415755	2007-09-15		40.00	Month
+Tana Exploration Company LLC	5002328	EC 328	Fax Machine	4043050000000			stevel		2011-06-01		0.00	
+Tana Exploration Company LLC	5002328	EC 328	Phone Number, Lafayette	4045050000050			stevel	Voice 3378061268	2011-06-01		0.00	
+Tana Exploration Company LLC	5002328	EC 328	Space Segment 512/128	4013050000000			stevel		2011-06-01		950.00	Month
+Tana Exploration Company LLC	5002328	EC 328	Phone Number, Lafayette	4045050000050			stevel	Fax 3378061269	2011-06-01		0.00	
+Tana Exploration Company LLC	5002328	EC 328	VSAT Terminal Standard	4013050000000			stevel	VSAT-1101	2011-06-01		0.00	
+Tana Exploration Company LLC	5002328	EC 328	VSAT Dish, 1.2M Fixed	4043050000000			stevel		2011-06-01		0.00	
+Tana Exploration Company LLC	5002329	MP 242	Fax Machine	4043050000000			stevel		2011-06-01		0.00	
+Tana Exploration Company LLC	5002329	MP 242	Phone Number, Lafayette	4045050000050			stevel	Fax 3372059034	2011-06-01		0.00	
+Tana Exploration Company LLC	5002329	MP 242	Phone Number, Lafayette	4045050000050			stevel	3372050917	2011-06-01		0.00	
+Tana Exploration Company LLC	5002329	MP 242	Phone Number, Lafayette	4045050000050			stevel	3372050916	2011-06-01		0.00	
+Tana Exploration Company LLC	5002329	MP 242	Space Segment 1024/512	4013050000000			stevel		2011-06-01		2300.00	Month
+Tana Exploration Company LLC	5002329	MP 242	VSAT Dish, 1.2M Fixed	4043050000000			stevel		2011-06-01		0.00	
+Tana Exploration Company LLC	5002329	MP 242	VSAT Terminal Standard	4013050000000			stevel	Modem: 120180	2011-06-01		0.00	
+Tana Exploration Company LLC	5002330	Timbalier Bay	VSAT Terminal Standard-TM	4013055000000			stevel	2nd VSAT Modem 116444	2011-06-22			
+Tana Exploration Company LLC	5002330	Timbalier Bay	VSAT Dish, 1.2M Fixed-TM	4043055000000			stevel	2nd VSAT	2011-06-22			
+Tana Exploration Company LLC	5002330	Timbalier Bay	Space Segment 512/256-TM	4013055000000			stevel	2nd VSAT	2011-06-22		1050.00	month
+Tana Exploration Company LLC	5002330	Timbalier Bay	Phone Number, Lafayette	4045050000050			stevel	3372050908	2011-06-01		0.00	
+Tana Exploration Company LLC	5002330	Timbalier Bay	Space Segment 1024/512	4013050000000			stevel		2011-06-01		2300.00	month
+Tana Exploration Company LLC	5002330	Timbalier Bay	Fax Machine	4043050000000			stevel		2011-06-01		0.00	
+Tana Exploration Company LLC	5002330	Timbalier Bay	Phone Number, Vendor Provided	4045050000050			stevel	Fax 3372059001	2011-06-01		0.00	
+Tana Exploration Company LLC	5002330	Timbalier Bay	Phone Number, Lafayette	4045050000050			stevel	3372050909	2011-06-01		0.00	
+Tana Exploration Company LLC	5002330	Timbalier Bay	VSAT Dish, 1.2M Fixed	4043050000000			stevel		2011-06-01		0.00	
+Tana Exploration Company LLC	5002330	Timbalier Bay	VSAT Terminal Standard	4013050000000			stevel	Modem: 115872	2011-06-01		0.00	
+Tana Exploration Company LLC	5002331	WD 62	Phone Number, Vendor Provided	4045050000050			stevel	Fax 3372059028	2011-06-01		0.00	
+Tana Exploration Company LLC	5002331	WD 62	Phone Number, Lafayette	4045050000050			stevel	337-769-6153 has this line forwarded to it. 3372050888	2011-06-01		0.00	
+Tana Exploration Company LLC	5002331	WD 62	Space Segment 512/256	4013050000000			stevel		2011-06-01		2000.00	Month
+Tana Exploration Company LLC	5002331	WD 62	VSAT Terminal Standard	4013050000000			stevel	Modem: 114775	2011-06-01		0.00	
+Tana Exploration Company LLC	5002331	WD 62	VSAT Dish, 1.2M Fixed	4043050000000			stevel		2011-06-01		0.00	
+Tana Exploration Company LLC	5002331	WD 62	Phone Number, Lafayette	4045050000050			stevel	3372050889	2011-06-01		0.00	
+Triumph Marine	5002128	LB Maggie	VSAT Terminal Standard-TM	4013055000000			shawno	Modem: 57125	2011-03-01		0.00	
+Triumph Marine	5002128	LB Maggie	VSAT Dish, 1.2M Fixed-TM	4043055000000			shawno		2011-03-01		0.00	
+Triumph Marine	5002128	LB Maggie	Phone Number, New Orleans-TM	4045055000050			shawno	Fax Number 9856331069	2011-03-01		0.00	
+Triumph Marine	5002128	LB Maggie	Space Segment 256/128-TM	4013055000000			shawno		2011-03-01		1600.00	Month
+Triumph Marine	5002128	LB Maggie	Phone Number, New Orleans-TM	4045055000050			shawno	9856644866	2011-03-01		0.00	
+Triumph Marine	5002128	LB Maggie	Phone Number, New Orleans-TM	4045055000050			shawno	9856644867	2011-03-01		0.00	
+Tyler Stephen LLC	5002129	MV Tyler Stephen	Oceans mail-TM	4043055000000			shawno	Email: tylerstephen@ocens.net renewal: 9/16/2011	2011-03-01		400.00	Yearly
+Tyler Stephen LLC	5002129	MV Tyler Stephen	Satellite Phone, Irridium-TM	4043055000000			shawno	SIM #8988169224000075144 4802636603	2011-03-01		55.00	Month

@@ -81,25 +81,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'jobnumber_c',
-            'label' => 'LBL_JOBNUMBER',
-          ),
-          1 => 
-          array (
-            'name' => 'ticketnumber_c',
-            'label' => 'LBL_TICKETNUMBER',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
             'name' => 'type',
             'comment' => 'The type of issue (ex: issue, feature)',
             'label' => 'LBL_TYPE',
           ),
         ),
-        5 => 
+        4 => 
         array (
           0 => 
           array (
@@ -107,7 +94,7 @@ array (
             'label' => 'LBL_SUBJECT',
           ),
         ),
-        6 => 
+        5 => 
         array (
           0 => 
           array (
@@ -116,7 +103,7 @@ array (
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (

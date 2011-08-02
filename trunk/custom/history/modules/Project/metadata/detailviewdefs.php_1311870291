@@ -165,7 +165,8 @@ array (
         ),
         1 => 
         array (
-          0 => 
+          0 => '',
+          1 => 
           array (
             'name' => 'kmi_c',
             'studio' => 'visible',

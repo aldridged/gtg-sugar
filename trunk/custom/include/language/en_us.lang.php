@@ -26,6 +26,7 @@ $GLOBALS['app_list_strings']['case_priority_dom']=array (
   'NeedTech' => 'Need Tech',
   'Completed' => 'Completed',
 );
+
 $GLOBALS['app_list_strings']['workgroup_list']=array (
   'Billing' => 'Billing',
   'Closed' => 'Closed',
@@ -34,6 +35,17 @@ $GLOBALS['app_list_strings']['workgroup_list']=array (
   'Field Technician' => 'Field Technician',
   'Operations' => 'Operations',
   'Professional Services' => 'Professional Services',
+  'Sales' => 'Sales',
   'Technical Services' => 'Technical Services',
   'Telecom Engineering' => 'Telecom Engineering',
+);
+$GLOBALS['app_list_strings']['kmi_list']=array (
+  0 => 'Maritime US',
+  1 => 'Maritime International',
+  2 => 'Onshore Southern US',
+  3 => 'Onshore Central US',
+  4 => 'Onshore Midwest US',
+  5 => 'Onshore Northeast US',
+  8 => 'Global US',
+  9 => 'Global International',
 );

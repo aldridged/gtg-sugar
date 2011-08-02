@@ -167,15 +167,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'kmi_c',
-            'studio' => 'visible',
-            'label' => 'LBL_KMI',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'created_by_name',
             'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}&nbsp;',
             'label' => 'LBL_DATE_ENTERED',
