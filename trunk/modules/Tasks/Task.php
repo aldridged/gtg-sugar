@@ -298,10 +298,27 @@ class Task extends SugarBean {
 
 	function set_notification_body($xtpl, $task)
 	{
-		global $app_list_strings;
+		global $app_list_strings,$beanList,$beanFiles;
         global $timedate;
         $notifyUser = $task->current_notify_user;
         $prefDate = $notifyUser->getUserDateTimePreferences();
+
+	if (isset($beanList[$this->parent_type]))
+ 	  {
+ 	  $beanType = $beanList[$this->parent_type];
+ 	  require_once($beanFiles[$beanType]);
+ 	  $parent = new $beanType();
+	  $parent->retrieve($this->parent_id);
+	  if (isset($parent->jobnumber_c))
+	    {
+	    $xtpl->assign("TASK_JOBNUMBER", $parent->jobnumber_c);
+	    }
+	  else
+	    {
+	    $xtpl->assign("TASK_JOBNUMBER", "No Job Number");
+	    };
+	  };
+ 
 		$xtpl->assign("TASK_SUBJECT", $task->name);
 		//MFH #13507
 		$xtpl->assign("TASK_PRIORITY", (isset($task->priority)?$app_list_strings['task_priority_dom'][$task->priority]:""));
