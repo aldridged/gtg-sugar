@@ -265,6 +265,7 @@ class aCase extends Basic {
 		$xtpl->assign("CASE_PRIORITY", (isset($case->priority) ? $app_list_strings['case_priority_dom'][$case->priority]:""));
 		$xtpl->assign("CASE_STATUS", (isset($case->status) ? $app_list_strings['case_status_dom'][$case->status]:""));
 		$xtpl->assign("CASE_DESCRIPTION", $case->description);
+		$xtpl->assign("CASE_JOBNUMBER", $case->jobnumber_c);
 
 		return $xtpl;
 	}

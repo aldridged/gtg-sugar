@@ -1,5 +1,5 @@
 <?php
-// created: 2011-05-13 10:00:13
+// created: 2011-08-04 09:35:30
 $sugar_config = array (
   'admin_access_control' => false,
   'admin_export_only' => false,
@@ -154,6 +154,7 @@ $sugar_config = array (
   'default_locale_name_format' => 's f l',
   'default_max_tabs' => '7',
   'default_module' => 'Home',
+  'default_module_favicon' => false,
   'default_navigation_paradigm' => 'gm',
   'default_number_grouping_seperator' => ',',
   'default_password' => '',
@@ -173,6 +174,7 @@ $sugar_config = array (
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
+  'developerMode' => false,
   'disable_export' => false,
   'disable_persistent_connections' => 'false',
   'display_email_template_variable_chooser' => false,
@@ -196,8 +198,8 @@ $sugar_config = array (
     'en_us' => 'English (US)',
   ),
   'large_scale_test' => false,
-  'list_max_entries_per_page' => 20,
-  'list_max_entries_per_subpanel' => 10,
+  'list_max_entries_per_page' => '30',
+  'list_max_entries_per_subpanel' => '30',
   'lock_default_user_name' => false,
   'lock_homepage' => false,
   'lock_subpanels' => false,
@@ -258,6 +260,7 @@ $sugar_config = array (
   'showThemePicker' => true,
   'site_url' => 'http://dcmaster.gtg.local',
   'slow_query_time_msec' => '100',
+  'stack_trace_errors' => false,
   'sugar_version' => '6.1.2',
   'sugarbeet' => 0,
   'time_formats' => 
