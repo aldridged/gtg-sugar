@@ -317,6 +317,10 @@ class Task extends SugarBean {
 	    {
 	    $xtpl->assign("TASK_JOBNUMBER", "No Job Number");
 	    };
+	  }
+	else
+	  {
+	  $xtpl->assign("TASK_JOBNUMBER", "No Job Number");
 	  };
  
 		$xtpl->assign("TASK_SUBJECT", $task->name);
