@@ -7,16 +7,6 @@ $GLOBALS['app_list_strings']['project_status_dom']=array (
   'Active' => 'Active',
   'Stopped' => 'Stopped',
 );
-$GLOBALS['app_list_strings']['case_status_dom']=array (
-  'New' => 'New',
-  'Assigned' => 'Assigned',
-  'Closed' => 'Closed',
-  'Pending Input' => 'Pending Input',
-  'Rejected' => 'Rejected',
-  'Duplicate' => 'Duplicate',
-  'Active' => 'Active',
-  'Resolved' => 'Resolved',
-);
 $GLOBALS['app_list_strings']['case_priority_dom']=array (
   'P1' => 'High',
   'P2' => 'Medium',
@@ -48,4 +38,15 @@ $GLOBALS['app_list_strings']['kmi_list']=array (
   5 => 'Onshore Northeast US',
   8 => 'Global US',
   9 => 'Global International',
+);
+$GLOBALS['app_list_strings']['case_status_dom']=array (
+  'New' => 'New',
+  'Assigned' => 'Assigned',
+  'Closed' => 'Closed',
+  'Pending Input' => 'Pending Input',
+  'Rejected' => 'Rejected',
+  'Duplicate' => 'Duplicate',
+  'Active' => 'Active',
+  'Resolved' => 'Resolved',
+  'Waiting on Parts' => 'Waiting on Parts',
 );
