@@ -307,6 +307,21 @@ $dictionary['AOS_Products_Quotes'] = array(
     'reportable' => 0,
     'display_default' => 'now',
   ),
+ 'description2' =>
+  array (
+    'required' => false,
+    'name' => 'description2',
+    'type' => 'varchar',
+    'massupdate' => 0,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => 1,
+    'reportable' => 0,
+  ),
+
 
 ),
 	'relationships'=>array (
