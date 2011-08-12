@@ -65,8 +65,9 @@ class AOS_QuotesViewDetail extends ViewDetail {
 		while ($row = $this->bean->db->fetchByAssoc($result)) {
 			$html .= "<tr>";
 			$product_note = wordwrap($row['description'],40,"<br />\n");
+			$product_note2 = wordwrap($row['description2'],40,"<br />\n");
 			$html .= "<td class='tabDetailViewDF'>".$i++."</td>";
-		  	$html .= "<td class='tabDetailViewDF'><a href='index.php?module=AOS_Products&action=DetailView&record=".$row['product_id']."' class='tabDetailViewDFLink'>".$row['name']."</a><br />".$product_note."</td>";
+		  	$html .= "<td class='tabDetailViewDF'><a href='index.php?module=AOS_Products&action=DetailView&record=".$row['product_id']."' class='tabDetailViewDFLink'>".$row['name']."</a><br />".$product_note." ".$product_note2."</td>";
 		  	$html .= "<td class='tabDetailViewDF'>".currency_format_number($row['product_list_price'])."</td>";
 		  	$html .= "<td class='tabDetailViewDF'>".currency_format_number($row['product_unit_price'])."</td>";
 		  	$html .= "<td class='tabDetailViewDF'>".$row['product_rate']."</td>";

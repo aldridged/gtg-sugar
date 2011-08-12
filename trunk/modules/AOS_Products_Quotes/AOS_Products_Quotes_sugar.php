@@ -49,6 +49,7 @@ class AOS_Products_Quotes_sugar extends Basic {
 		var $created_by;
 		var $created_by_name;
 		var $description;
+		var $description2;
 		var $deleted;
 		var $created_by_link;
 		var $modified_user_link;

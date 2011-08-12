@@ -136,6 +136,7 @@ HTML;
             $html .= "<tr><td height='10px'></td></tr><tr id='product_note_line$i'>";
 			$html .= "<td class='dataField'></td>";
 			$html .= "<td class='dataField'><textarea tabindex='3' name='product_note[]' id='product_note$i' rows='1' cols='25'>".$row['description']."</textarea></td>";
+			$html .= "<td class='dataField'><textarea tabindex='3' name='product_note2[]' id='product_note2$i' rows='1' cols='25'>".$row['description2']."</textarea></td>";
 /*
 			$html .= "<td class='dataField'>&nbsp;&nbsp;Vat&nbsp;&nbsp;%&nbsp;&nbsp; :&nbsp;&nbsp;<select name='vat[]' id='vat$i' onchange='calculateProductLine($i)'>";
 			for($j=0;$j < count($vat_value2); $j++)
@@ -149,7 +150,7 @@ HTML;
 			
 			$html .= "</select></td>";
 */
-			$html .= "<td class='dataField' colspan='6'></td>";
+			$html .= "<td class='dataField' colspan='5'></td>";
 			$html .= "</tr>";
 		  	
 		  	$i++;

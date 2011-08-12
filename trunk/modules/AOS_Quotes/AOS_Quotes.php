@@ -62,6 +62,7 @@ class AOS_Quotes extends AOS_Quotes_sugar {
 						 'start_date' => $_POST['start_date'],
 						 'stop_date' => $_POST['stop_date'],
 						 'product_note' => $_POST['product_note'],
+						 'product_note2' => $_POST['product_note2'],
 						 'deleted' => $_POST['deleted']);
 							 
 		$productLineCount = count($product['product_id']);
@@ -83,6 +84,7 @@ class AOS_Quotes extends AOS_Quotes_sugar {
 			$productQuote->start_date = $product['start_date'][$i];
 			$productQuote->stop_date = $product['stop_date'][$i];
 			$productQuote->description = $product['product_note'][$i];
+			$productQuote->description2 = $product['product_note2'][$i];
 			$productQuote->deleted = $product['deleted'][$i];
 			
 			if ($productQuote->deleted == 1) {

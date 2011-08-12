@@ -227,11 +227,11 @@ function insertProductLine(ln)
 		var tri1='end_date_request_trigger'+ ln;*/
 
 
-	g.innerHTML="<br><textarea tabindex='3' name='product_note[]' id='product_note" + ln + "' rows='1' size='10'></textarea>&nbsp;&nbsp;";
+	g.innerHTML="<br><textarea tabindex='3' name='product_note[]' id='product_note" + ln + "' rows='1' size='15'></textarea>&nbsp;&nbsp;";
 	//m.innerHTML="<label>Start Date:</label><br><input type='text' name='start_date[]' id='"+ v + "'/><img border='0' src='calendar-icon.jpg' alt='Enter Date' id='"+tri+"' align='absmiddle' />";
 	//n.innerHTML="<label>End Date:</label><br><input type='text' name='end_date[]' id='"+ v1 + "'/><img border='0' src='calendar-icon.jpg' alt='Enter Date' id='"+tri1+"' align='absmiddle' />";
 //	d1.innerHTML="Vat&nbsp;&nbsp; :&nbsp;&nbsp;<select name='vat[]' id='vat" + ln + "' onchange='calculateProductLine(" + ln + ");'>"+ vat_hidden +"</select>";
-	d1.innerHTML="";
+	d1.innerHTML="<br><textarea tabindex='4' name='product_note2[]' id='product_note2" + ln + "' rows='1' size='15'></textarea>&nbsp;&nbsp;";
 	d2.innerHTML="";
 	
 	
