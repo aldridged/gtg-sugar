@@ -29,6 +29,14 @@ array (
     'link' => false,
     'default' => true,
   ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_LIST_ASSIGNED_USER_ID',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
+  ),
   'STATUS' => 
   array (
     'width' => '20%',
