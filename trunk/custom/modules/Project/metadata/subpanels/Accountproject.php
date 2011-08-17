@@ -1,5 +1,5 @@
 <?php
-// created: 2011-05-16 10:42:22
+// created: 2011-08-12 16:55:03
 $subpanel_layout['list_fields'] = array (
   'name' => 
   array (
@@ -35,6 +35,14 @@ $subpanel_layout['list_fields'] = array (
     'vname' => 'LBL_DATE_END',
     'width' => '25%',
     'sortable' => true,
+    'default' => true,
+  ),
+  'assigned_user_name' => 
+  array (
+    'type' => 'relate',
+    'link' => 'users',
+    'vname' => 'LBL_ASSIGNED_USER_NAME',
+    'width' => '10%',
     'default' => true,
   ),
   'edit_button' => 

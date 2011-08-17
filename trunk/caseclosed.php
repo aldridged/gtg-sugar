@@ -9,7 +9,7 @@ require_once('include/SugarPHPMailer.php');
 require_once('modules/Emails/Email.php');
 
 /* Query database to get case aging */
-$query = 'select ca.date_created,c.case_number,c.name,concat("http://dcmaster.mydatacom.com/index.php?module=Cases&action=DetailView&record=",c.id) as link from cases_audit as ca, cases as c where ca.field_name="status" and ca.after_value_string="closed" and timestampdiff(hour,date_created,now())<=24 and c.id=ca.parent_id;';
+$query = 'select ca.date_created,c.case_number,c.name,concat("http://dcmaster.mydatacom.com/index.php?module=Cases&action=DetailView&record=",c.id) as link from cases_audit as ca, cases as c where ca.field_name="status" and ca.after_value_string="closed" and c.deleted=0 and timestampdiff(hour,date_created,now())<=24 and c.id=ca.parent_id;';
 $db = DBManagerFactory::getInstance();
 $result = $db->query($query,true,'Case Closed Query Failed');
 
