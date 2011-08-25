@@ -146,7 +146,14 @@ function copyListPrice(ln)
  */
 function insertProductLine(ln)
 {
-	now = new Date();	
+	// Get current time for prepopulation
+	now = new Date();
+	var curmonth = "" + (now.getMonth()+1);
+	var curdate = "" + now.getDate();
+	// Add leading zero if the length equals 1
+	if(curmonth.length==1) curmonth = "0"+curmonth;
+	if(curdate.length==1) curdate = "0"+curdate;
+	
 	var vat_hidden=document.getElementById("vathidden").value;
 	
 	var x=document.getElementById('productLine').insertRow(-1);
@@ -183,7 +190,7 @@ function insertProductLine(ln)
 	b.innerHTML="<input type='text' name='product_rate[]' id='product_rate" + ln + "' value='' />";
 	c1.innerHTML="<input type='text' name='product_prov_price[]' id='product_prov_price" + ln + "' size='20' maxlength='50' value='' title='' tabindex='3'>";
 	
-	c.innerHTML="<input type='text' name='start_date[]' id='start_date" + ln + "' size='20' maxlength='50' value='" + now.getFullYear() + "-" + (now.getMonth()+1) + "-" + now.getDate() + "' title='' tabindex='3'>";
+	c.innerHTML="<input type='text' name='start_date[]' id='start_date" + ln + "' size='20' maxlength='50' value='" + now.getFullYear() + "-" + curmonth + "-" + curdate + "' title='' tabindex='3'>";
 
 	c2.innerHTML="<input type='text' name='stop_date[]' id='stop_date" + ln + "' size='20' maxlength='50' value='' title='' tabindex='3'>";
 
