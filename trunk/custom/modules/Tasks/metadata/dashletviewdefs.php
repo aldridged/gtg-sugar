@@ -8,11 +8,11 @@ $dashletData['TasksDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
-  'priority' => 
+  'date_entered' => 
   array (
     'default' => '',
   ),
-  'date_entered' => 
+  'status' => 
   array (
     'default' => '',
   ),
