@@ -1,5 +1,5 @@
 <?php
-// created: 2011-07-28 11:10:38
+// created: 2011-09-01 07:19:36
 $mod_strings = array (
   'LBL_PROJECTTASK_SUBPANEL_TITLE' => 'Jobs',
   'LBL_AREABLOCK' => 'Area/Block',
@@ -26,5 +26,6 @@ $mod_strings = array (
   'LBL_PROJECT_INFORMATION' => 'Job Overview',
   'LBL_STATUS' => 'Status:',
   'LBL_KMI' => 'KMI',
+  'LBL_LIST_ASSIGNED_USER_ID' => 'Assigned To:',
 );
 ?>

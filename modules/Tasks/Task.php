@@ -317,10 +317,28 @@ class Task extends SugarBean {
 	    {
 	    $xtpl->assign("TASK_JOBNUMBER", "No Job Number");
 	    };
+	  if (isset($parent->case_number))
+	    {
+	    $xtpl->assign("TASK_CASENUMBER", $parent->case_number);
+	    }
+	  else
+	    {
+	    $xtpl->assign("TASK_CASENUMBER", "No Case Number");
+	    };
+	  if (isset($parent->account_name))
+	    {
+	    $xtpl->assign("TASK_ACCOUNTNAME", $parent->account_name);
+	    }
+	  else
+	    {
+	    $xtpl->assign("TASK_ACCOUNTNAME", "No Account Name");
+	    };
 	  }
 	else
 	  {
 	  $xtpl->assign("TASK_JOBNUMBER", "No Job Number");
+	  $xtpl->assign("TASK_CASENUMBER", "No Case Number");
+	  $xtpl->assign("TASK_ACCOUNTNAME", "No Account Name");
 	  };
  
 		$xtpl->assign("TASK_SUBJECT", $task->name);
