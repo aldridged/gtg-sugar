@@ -9,7 +9,7 @@ require_once('include/SugarPHPMailer.php');
 require_once('modules/Emails/Email.php');
 
 /* Query database to get case aging */
-$query = 'select c.case_number,c.name,concat("http://dcmaster.mydatacom.com/index.php?module=Cases&action=DetailView&record=",c.id) as link from cases as c where c.id not in (select distinct case_id from projects_cases) and c.id not in (select distinct case_id from accounts_cases) and c.status="New" and c.deleted=0;';
+$query = 'select c.case_number,c.name,concat("http://dcmaster.mydatacom.com/index.php?module=Cases&action=DetailView&record=",c.id) as link from cases as c where c.id not in (select distinct case_id from projects_cases) and c.account_id is null and c.status="New" and c.deleted=0;';
 $db = DBManagerFactory::getInstance();
 $result = $db->query($query,true,'Case Unassigned Query Failed');
 
