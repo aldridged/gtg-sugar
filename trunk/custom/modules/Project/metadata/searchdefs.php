@@ -19,6 +19,14 @@ array (
         'width' => '10%',
         'name' => 'facility_c',
       ),
+      'assigned_user_id' => 
+      array (
+        'type' => 'assigned_user_name',
+        'label' => 'LBL_ASSIGNED_USER_ID',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'assigned_user_id',
+      ),
       'current_user_only' => 
       array (
         'name' => 'current_user_only',

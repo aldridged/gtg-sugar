@@ -1,9 +1,9 @@
 <?php
-// created: 2011-09-01 07:19:36
+// created: 2011-09-21 13:18:21
 $mod_strings = array (
   'LBL_PROJECTTASK_SUBPANEL_TITLE' => 'Jobs',
   'LBL_AREABLOCK' => 'Area/Block',
-  'LBL_WELLNAME' => 'Well Name',
+  'LBL_WELLNAME' => 'Well / Vessel Name',
   'LBL_OCSG' => 'OCSG',
   'LBL_AFE' => 'AFE',
   'LBL_PO' => 'PO',

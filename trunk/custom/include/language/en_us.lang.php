@@ -51,3 +51,61 @@ $GLOBALS['app_list_strings']['kmi_list']=array (
   8 => 'Global US',
   9 => 'Global International',
 );
+$GLOBALS['app_list_strings']['account_type_dom']=array (
+  '' => '',
+  'Customer' => 'Customer',
+  'Partner' => 'Partner',
+  'Prospect' => 'Prospect',
+  'Reseller' => 'Reseller',
+  'Other' => 'Other',
+);
+$GLOBALS['app_list_strings']['role_list']=array (
+  'decisionmaker' => 'Decision Maker',
+  'influencer' => 'Influencer',
+  'purchasing_legal' => 'Purchasing / Legal',
+  'accounting' => 'Accounting',
+);
+
+$GLOBALS['app_list_strings']['lead_source_dom']=array (
+  '' => '',
+  'Cold Call' => 'Cold Call',
+  'Event' => 'Event',
+  'partnerreferral' => 'Partner Referral',
+  'customerreferral' => 'Customer Referral',
+  'employeereferral' => 'Employee Referral',
+  'dirmarketingcr' => 'Direct Marketing Campaign Response',
+  'inbound' => 'Inbound',
+);
+$GLOBALS['app_list_strings']['sales_stage_dom']=array (
+  'S' => 'S - Qualified Suspect',
+  'D' => 'D - Qualifed Sponsor',
+  'C' => 'C - Qualifed Power Sponsor',
+  'A' => 'A - Verbal Acceptance',
+  'W' => 'W - Signed Agreement',
+  'L' => 'L - Loss',
+);
+$GLOBALS['app_list_strings']['industry_list']=array (
+  'OGConsulting' => 'O&G - Consulting',
+  'OGDrilling' => 'O&G - Drilling',
+  'OGEngineering' => 'O&G - Engineering / Construction',
+  'OGExploration' => 'O&G - Exploration & Production',
+  'OGServices' => 'O&G - Services & Equipment',
+  'maritime' => 'Maritime',
+  'government' => 'Government',
+  'Telecoms' => 'Telecoms',
+  'other' => 'Other',
+);
+$GLOBALS['app_list_strings']['list_source_list']=array (
+  'None' => 'None',
+  'Onesource' => 'Onesource',
+  'Other' => 'Other',
+);
+$GLOBALS['app_list_strings']['event_source_list']=array (
+  'None' => 'None',
+  'LOGA2011' => 'LOGA 2011',
+  'Other' => 'Other',
+);
+$GLOBALS['app_list_strings']['quote_invoice_status_dom']=array (
+  'mail' => 'Mail',
+  'email' => 'Email',
+);

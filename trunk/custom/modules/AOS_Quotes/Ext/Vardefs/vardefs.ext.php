@@ -19,4 +19,16 @@ $dictionary["AOS_Quotes"]["fields"]["aos_quotes_aos_invoices"] = array (
   'source' => 'non-db',
 );
 
+
+ // created: 2011-09-09 15:06:26
+$dictionary['AOS_Quotes']['fields']['stage']['required']=false;
+$dictionary['AOS_Quotes']['fields']['stage']['reportable']=true;
+
+ 
+
+ // created: 2011-09-21 13:26:01
+$dictionary['AOS_Quotes']['fields']['invoice_status']['default']='mail';
+$dictionary['AOS_Quotes']['fields']['invoice_status']['reportable']=true;
+
+ 
 ?>

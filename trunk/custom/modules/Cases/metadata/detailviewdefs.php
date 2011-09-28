@@ -68,6 +68,19 @@ array (
         array (
           0 => 
           array (
+            'name' => 'contactname_c',
+            'label' => 'LBL_CONTACTNAME',
+          ),
+          1 => 
+          array (
+            'name' => 'contactphone_c',
+            'label' => 'LBL_CONTACTPHONE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
             'name' => 'duedate_c',
             'label' => 'LBL_DUEDATE',
           ),
@@ -77,7 +90,7 @@ array (
             'label' => 'LBL_RESOLVEDDATE',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -86,11 +99,12 @@ array (
           ),
           1 => 
           array (
-            'name' => 'ticketnumber_c',
-            'label' => 'LBL_TICKETNUMBER',
+            'name' => 'workgroup_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORKGROUP',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -99,7 +113,7 @@ array (
             'label' => 'LBL_TYPE',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -107,7 +121,7 @@ array (
             'label' => 'LBL_SUBJECT',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (
@@ -116,7 +130,7 @@ array (
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
