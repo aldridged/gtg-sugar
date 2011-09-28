@@ -47,6 +47,7 @@ foreach ($emailbody as $key=>$data) {
   $mail->prepForOutbound();
 
   $mail->AddAddress($key);
+  $mail->AddAddress('daldridge@globalgroup.us');
 
   $mail->Send();
 };
