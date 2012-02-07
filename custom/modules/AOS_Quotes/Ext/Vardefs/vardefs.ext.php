@@ -20,6 +20,10 @@ $dictionary["AOS_Quotes"]["fields"]["aos_quotes_aos_invoices"] = array (
 );
 
 
+ // created: 2011-11-08 16:30:17
+
+ 
+
  // created: 2011-09-09 15:06:26
 $dictionary['AOS_Quotes']['fields']['stage']['required']=false;
 $dictionary['AOS_Quotes']['fields']['stage']['reportable']=true;

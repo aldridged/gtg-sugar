@@ -128,13 +128,13 @@ array (
         array (
           0 => 
           array (
-            'name' => 'dockname_c',
-            'label' => 'LBL_DOCKNAME',
+            'name' => 'prebill_c',
+            'label' => 'LBL_PREBILL',
           ),
           1 => 
           array (
-            'name' => 'heliname_c',
-            'label' => 'LBL_HELINAME',
+            'name' => 'dockname_c',
+            'label' => 'LBL_DOCKNAME',
           ),
         ),
         7 => 
@@ -180,6 +180,15 @@ array (
             'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}&nbsp;',
             'label' => 'LBL_DATE_ENTERED',
           ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'latax_c',
+            'label' => 'LBL_LATAX',
+          ),
+          1 => '',
         ),
       ),
     ),

@@ -153,6 +153,15 @@ array (
             'label' => 'LBL_KMI',
           ),
         ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'latax_c',
+            'label' => 'LBL_LATAX',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),
