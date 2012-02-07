@@ -116,7 +116,11 @@ array (
         ),
         5 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'contractenddate_c',
+            'label' => 'LBL_CONTRACTENDDATE',
+          ),
           1 => '',
         ),
         6 => 

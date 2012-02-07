@@ -132,7 +132,11 @@ array (
             'name' => 'billing_contact',
             'label' => 'LBL_BILLING_CONTACT',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'contractenddate_c',
+            'label' => 'LBL_CONTRACTENDDATE',
+          ),
         ),
         2 => 
         array (
