@@ -16,19 +16,6 @@ $GLOBALS['app_list_strings']['case_priority_dom']=array (
   'NeedTech' => 'Need Tech',
   'Completed' => 'Completed',
 );
-
-$GLOBALS['app_list_strings']['workgroup_list']=array (
-  'Billing' => 'Billing',
-  'Closed' => 'Closed',
-  'Customer Follow Up' => 'Customer Follow Up',
-  'EandI Division' => 'E&I Division',
-  'Field Technician' => 'Field Technician',
-  'Operations' => 'Operations',
-  'Professional Services' => 'Professional Services',
-  'Sales' => 'Sales',
-  'Technical Services' => 'Technical Services',
-  'Telecom Engineering' => 'Telecom Engineering',
-);
 $GLOBALS['app_list_strings']['case_status_dom']=array (
   'New' => 'New',
   'Assigned' => 'Assigned',
@@ -108,4 +95,22 @@ $GLOBALS['app_list_strings']['event_source_list']=array (
 $GLOBALS['app_list_strings']['quote_invoice_status_dom']=array (
   'mail' => 'Mail',
   'email' => 'Email',
+);
+
+$GLOBALS['app_list_strings']['workgroup_list']=array (
+  'Billing' => 'Billing',
+  'Client Services' => 'Client Services',
+  'Closed' => 'Closed',
+  'Customer Follow Up' => 'Customer Follow Up',
+  'EandI Division' => 'E&I Division',
+  'Engineering' => 'Engineering',
+  'Field Technician' => 'Field Technician',
+  'Network' => 'Network',
+  'Network Operations' => 'Network Operations',
+  'OffShore_Intl Ops' => 'Offshore/Int\'l Ops',
+  'Onshore Ops' => 'Onshore Ops',
+  'Operations' => 'Operations',
+  'Professional Services' => 'Professional Services',
+  'Sales' => 'Sales',
+  'Technical Services' => 'Technical Services',
 );
