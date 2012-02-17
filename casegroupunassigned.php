@@ -32,9 +32,6 @@ while(($row = $db->fetchByAssoc($result))!= null){
     };
   };
 
-/* debug */
-print_r($emailbody);
-
 /* Send out emails */
 $emailObj = new Email();
 $defaults = $emailObj->getSystemDefaultEmail();
@@ -54,7 +51,6 @@ foreach ($emailbody as $data) {
   $mail->prepForOutbound();
 
   $mail->AddAddress($data['email']);
-  $mail->AddAddress('daldridge@globalgroup.us');
 
   $mail->Send();
 };
