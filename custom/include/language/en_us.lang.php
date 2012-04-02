@@ -7,27 +7,6 @@ $GLOBALS['app_list_strings']['project_status_dom']=array (
   'Active' => 'Active',
   'Stopped' => 'Stopped',
 );
-$GLOBALS['app_list_strings']['case_priority_dom']=array (
-  'P1' => 'High',
-  'P2' => 'Medium',
-  'P3' => 'Low',
-  'Dispatched' => 'Dispatched',
-  'WillCall' => 'Will Call',
-  'NeedTech' => 'Need Tech',
-  'Completed' => 'Completed',
-);
-$GLOBALS['app_list_strings']['case_status_dom']=array (
-  'New' => 'New',
-  'Assigned' => 'Assigned',
-  'Closed' => 'Closed',
-  'Pending Input' => 'Pending Input',
-  'Rejected' => 'Rejected',
-  'Duplicate' => 'Duplicate',
-  'Active' => 'Active',
-  'Resolved' => 'Resolved',
-  'Waiting on Parts' => 'Waiting on Parts',
-);
-
 $GLOBALS['app_list_strings']['kmi_list']=array (
   0 => 'Maritime US',
   1 => 'Maritime International',
@@ -105,6 +84,7 @@ $GLOBALS['app_list_strings']['workgroup_list']=array (
   'EandI Division' => 'E&I Division',
   'Engineering' => 'Engineering',
   'Field Technician' => 'Field Technician',
+  'Manufacturing' => 'Manufacturing',
   'Network' => 'Network',
   'Network Operations' => 'Network Operations',
   'OffShore_Intl Ops' => 'Offshore/Int\'l Ops',
@@ -113,4 +93,20 @@ $GLOBALS['app_list_strings']['workgroup_list']=array (
   'Professional Services' => 'Professional Services',
   'Sales' => 'Sales',
   'Technical Services' => 'Technical Services',
+);
+$GLOBALS['app_list_strings']['case_priority_dom']=array (
+  'P1' => 'High',
+  'P2' => 'Medium',
+  'P3' => 'Low',
+);
+
+$GLOBALS['app_list_strings']['case_status_dom']=array (
+  'New' => 'New',
+  'Closed' => 'Closed',
+  'Active' => 'In Progress',
+  'Resolved' => 'Resolved',
+  'Waiting on Parts' => 'Waiting on Parts',
+  'Will Call' => 'Will Call',
+  'Dispatched' => 'Dispatched',
+  'Need Tech' => 'Need Tech',
 );
