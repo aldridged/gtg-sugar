@@ -36,8 +36,7 @@ $mail->AltBody=$emailbody;
 
 $mail->prepForOutbound();
 
-$mail->AddAddress('daldridge@globalgroup.us');
-$mail->AddAddress('leel@globalgroup.us');
+$mail->AddAddress('cs@globalgroup.us');
 
 $mail->Send();
 
