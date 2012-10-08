@@ -72,8 +72,8 @@ class AOS_QuotesViewDetail extends ViewDetail {
 		  	$html .= "<td class='tabDetailViewDF'>".currency_format_number($row['product_unit_price'])."</td>";
 		  	$html .= "<td class='tabDetailViewDF'>".$row['product_rate']."</td>";
 		  	$html .= "<td class='tabDetailViewDF'>".currency_format_number($row['product_prov_price'])."</td>";
-		  	$html .= "<td class='tabDetailViewDF'>".$row['start_date']."</td>";		
-			$html .= "<td class='tabDetailViewDF'>".$row['stop_date']."</td>";
+		  	$html .= "<td class='tabDetailViewDF'>".substr($row['start_date'],0,stripos($row['start_date']," "))."</td>";		
+			$html .= "<td class='tabDetailViewDF'>".substr($row['stop_date'],0,stripos($row['stop_date']," "))."</td>";
 		  	$html .= "</tr>";
 		}
 		$html .= "</table>";
