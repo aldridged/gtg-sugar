@@ -34,5 +34,6 @@ $dictionary['AOS_Quotes']['fields']['stage']['reportable']=true;
 $dictionary['AOS_Quotes']['fields']['invoice_status']['default']='mail';
 $dictionary['AOS_Quotes']['fields']['invoice_status']['reportable']=true;
 
+$dictionary['AOS_Quotes']['fields']['template_ddown_c']['default']='31d00d62-8892-7587-4153-4d9c843c2843';
  
 ?>
