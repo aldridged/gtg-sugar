@@ -53,13 +53,13 @@ class AOS_QuotesViewDetail extends ViewDetail {
 		$html .= "<div style='width:1000px;'><table border='0' width='100%' cellpadding='0' cellspacing='0'>";
 		$html .= "<tr>";
 		$html .= "<td width='2%' class='tabDetailViewDL' style='text-align: left;'>&nbsp;</td>";
-		$html .= "<td width='20%' class='tabDetailViewDL' style='text-align: left;'>".$mod_strings['LBL_PRODUCT_NAME']."</td>";
-		$html .= "<td width='5%' class='tabDetailViewDL' style='text-align: left;'>".$mod_strings['LBL_LIST_PRICE']."</td>";
+		$html .= "<td width='15%' class='tabDetailViewDL' style='text-align: left;'>".$mod_strings['LBL_PRODUCT_NAME']."</td>";
+		$html .= "<td width='5%' class='tabDetailViewDL' style='text-align: left;'>Asset</td>";
 		$html .= "<td width='5%' class='tabDetailViewDL' style='text-align: left;'>".$mod_strings['LBL_UNIT_PRICE']."</td>";
 		$html .= "<td width='5%' class='tabDetailViewDL' style='text-align: left;'>Rate</td>";
-		$html .= "<td width='10%' class='tabDetailViewDL' style='text-align: left;'>Provisioning</td>";
-		$html .= "<td width='10%' class='tabDetailViewDL' style='text-align: left;'>Start Date</td>";
-		$html .= "<td width='10%' class='tabDetailViewDL' style='text-align: left;'>Stop Date</td>";
+		$html .= "<td width='5%' class='tabDetailViewDL' style='text-align: left;'>Start Date</td>";
+		$html .= "<td width='5%' class='tabDetailViewDL' style='text-align: left;'>Stop Date</td>";
+		$html .= "<td width='20%' class='tabDetailViewDL' style='text-align: left;'>Notes</td>";
 		$html .= "</tr>";
 		$i = 1;
 		while ($row = $this->bean->db->fetchByAssoc($result)) {
@@ -67,13 +67,13 @@ class AOS_QuotesViewDetail extends ViewDetail {
 			$product_note = wordwrap($row['description'],40,"<br />\n");
 			$product_note2 = wordwrap($row['description2'],40,"<br />\n");
 			$html .= "<td class='tabDetailViewDF'>".$i++."</td>";
-		  	$html .= "<td class='tabDetailViewDF'><a href='index.php?module=AOS_Products&action=DetailView&record=".$row['product_id']."' class='tabDetailViewDFLink'>".$row['name']."</a><br />".$product_note." ".$product_note2."</td>";
-		  	$html .= "<td class='tabDetailViewDF'>".currency_format_number($row['product_list_price'])."</td>";
+		  	$html .= "<td class='tabDetailViewDF'><a href='index.php?module=AOS_Products&action=DetailView&record=".$row['product_id']."' class='tabDetailViewDFLink'>".$row['name']."</a></td>";
+			$html .= "<td class='tabDetailViewDF'>".$product_note."</td>";
 		  	$html .= "<td class='tabDetailViewDF'>".currency_format_number($row['product_unit_price'])."</td>";
 		  	$html .= "<td class='tabDetailViewDF'>".$row['product_rate']."</td>";
-		  	$html .= "<td class='tabDetailViewDF'>".currency_format_number($row['product_prov_price'])."</td>";
 		  	$html .= "<td class='tabDetailViewDF'>".$row['start_date']."</td>";		
 			$html .= "<td class='tabDetailViewDF'>".$row['stop_date']."</td>";
+			$html .= "<td class='tabDetailViewDF'>".$product_note2."</td>";
 		  	$html .= "</tr>";
 		}
 		$html .= "</table></div>";
