@@ -161,14 +161,14 @@ array (
       ),
       'lbl_line_items' => 
       array (
-        0 => 
-        array(
-	  0 =>
+        0 =>
+        array (
+          0 =>
 	  array (
             'name' => 'line_items_c',
             'label' => 'LBL_LINE_ITEMS',
             'customCode' => '{$LINE_ITEMS}',
-	  ),
+          ),
         ),
         1 => 
         array (
