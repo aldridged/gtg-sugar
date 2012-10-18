@@ -50,7 +50,7 @@ class AOS_QuotesViewDetail extends ViewDetail {
   		
 		$result = $this->bean->db->query($sql);
 		$html = "";
-		$html .= "<table border='0' width='100%' cellpadding='0' cellspacing='0'>";
+		$html .= "<div style='width:1000px;'><table border='0' width='100%' cellpadding='0' cellspacing='0'>";
 		$html .= "<tr>";
 		$html .= "<td width='2%' class='tabDetailViewDL' style='text-align: left;'>&nbsp;</td>";
 		$html .= "<td width='20%' class='tabDetailViewDL' style='text-align: left;'>".$mod_strings['LBL_PRODUCT_NAME']."</td>";
@@ -76,7 +76,7 @@ class AOS_QuotesViewDetail extends ViewDetail {
 			$html .= "<td class='tabDetailViewDF'>".$row['stop_date']."</td>";
 		  	$html .= "</tr>";
 		}
-		$html .= "</table>";
+		$html .= "</table></div>";
 		$this->ss->assign('LINE_ITEMS',$html);
 	}
 }
