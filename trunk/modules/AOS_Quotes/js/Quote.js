@@ -162,12 +162,12 @@ function insertProductLine(ln)
 	var z=x.insertCell(1);
 	var a=x.insertCell(2);
 	var b=x.insertCell(3);
-	var c1=x.insertCell(4);
 	
-	var c=x.insertCell(5);
+	var c=x.insertCell(4);
 
-	var c2=x.insertCell(6);
-	var d=x.insertCell(7);
+	var c2=x.insertCell(5);
+	var d=x.insertCell(6);
+	var d1=x.insertCell(7);
 	
 	y.className="dataField";
 	z.className="dataField";
@@ -178,71 +178,25 @@ function insertProductLine(ln)
 	
 	a.className="dataField";
 	b.className="dataField";
-	c1.className="dataField";
 	c2.className="dataField";
 	
 	c.className="dataField";
 	d.className="dataField";
-
-	y.innerHTML="<input type='text' name='product_name[]' id='product_name" + ln +"' size='15' maxlength='50' value='' title='' tabindex='3'><input type='hidden' name='product_id[]' id='product_id" + ln + "' size='20' maxlength='50' value=''>&nbsp;<input title='" + selectButtonTitle + "' accessKey='" + selectButtonKey + "' type='button' tabindex='3' class='button' value='" + selectButtonValue + "' name='btn1' onclick='openProductPopup(" + ln + ");'>";
-	z.innerHTML="<input type='text' name='product_list_price[]' id='product_list_price" + ln + "' size='20' maxlength='50' value='' title='' tabindex='3' readonly='readonly'><input type='hidden' name='product_cost_price[]' id='product_cost_price" + ln + "' value=''  />";
-	a.innerHTML="<input type='text' name='product_unit_price[]' id='product_unit_price" + ln + "' size='20' maxlength='50' value='' title='' tabindex='3' onfocus='copyListPrice(" + ln + ");' onblur='calculateProductLine(" + ln + ");'>";
-	b.innerHTML="<input type='text' name='product_rate[]' id='product_rate" + ln + "' value='' />";
-	c1.innerHTML="<input type='text' name='product_prov_price[]' id='product_prov_price" + ln + "' size='20' maxlength='50' value='' title='' tabindex='3'>";
-	
-	c.innerHTML="<input type='text' name='start_date[]' id='start_date" + ln + "' size='20' maxlength='50' value='" + now.getFullYear() + "-" + curmonth + "-" + curdate + "' title='' tabindex='3'>";
-
-	c2.innerHTML="<input type='text' name='stop_date[]' id='stop_date" + ln + "' size='20' maxlength='50' value='' title='' tabindex='3'>";
-
-	d.innerHTML="<input type='hidden' name='deleted[]' id='deleted" + ln + "' value='0'><input type='hidden' name='product_quote_id[]' value=''><input type='button' class='button' value='" + deleteButtonValue + "' tabindex='3' onclick='deleteProductLine(this)'>";
-	
-	var e=document.getElementById('productLine').insertRow(-1);
-		var g=e.insertCell(0);
-
-
-//var m=e.insertCell(2);
-//	var n=e.insertCell(3);
-	var d1=e.insertCell(1);
-	var d2=e.insertCell(2);
-	var f=e.insertCell(3);
-	var h=e.insertCell(4);
-	var i=e.insertCell(5);
-	var j=e.insertCell(6);
-	var k=e.insertCell(7);
-	
-
-	f.className="dataField";
-	g.className="dataField";
-	h.className="dataField";
-	i.className="dataField";
-	j.className="dataField";
-	k.className="dataField";
 	d1.className="dataField";
-	d2.className="dataField";
 
+	y.innerHTML="<input type='text' name='product_name[]' id='product_name" + ln +"' size='25' maxlength='50' value='' title='' tabindex='3'><input type='hidden' name='product_id[]' id='product_id" + ln + "' size='20' maxlength='50' value=''>&nbsp;<input title='" + selectButtonTitle + "' accessKey='" + selectButtonKey + "' type='button' tabindex='3' class='button' value='" + selectButtonValue + "' name='btn1' onclick='openProductPopup(" + ln + ");'>";
+	z.innerHTML="<textarea tabindex='3' name='product_note[]' id='product_note" + ln + "' rows='1' size='25'></textarea>";
+	a.innerHTML="<input type='text' name='product_unit_price[]' id='product_unit_price" + ln + "' size='10' maxlength='50' value='' title='' tabindex='3' onfocus='copyListPrice(" + ln + ");' onblur='calculateProductLine(" + ln + ");'>";
+	b.innerHTML="<input type='text' name='product_rate[]' id='product_rate" + ln + "' size='10' value='' />";
+	c.innerHTML="<input type='text' name='start_date[]' id='start_date" + ln + "' size='15' maxlength='50' value='" + now.getFullYear() + "-" + curmonth + "-" + curdate + "' title='' tabindex='3'>";
 
-	//m.className="dataField";
-	//n.className="dataField";
-	//n.setAttribute('nowrap',true);
+	c2.innerHTML="<input type='text' name='stop_date[]' id='stop_date" + ln + "' size='15' maxlength='50' value='' title='' tabindex='3'>";
 
-	
-	
+	d.innerHTML="<textarea tabindex='3' name='product_note2[]' id='product_note2" + ln + "' rows='1' size='25'></textarea>";
 
-		/*var v='start_date'+ ln;
-		var tri='date_request_trigger'+ ln;
-		var v1='end_date'+ ln;
-		var tri1='end_date_request_trigger'+ ln;*/
+	d1.innerHTML="<input type='hidden' name='deleted[]' id='deleted" + ln + "' value='0'><input type='hidden' name='product_quote_id[]' value=''><input type='button' class='button' value='" + deleteButtonValue + "' tabindex='3' onclick='deleteProductLine(this)'>";
 
-
-	g.innerHTML="<br><textarea tabindex='3' name='product_note[]' id='product_note" + ln + "' rows='1' size='15'></textarea>&nbsp;&nbsp;";
-	//m.innerHTML="<label>Start Date:</label><br><input type='text' name='start_date[]' id='"+ v + "'/><img border='0' src='calendar-icon.jpg' alt='Enter Date' id='"+tri+"' align='absmiddle' />";
-	//n.innerHTML="<label>End Date:</label><br><input type='text' name='end_date[]' id='"+ v1 + "'/><img border='0' src='calendar-icon.jpg' alt='Enter Date' id='"+tri1+"' align='absmiddle' />";
-//	d1.innerHTML="Vat&nbsp;&nbsp; :&nbsp;&nbsp;<select name='vat[]' id='vat" + ln + "' onchange='calculateProductLine(" + ln + ");'>"+ vat_hidden +"</select>";
-	d1.innerHTML="<br><textarea tabindex='4' name='product_note2[]' id='product_note2" + ln + "' rows='1' size='15'></textarea>&nbsp;&nbsp;";
-	d2.innerHTML="";
-	
-	
-	ln++;
+	ln++;	
 		
 		/*	Calendar.setup ({
 		inputField : v,
