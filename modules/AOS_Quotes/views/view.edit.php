@@ -102,12 +102,12 @@ HTML;
 		$html .= "<table border='0' width='100%' id='productLine'>";
 		$html .= "<tr>";
 		$html .= "<td width='15%' class='dataLabel' style='text-align: left;'>".$mod_strings['LBL_PRODUCT_NAME']."</td>";
-		$html .= "<td width='10%' class='dataLabel' style='text-align: left;'>".$mod_strings['LBL_LIST_PRICE']."</td>";
-		$html .= "<td width='10%' class='dataLabel' style='text-align: left;'>".$mod_strings['LBL_UNIT_PRICE']."</td>";
-		$html .= "<td width='10%' class='dataLabel' style='text-align: left;'>Product Rate</td>";
-		$html .= "<td width='10%' class='dataLabel' style='text-align: left;'>Provisioning (USD $)</td>";
-		$html .= "<td width='15%' class='dataLabel' style='text-align: left;'>Start Date</td>";
-		$html .= "<td width='15%' class='dataLabel' style='text-align: left;'>Stop Date</td>";
+		$html .= "<td width='10%' class='dataLabel' style='text-align: left;'>Asset</td>";
+		$html .= "<td width='5%' class='dataLabel' style='text-align: left;'>".$mod_strings['LBL_UNIT_PRICE']."</td>";
+		$html .= "<td width='5%' class='dataLabel' style='text-align: left;'>Product Rate</td>";
+		$html .= "<td width='5%' class='dataLabel' style='text-align: left;'>Start Date</td>";
+		$html .= "<td width='5%' class='dataLabel' style='text-align: left;'>Stop Date</td>";
+		$html .= "<td width='10%' class='dataLabel' style='text-align: left;'>Notes</td>";
 		$html .= "<td width='10%' class='dataLabel' style='text-align: left;'>&nbsp;</td>";
 		$html .= "</tr>";
 		
@@ -117,26 +117,22 @@ HTML;
 			
 			$html .= "<tr id='product_line$i'>";
 			
-			$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_name[]' id='product_name$i' size='15' maxlength='50' value='".$row['name']."' title=''><input type='hidden' name='product_id[]' id='product_id$i' value='".$row['product_id']."'>&nbsp;<input title='".$app_strings['LBL_SELECT_BUTTON_TITLE']."' accessKey='".$app_strings['LBL_SELECT_BUTTON_KEY']."' type='button' tabindex='3' class='button' value='".$app_strings['LBL_SELECT_BUTTON_LABEL']."' name='btn1' onclick='openProductPopup($i)'></td>";
+			$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_name[]' id='product_name$i' size='25' maxlength='50' value='".$row['name']."' title=''><input type='hidden' name='product_id[]' id='product_id$i' value='".$row['product_id']."'>&nbsp;<input title='".$app_strings['LBL_SELECT_BUTTON_TITLE']."' accessKey='".$app_strings['LBL_SELECT_BUTTON_KEY']."' type='button' tabindex='3' class='button' value='".$app_strings['LBL_SELECT_BUTTON_LABEL']."' name='btn1' onclick='openProductPopup($i)'></td>";
 
-		  	$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_list_price[]' id='product_list_price$i' size='20' maxlength='50' value='".format_number($row['product_list_price'])."' title='' readonly='readonly'><input type='hidden' name='product_cost_price[]' id='product_cost_price$i' value='".format_number($row['product_cost_price'])."' /></td>";
-		  	$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_unit_price[]' id='product_unit_price$i' size='20' maxlength='50' value='".format_number($row['product_unit_price'])."' title='' onfocus='copyListPrice($i);' onblur='calculateProductLine($i);'></td>";
-			$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_rate[]' id='product_rate$i' size='20' maxlength='50' value='".$row['product_rate']."' title=''></td>";
-		  	
-		  	$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_prov_price[]' id='product_prov_price$i' size='20' maxlength='50' value='".format_number($row['product_prov_price'])."' title=''></td>";
+		  	$html .= "<td class='dataField'><textarea tabindex='3' name='product_note[]' id='product_note$i' rows='1' cols='25'>".$row['description']."</textarea></td>";
+		  	$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_unit_price[]' id='product_unit_price$i' size='10' maxlength='50' value='".format_number($row['product_unit_price'])."' title='' onfocus='copyListPrice($i);' onblur='calculateProductLine($i);'></td>";
+			$html .= "<td class='dataField'><input tabindex='3' type='text' name='product_rate[]' id='product_rate$i' size='10' maxlength='50' value='".$row['product_rate']."' title=''></td>";
 
-			$html .= "<td class='dataField'><input tabindex='3' type='text' name='start_date[]' id='start_date$i' size='20' maxlength='50' value='".substr($row['start_date'],0,10)."' title=''></td>";
+			$html .= "<td class='dataField'><input tabindex='3' type='text' name='start_date[]' id='start_date$i' size='15' maxlength='50' value='".substr($row['start_date'],0,10)."' title=''></td>";
 
-			$html .= "<td class='dataField'><input tabindex='3' type='text' name='stop_date[]' id='stop_date$i' size='20' maxlength='50' value='".substr($row['stop_date'],0,10)."' title=''></td>";
+			$html .= "<td class='dataField'><input tabindex='3' type='text' name='stop_date[]' id='stop_date$i' size='15' maxlength='50' value='".substr($row['stop_date'],0,10)."' title=''></td>";
+
+			$html .= "<td class='dataField'><textarea tabindex='3' name='product_note2[]' id='product_note2$i' rows='1' cols='25'>".$row['description2']."</textarea></td>";
 		  	
 		  	$html .= "<td class='dataField'><input type='hidden' name='deleted[]' id='deleted$i' value='0'><input type='hidden' name='product_quote_id[]' value='".$row['id']."'><input type='button' class='button' value='".$mod_strings['LBL_REMOVE_PRODUCT_LINE']."' tabindex='3' onclick='markProductLineDeleted($i)'></td>";
 		  	
 		  	$html .= "</tr>";
                         
-            $html .= "<tr><td height='10px'></td></tr><tr id='product_note_line$i'>";
-			$html .= "<td class='dataField'></td>";
-			$html .= "<td class='dataField'><textarea tabindex='3' name='product_note[]' id='product_note$i' rows='1' cols='25'>".$row['description']."</textarea></td>";
-			$html .= "<td class='dataField'><textarea tabindex='3' name='product_note2[]' id='product_note2$i' rows='1' cols='25'>".$row['description2']."</textarea></td>";
 /*
 			$html .= "<td class='dataField'>&nbsp;&nbsp;Vat&nbsp;&nbsp;%&nbsp;&nbsp; :&nbsp;&nbsp;<select name='vat[]' id='vat$i' onchange='calculateProductLine($i)'>";
 			for($j=0;$j < count($vat_value2); $j++)

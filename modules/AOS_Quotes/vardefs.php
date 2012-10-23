@@ -245,6 +245,7 @@ $dictionary['AOS_Quotes'] = array(
     'len' => 100,
     'options' => 'template_ddown_c_list',
     'studio' => 'visible',
+    'default' => 'Default',
   ),
   'shipping_contact_id' => 
   array (
