@@ -20,7 +20,7 @@ $subpanel_layout['list_fields'] = array (
     'type' => 'enum',
     'default' => true,
     'vname' => 'LBL_STATUS',
-    'sortable' => false,
+    'sortable' => true,
     'width' => '10%',
   ),
   'estimated_start_date' => 
