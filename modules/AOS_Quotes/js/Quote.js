@@ -231,8 +231,6 @@ function deleteProductLine(ln)
 {
 	var obj = ln.parentNode.parentNode.rowIndex;
 	document.getElementById('productLine').deleteRow(obj);
-	// delete product note line
-	document.getElementById('productLine').deleteRow(obj);
 	// calculate product line total
 	calculateProductLineTotal();
 }
@@ -244,8 +242,6 @@ function markProductLineDeleted(ln)
 {
 	// collapse product line; update deleted value
 	document.getElementById('product_line' + ln).style.display = 'none';
-	// collapse product note line
-	document.getElementById('product_note_line' + ln).style.display = 'none';
 	document.getElementById('deleted' + ln).value = '1';
 	// calculate product line total
 	calculateProductLineTotal();

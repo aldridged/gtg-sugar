@@ -74,13 +74,8 @@ class AOS_Quotes extends AOS_Quotes_sugar {
 			$productQuote->product_id = $product['product_id'][$i];
 			$productQuote->name = $product['product_name'][$i];
 			$productQuote->product_qty = $product['product_qty'][$i];
-			$productQuote->product_list_price = unformat_number($product['product_list_price'][$i]);
 			$productQuote->product_unit_price = unformat_number($product['product_unit_price'][$i]);
-			$productQuote->vat = $product['vat'][$i];
-			$productQuote->vat_amt = unformat_number($product['vat_amt'][$i]);	
-			$productQuote->product_total_price = unformat_number($product['product_total_price'][$i]);
 			$productQuote->product_rate = $product['product_rate'][$i];
-			$productQuote->product_prov_price = unformat_number($product['product_prov_price'][$i]);
 			$productQuote->start_date = $product['start_date'][$i];
 			$productQuote->stop_date = $product['stop_date'][$i];
 			$productQuote->description = $product['product_note'][$i];
