@@ -9,7 +9,7 @@ require_once('include/SugarPHPMailer.php');
 require_once('modules/Emails/Email.php');
 
 /* Query database to get case assignment in the last 5 minutes */
-$query = 'select p.name as job,concat("http://dcmaster.mydatacom.com/index.php?module=Cases&action=DetailView&record=",c.id) as link,c.name as case_name, c.case_number, c.status, c.priority, e.email_address from project as p, projects_cases as pc, cases as c, email_addresses as e, email_addr_bean_rel as eb where pc.case_id=c.id and pc.project_id=p.id and timestampdiff(minute,convert_tz(pc.date_modified,"+00:00","-05:00"),now())<=5 and p.assigned_user_id=eb.bean_id and e.id=eb.email_address_id and pc.deleted=0 and c.deleted=0 and p.deleted=0;';
+$query = 'select p.name as job,concat("http://dcmaster.mydatacom.com/index.php?module=Cases&action=DetailView&record=",c.id) as link,c.name as case_name, c.case_number, c.status, c.priority, e.email_address from project as p, projects_cases as pc, cases as c, email_addresses as e, email_addr_bean_rel as eb where pc.case_id=c.id and pc.project_id=p.id and timestampdiff(minute,convert_tz(pc.date_modified,"+00:00","-06:00"),now())<=5 and p.assigned_user_id=eb.bean_id and e.id=eb.email_address_id and pc.deleted=0 and c.deleted=0 and p.deleted=0;';
 $db = DBManagerFactory::getInstance();
 $result = $db->query($query,true,'Case Assignment Query Failed');
 $prevemail = "";
