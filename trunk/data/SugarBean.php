@@ -1623,6 +1623,16 @@ class SugarBean
 			    $notify_mail->FromName = $from_name;
 			}
 
+		// If a manager is set then copy them on the email
+		$GLOBALS['log']->fatal("Notifications: e-mailing manager id ($notify_user->reports_to_id)");
+		if(!empty($notify_user->reports_to_id)) {
+			$manager = new User; 
+  			$manager = $manager->retrieve_by_string_fields(array('id'=>$notify_user->reports_to_id));
+  			$manager_address = $manager->emailAddress->getPrimaryAddress($manager);
+  			$notify_mail->AddAddress($manager_address);
+  			$GLOBALS['log']->fatal("Notifications: e-mailing manager ($manager_address)");
+			} 
+
 			if($sendEmail && !$notify_mail->Send()) {
 			    $GLOBALS['log']->fatal("Notifications: error sending e-mail (method: {$notify_mail->Mailer}), (error: {$notify_mail->ErrorInfo})");
 			} else {
