@@ -53,15 +53,15 @@ array (
         array (
           0 => 
           array (
-            'name' => 'status',
-            'comment' => 'The status of the case',
-            'label' => 'LBL_STATUS',
-          ),
-          1 => 
-          array (
             'name' => 'account_name',
             'comment' => 'The name of the account represented by the account_id field',
             'label' => 'LBL_ACCOUNT_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'status',
+            'comment' => 'The status of the case',
+            'label' => 'LBL_STATUS',
           ),
         ),
         2 => 
@@ -73,16 +73,16 @@ array (
           ),
           1 => 
           array (
-            'name' => 'contactphone_c',
-            'label' => 'LBL_CONTACTPHONE',
+            'name' => 'duedate_c',
+            'label' => 'LBL_DUEDATE',
           ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'duedate_c',
-            'label' => 'LBL_DUEDATE',
+            'name' => 'contactphone_c',
+            'label' => 'LBL_CONTACTPHONE',
           ),
           1 => 
           array (
@@ -97,31 +97,18 @@ array (
             'name' => 'jobnumber_c',
             'label' => 'LBL_JOBNUMBER',
           ),
-          1 => 
-          array (
-            'name' => 'workgroup_c',
-            'studio' => 'visible',
-            'label' => 'LBL_WORKGROUP',
-          ),
+          1 => '',
         ),
         5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'type',
-            'comment' => 'The type of issue (ex: issue, feature)',
-            'label' => 'LBL_TYPE',
-          ),
-        ),
-        6 => 
         array (
           0 => 
           array (
             'name' => 'name',
             'label' => 'LBL_SUBJECT',
           ),
+          1 => '',
         ),
-        7 => 
+        6 => 
         array (
           0 => 
           array (
@@ -130,7 +117,25 @@ array (
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_log',
+            'comment' => 'Free-form text used to denote activities of interest',
+            'label' => 'LBL_WORK_LOG',
+          ),
+        ),
         8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ticketnumber_c',
+            'label' => 'LBL_TICKETNUMBER',
+          ),
+          1 => '',
+        ),
+        9 => 
         array (
           0 => 
           array (
@@ -151,27 +156,29 @@ array (
           ),
           1 => 
           array (
-            'name' => 'date_modified',
-            'label' => 'LBL_DATE_MODIFIED',
-            'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
+            'name' => 'date_entered',
+            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
           ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'date_entered',
-            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
+            'name' => 'workgroup_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORKGROUP',
+          ),
+          1 => 
+          array (
+            'name' => 'date_modified',
+            'label' => 'LBL_DATE_MODIFIED',
+            'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
           ),
         ),
         2 => 
         array (
-          0 => 
-          array (
-            'name' => 'work_log',
-            'comment' => 'Free-form text used to denote activities of interest',
-            'label' => 'LBL_WORK_LOG',
-          ),
+          0 => '',
+          1 => '',
         ),
       ),
     ),

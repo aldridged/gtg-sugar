@@ -75,7 +75,11 @@ $GLOBALS['app_list_strings']['quote_invoice_status_dom']=array (
   'mail' => 'Mail',
   'email' => 'Email',
 );
-
+$GLOBALS['app_list_strings']['case_priority_dom']=array (
+  'P1' => 'High',
+  'P2' => 'Medium',
+  'P3' => 'Low',
+);
 $GLOBALS['app_list_strings']['workgroup_list']=array (
   'Billing' => 'Billing',
   'Client Services' => 'Client Services',
@@ -93,20 +97,26 @@ $GLOBALS['app_list_strings']['workgroup_list']=array (
   'Professional Services' => 'Professional Services',
   'Sales' => 'Sales',
   'Technical Services' => 'Technical Services',
-);
-$GLOBALS['app_list_strings']['case_priority_dom']=array (
-  'P1' => 'High',
-  'P2' => 'Medium',
-  'P3' => 'Low',
+  'Warehouse' => 'Warehouse',
 );
 
+$GLOBALS['app_list_strings']['task_status_dom']=array (
+  'Not Started' => 'Not Started',
+  'Dispatched' => 'Dispatched',
+  'In Progress' => 'In Progress',
+  'Shipped' => 'Shipped',
+  'Staged in Cage' => 'Staged in Cage',
+  'Waiting on Equipment' => 'Waiting on Equipment',
+  'Completed' => 'Completed',
+);
 $GLOBALS['app_list_strings']['case_status_dom']=array (
   'New' => 'New',
   'Closed' => 'Closed',
+  'Dispatched' => 'Dispatched',
+  'Follow Up Needed' => 'Follow Up Needed',
   'Active' => 'In Progress',
+  'Need Tech' => 'Need Tech',
   'Resolved' => 'Resolved',
   'Waiting on Parts' => 'Waiting on Parts',
   'Will Call' => 'Will Call',
-  'Dispatched' => 'Dispatched',
-  'Need Tech' => 'Need Tech',
 );

@@ -55,34 +55,39 @@ array (
         array (
           0 => 
           array (
-            'name' => 'estimated_start_date',
-            'label' => 'LBL_DATE_START',
+            'name' => 'customer_c',
+            'label' => 'LBL_CUSTOMER',
           ),
           1 => 
           array (
-            'name' => 'priority',
-            'label' => 'LBL_PRIORITY',
+            'name' => 'estimated_start_date',
+            'label' => 'LBL_DATE_START',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'estimated_end_date',
-            'label' => 'LBL_DATE_END',
+            'name' => 'facility_c',
+            'label' => 'LBL_FACILITY',
           ),
           1 => 
           array (
-            'name' => 'po_c',
-            'label' => 'LBL_PO',
+            'name' => 'estimated_end_date',
+            'label' => 'LBL_DATE_END',
           ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'facility_c',
-            'label' => 'LBL_FACILITY',
+            'name' => 'wellname_c',
+            'label' => 'LBL_WELLNAME',
+          ),
+          1 => 
+          array (
+            'name' => 'po_c',
+            'label' => 'LBL_PO',
           ),
         ),
         4 => 
@@ -94,16 +99,16 @@ array (
           ),
           1 => 
           array (
-            'name' => 'wellname_c',
-            'label' => 'LBL_WELLNAME',
+            'name' => 'ocsg_c',
+            'label' => 'LBL_OCSG',
           ),
         ),
         5 => 
         array (
           0 => 
           array (
-            'name' => 'ocsg_c',
-            'label' => 'LBL_OCSG',
+            'name' => 'leasename_c',
+            'label' => 'LBL_LEASENAME',
           ),
           1 => 
           array (
@@ -115,16 +120,30 @@ array (
         array (
           0 => 
           array (
+            'name' => 'parish_c',
+            'label' => 'LBL_PARISH',
+          ),
+          1 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_USER_NAME',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
             'name' => 'prebill_c',
             'label' => 'LBL_PREBILL',
           ),
           1 => 
           array (
-            'name' => 'dockname_c',
-            'label' => 'LBL_DOCKNAME',
+            'name' => 'kmi_c',
+            'studio' => 'visible',
+            'label' => 'LBL_KMI',
           ),
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -140,26 +159,19 @@ array (
         array (
           0 => 
           array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_USER_NAME',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
-            'name' => 'kmi_c',
-            'studio' => 'visible',
-            'label' => 'LBL_KMI',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'latax_c',
             'label' => 'LBL_LATAX',
           ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => '',
           1 => '',
         ),
       ),

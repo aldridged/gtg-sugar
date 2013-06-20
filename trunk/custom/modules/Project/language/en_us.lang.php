@@ -1,5 +1,5 @@
 <?php
-// created: 2012-01-31 09:42:38
+// created: 2012-11-15 10:56:54
 $mod_strings = array (
   'LBL_PROJECTTASK_SUBPANEL_TITLE' => 'Jobs',
   'LBL_AREABLOCK' => 'Area/Block',
@@ -8,7 +8,7 @@ $mod_strings = array (
   'LBL_AFE' => 'AFE',
   'LBL_PO' => 'PO',
   'LBL_FACILITY' => 'Facility',
-  'LBL_CUSTOMER' => 'customer',
+  'LBL_CUSTOMER' => 'Customer',
   'LBL_DOCKNAME' => 'dockname',
   'LBL_HELINAME' => 'heliname',
   'LBL_PREBILL' => 'PreBill',
@@ -28,5 +28,7 @@ $mod_strings = array (
   'LBL_KMI' => 'KMI',
   'LBL_LIST_ASSIGNED_USER_ID' => 'Assigned To:',
   'LBL_LATAX' => 'LA Taxable ?',
+  'LBL_LEASENAME' => 'Lease Name',
+  'LBL_PARISH' => 'Parish',
 );
 ?>

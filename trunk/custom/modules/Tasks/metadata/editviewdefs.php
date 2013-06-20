@@ -106,6 +106,7 @@ array (
               'required' => true,
             ),
           ),
+          1 => '',
         ),
         4 => 
         array (
@@ -113,6 +114,25 @@ array (
           array (
             'name' => 'description',
           ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_log_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORK_LOG',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'resolution_c',
+            'studio' => 'visible',
+            'label' => 'LBL_RESOLUTION',
+          ),
+          1 => '',
         ),
       ),
       'LBL_PANEL_ASSIGNMENT' => 
@@ -124,6 +144,7 @@ array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
+          1 => '',
         ),
         1 => 
         array (
@@ -133,6 +154,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_WORKGROUP',
           ),
+          1 => '',
         ),
       ),
     ),
