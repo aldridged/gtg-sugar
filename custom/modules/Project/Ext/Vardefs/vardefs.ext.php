@@ -68,6 +68,10 @@ $dictionary["Project"]["fields"]["aos_quotes_project"] = array (
 
  
 
+ // created: 2012-11-15 10:56:54
+
+ 
+
  // created: 2011-03-17 15:20:49
 
  
@@ -95,6 +99,10 @@ $dictionary['Project']['fields']['estimated_start_date']['required']=false;
  
 
  // created: 2011-03-17 15:39:21
+
+ 
+
+ // created: 2012-10-11 09:07:05
 
  
 

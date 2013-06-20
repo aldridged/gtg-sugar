@@ -7,11 +7,11 @@ array (
     'label' => 'LBL_LIST_NUMBER',
     'default' => true,
   ),
-  'WORKGROUP_C' => 
+  'TICKETNUMBER_C' => 
   array (
     'type' => 'varchar',
     'default' => true,
-    'label' => 'LBL_WORKGROUP',
+    'label' => 'LBL_TICKETNUMBER',
     'width' => '10%',
   ),
   'DUEDATE_C' => 
@@ -30,7 +30,7 @@ array (
   ),
   'ACCOUNT_NAME' => 
   array (
-    'width' => '25%',
+    'width' => '20%',
     'label' => 'LBL_LIST_ACCOUNT_NAME',
     'module' => 'Accounts',
     'id' => 'ACCOUNT_ID',
@@ -42,24 +42,32 @@ array (
       0 => 'account_id',
     ),
   ),
-  'PRIORITY' => 
-  array (
-    'width' => '8%',
-    'label' => 'LBL_LIST_PRIORITY',
-    'default' => true,
-  ),
   'STATUS' => 
   array (
-    'width' => '8%',
+    'width' => '10%',
     'label' => 'LBL_LIST_STATUS',
     'default' => true,
   ),
   'ASSIGNED_USER_NAME' => 
   array (
-    'width' => '5%',
+    'width' => '10%',
     'label' => 'LBL_ASSIGNED_TO_NAME',
     'module' => 'Employees',
     'id' => 'ASSIGNED_USER_ID',
+    'default' => true,
+  ),
+  'WORKGROUP_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_WORKGROUP',
+    'width' => '15%',
+  ),
+  'DATE_ENTERED' => 
+  array (
+    'type' => 'datetime',
+    'label' => 'LBL_DATE_ENTERED',
+    'width' => '15%',
     'default' => true,
   ),
 );

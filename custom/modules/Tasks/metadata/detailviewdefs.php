@@ -98,6 +98,7 @@ array (
             'name' => 'priority',
             'label' => 'LBL_PRIORITY',
           ),
+          1 => '',
         ),
         4 => 
         array (
@@ -106,6 +107,24 @@ array (
             'name' => 'description',
             'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_log_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WORK_LOG',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'resolution_c',
+            'studio' => 'visible',
+            'label' => 'LBL_RESOLUTION',
           ),
         ),
       ),
@@ -118,6 +137,12 @@ array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO',
           ),
+          1 => 
+          array (
+            'name' => 'date_entered',
+            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
+            'label' => 'LBL_DATE_ENTERED',
+          ),
         ),
         1 => 
         array (
@@ -127,21 +152,17 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_WORKGROUP',
           ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'date_entered',
-            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
-            'label' => 'LBL_DATE_ENTERED',
-          ),
           1 => 
           array (
             'name' => 'date_modified',
             'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
             'label' => 'LBL_DATE_MODIFIED',
           ),
+        ),
+        2 => 
+        array (
+          0 => '',
+          1 => '',
         ),
       ),
     ),
