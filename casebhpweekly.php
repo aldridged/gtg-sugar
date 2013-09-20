@@ -9,15 +9,15 @@ require_once('include/SugarPHPMailer.php');
 require_once('modules/Emails/Email.php');
 
 /* Query database to get case aging */
-$query = 'select case_number,name,status,date_entered,description,resolution from cases where account_id="BHP" and deleted=0 and (timestampdiff(day,date_entered,now())<=7 or status!="Closed") order by date_entered desc;';
+$query = 'select case_number,name,status,date_entered,description,resolveddate_c,resolution from cases,cases_cstm where cases.id=cases_cstm.id_c and account_id in ("BHP","d27f2536-ee25-29d1-fd8a-51f13a0a9eb0","a6103800-8824-1860-00a8-5140e1a5c402") and deleted=0 and (timestampdiff(day,date_entered,now())<=7 or status!="Closed") order by date_entered desc;';
 $db = DBManagerFactory::getInstance();
 $result = $db->query($query,true,'BHP Weekly Report');
 
 /* Create email bodies to send */
 $emailbody = "BHP Weekly Report<br /><br />The weekly report is attached.";
-$reportbody ="Number, Name, Status, Date Entered, Description, Resolution\n";
+$reportbody ="Number, Name, Status, Date Entered, Description, Date Resolved, Resolution\n";
 while(($row = $db->fetchByAssoc($result))!= null){
-    $reportbody .= $row['case_number'].", ".$row['name'].", ".$row['status'].", ".$row['date_entered'].", ".str_replace(array("\r","\n",","),'',$row['description']).", ".str_replace(array("\r","\n",","),'',$row['resolution'])."\n";
+    $reportbody .= $row['case_number'].", ".str_replace(array("\r","\n",","),'',$row['name']).", ".$row['status'].", ".$row['date_entered'].", ".str_replace(array("\r","\n",","),'',$row['description']).", ".$row['resolveddate_c'].", ".str_replace(array("\r","\n",","),'',$row['resolution'])."\n";
 };
 
 /* Send out emails */
