@@ -1,0 +1,7 @@
+* * * * * cd /home/dcmaster/htdocs; /usr/bin/php -f cron.php > /dev/null 2>&1
+0 2 * * * /usr/local/bin/backup.sh
+0 1 7,14,21,28 * * /usr/local/bin/backup-routers.sh
+*/5 7,8,9,10,11,12,13,14,15,16,17,18 * * 1-5 cd /home/dcmaster/htdocs; /usr/bin/php -f /home/dcmaster/htdocs/caseunassigned.php; /usr/bin/php -f /home/dcmaster/htdocs/casesalesrep.php; /usr/bin/php -f /home/dcmaster/htdocs/casegroupunassigned.php
+0 1 * * * cd /home/dcmaster/htdocs; /usr/bin/php -f /home/dcmaster/htdocs/caseclosed.php
+0 7,8,9,10,11,12,13,14,15,16,17,18 * * 1-5 cd /home/dcmaster/htdocs; /usr/bin/php -f /home/dcmaster/htdocs/caseaging.php
+0 1 * * * 3 cd /home/dcmaster/htdocs; /usr/bin/php -f /home/dcmaster/htdocs/casebhpweekly.php
