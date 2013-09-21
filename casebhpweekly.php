@@ -14,7 +14,7 @@ $db = DBManagerFactory::getInstance();
 $result = $db->query($query,true,'BHP Weekly Report');
 
 /* Create email bodies to send */
-$emailbody = "BHP Weekly Report<br /><br />The weekly report is attached.";
+$emailbody = "BHP Weekly Report<br /><br />Please find the weekly report attached.";
 $reportbody ="Number, Name, Status, Date Entered, Description, Date Resolved, Resolution\n";
 while(($row = $db->fetchByAssoc($result))!= null){
     $reportbody .= $row['case_number'].", ".str_replace(array("\r","\n",","),'',$row['name']).", ".$row['status'].", ".$row['date_entered'].", ".str_replace(array("\r","\n",","),'',$row['description']).", ".$row['resolveddate_c'].", ".str_replace(array("\r","\n",","),'',$row['resolution'])."\n";
@@ -38,7 +38,7 @@ $mail->AddStringAttachment($reportbody,"weekly-rpt.csv");
 
 $mail->prepForOutbound();
 
-$mail->AddAddress('engineering@globalgroup.us');
+$mail->AddAddress('bhpteam@globalgroup.us');
 
 $mail->Send();
 
