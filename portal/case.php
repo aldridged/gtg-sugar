@@ -1,6 +1,11 @@
 <?php
 include "portalfuncs.php";
 
+// Write header
+echo "<head>\n";
+echo "<link rel='stylesheet' type='text/css' href='/themes/Sugar5/css/style.css'>\n";
+echo "</head>\n";
+
 // Login
 $result = RestCall('login',array('user_auth' => array('user_name' => 'Admin', 'password' => md5('D@t@c0m#'))));
 
@@ -23,17 +28,18 @@ $worklog = $result['entry_list'][0]['name_value_list']['work_log']['value'];
 $resolution = $result['entry_list'][0]['name_value_list']['resolution']['value'];
 
 // Output Information
-echo "Case Number: ".$casenumber."<br />";
-echo "Job Number: ".$jobnumber."<br />";
-echo "Ticket Number: ".$ticketnumber."<br />";
-echo "Priority: ".$priority."<br />";
-echo "Status: ".$status."<br />";
-echo "Due Date: ".$duedate."<br />";
-echo "Resolved Date: ".$resolveddate."<br /><hr>";
-echo "Subject: ".$subject."<br />";
-echo "Description: ".$description."<br /><hr>";
-echo "Work Log: ".$worklog."<br /><hr>";
-echo "Resolution: ".$resolution."<br /><hr>";
+echo "<table border='0' width='100%'>";
+echo "<tr><td width='50%'><b>Case Number:</b> ".$casenumber."<br />";
+echo "<b>Job Number:</b> ".$jobnumber."<br />";
+echo "<b>Ticket Number:</b> ".$ticketnumber."<br /></td>";
+/* echo "<b>Priority:</b> ".$priority."<br />"; */
+echo "<td width='50%'><b>Status:</b> ".$status."<br />";
+echo "<b>Due Date:</b> ".$duedate."<br />";
+echo "<b>Resolved Date:</b> ".$resolveddate."<br /></td></tr></table><hr>";
+echo "<b>Subject:</b> ".$subject."<hr>";
+echo "<b>Description:</b><br /> ".nl2br($description)."<br /><hr>";
+echo "<b>Work Log:</b><br /> ".nl2br($worklog)."<br /><hr>";
+echo "<b>Resolution:</b><br /> ".nl2br($resolution)."<br /><hr>";
 
 // Find related notes
 $result = RestCall('get_relationships',array('session' => $session, 'module_name' => 'Cases', 'module_id' => $_GET['id'], 'link_field_name' => 'notes', 'related_module_query' => '', 'related_fields' => array('id','name','filename'), 'related_module_link_name_to_fields_array' => array(), 'deleted' => 0));

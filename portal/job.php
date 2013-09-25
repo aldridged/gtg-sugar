@@ -1,6 +1,11 @@
 <?php
 include "portalfuncs.php";
 
+// Write header
+echo "<head>\n";
+echo "<link rel='stylesheet' type='text/css' href='/themes/Sugar5/css/style.css'>\n";
+echo "</head>\n";
+
 // Store project name
 $projname = $_GET['jobid'];
 
