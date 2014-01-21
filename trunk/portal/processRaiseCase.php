@@ -24,7 +24,7 @@ $jobid = $result['entry_list'][0]['id'];
 $acctid = $result['relationship_list'][0][0]['records'][0]['id']['value'];
 
 /* Create new case */
-$result = RestCall('set_entry',array('session' => $session, 'module_name' => 'Cases', array('name' => $_GET['subject'], 'description' => $_GET['description'], 'jobnumber_c' => $_GET['job'])));
+$result = RestCall('set_entry',array('session' => $session, 'module_name' => 'Cases', array('name' => $_GET['subject'], 'description' => $_GET['description'], 'jobnumber_c' => $_GET['job'], 'status'=>'New', 'priority'=>'P1')));
 $caseid = $result['id'];
 
 /* Link Job to Case */
