@@ -22,7 +22,7 @@ echo '<li><a href="#tabs-2">Attachments</a></li></ul>';
 echo '<div id="tabs-1">';
 
 // Login
-$result = RestCall('login',array('user_auth' => array('user_name' => 'Admin', 'password' => md5('d@t@c0m!'))));
+$result = RestCall('login',array('user_auth' => array('user_name' => 'Admin', 'password' => md5('GtGDat@C0m#'))));
 
 // Store login id
 $session = $result['id'];
@@ -62,8 +62,17 @@ echo "</div>\n";
 // Open Attachment Div
 echo '<div id="tabs-2">';
 
+// Find the project
+$result = RestCall('get_entry_list',array('session' => $session, 'module_name' => 'Project', 'query' => 'name="'.$jobnumber.'"', 'order_by' => '', 'offset' => 0, 'select_fields' => array('id'), 'link_name_to_fields_array' => array(), 'max_results' => 1, 'deleted' => 0));
+$jobid = $result['entry_list'][0]['id'];
+
 // Find related notes
-$result = RestCall('get_relationships',array('session' => $session, 'module_name' => 'Cases', 'module_id' => $_GET['id'], 'link_field_name' => 'notes', 'related_module_query' => '', 'related_fields' => array('id','name','filename'), 'related_module_link_name_to_fields_array' => array(), 'deleted' => 0));
+$result = RestCall('get_relationships',array('session' => $session, 'module_name' => 'Project', 'module_id' => $jobid, 'link_field_name' => 'notes', 'related_module_query' => '', 'related_fields' => array('id','name','filename'), 'related_module_link_name_to_fields_array' => array(), 'deleted' => 0));
+
+
+// Find related notes
+//$result = RestCall('get_relationships',array('session' => $session, 'module_name' => 'Cases', 'module_id' => $_GET['id'], 'link_field_name' => 'notes', 'related_module_query' => '', 'related_fields' => array('id','name','filename'), 'related_module_link_name_to_fields_array' => array(), 'deleted' => 0));
+
 foreach($result['entry_list'] as $entry) {
   echo "<a href='download.php?id=".$entry['name_value_list']['id']['value']."'>".$entry['name_value_list']['name']['value']." - ".$entry['name_value_list']['filename']['value']."</a><br />";
   };
