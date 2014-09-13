@@ -9,7 +9,7 @@ require_once('include/SugarPHPMailer.php');
 require_once('modules/Emails/Email.php');
 
 /* Query database to get case aging */
-$query = 'select case_number,name,status,CONVERT_TZ(date_entered,\'+00:00\',\'-06:00\') as date_entered,description,resolveddate_c,resolution from cases inner join cases_cstm on cases.id=cases_cstm.id_c where account_id="38078d8a-758f-e947-bb6e-536a7beffba8" and deleted=0 and (timestampdiff(MONTH,date_entered,now())<=1 or status not like "%Closed%") order by date_entered desc;';
+$query = 'select case_number,name,status,CONVERT_TZ(date_entered,\'+00:00\',\'-06:00\') as date_entered,description,resolveddate_c,resolution from cases inner join cases_cstm on cases.id=cases_cstm.id_c where account_id="38078d8a-758f-e947-bb6e-536a7beffba8" and deleted=0 and (date_entered>=date_sub(now(),interval 31 day) or status not in ("Closed","Resolved")) order by date_entered desc;';
 $db = DBManagerFactory::getInstance();
 $result = $db->query($query,true,'Tetra Monthly Report');
 
