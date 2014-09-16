@@ -42,6 +42,15 @@ array (
       0 => 'account_id',
     ),
   ),
+ 'ACCT_MGR_C' =>
+  array (
+    'type' => 'text',
+    'label' => 'LBL_ACCT_MGR',
+    'sortable' => true,
+    'width' => '10%',
+    'default' => false,
+    'customCode' => '{$ACCT_MGR_C}',
+  ),
   'STATUS' => 
   array (
     'width' => '10%',
