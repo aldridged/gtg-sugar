@@ -7,4 +7,11 @@ $hook_array = Array();
 $hook_array['before_save'] = Array(); 
 $hook_array['before_save'][] = Array(1, 'Cases push feed', 'modules/Cases/SugarFeeds/CaseFeed.php','CaseFeed', 'pushFeed'); 
 
+$hook_array['process_record'][] = Array(
+    1,
+    'acctMgr',
+    'custom/modules/Cases/logic_hooks/CaseHooks.php',
+    'casesHooks',
+    'process_record_hook'
+);
 ?>
