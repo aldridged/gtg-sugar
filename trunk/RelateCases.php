@@ -10,28 +10,37 @@ require_once('modules/Accounts/Account.php');
 
 //Retrieve Cases
 $oacase = new aCase();
-$full_copy = new Account();
+//$full_copy = new Account();
 $blcases = $oacase->get_full_list();
+$records = count($blcases);
+echo("Found $records cases\n");
 
 //Loop over them
-foreach($blcases as $curcase) {
-  if($curcase->deleted==1) { continue; };
-  phpMemorySuckingPig($curcase);
+$i=0;
+//foreach($blcases as $curcase) {
+while($i<=$records) {
+  if($blcases[$i]->deleted==1) { continue; };
+  phpMemorySuckingPig($blcases[$i]);
+  echo("Record $i\n");
+  $i++;
   //$full_copy->retrieve($curcase->account_id);
   //$full_copy->custom_fields->retrieve();
   //$curcase->custom_fields->retrieve();
   //$curcase->account_manager_c = $full_copy->assigned_user_name;
   //$curcase->save();
-  //unset($curcase);
+  //unset($blcases[$i]);
   };
 
 function phpMemorySuckingPig($ccase) {
-  if(!isset($curcase->account_id)) { return; }
-  $full_copy->retrieve($curcase->account_id);
+  if(!isset($ccase->account_id)) { return; };
+  $full_copy = new Account();
+  echo("Acct Id: $ccase->account_id\n");
+  $full_copy->retrieve($ccase->account_id);
   $full_copy->custom_fields->retrieve();
   $ccase->custom_fields->retrieve();
   $ccase->account_manager_c = $full_copy->assigned_user_name;
   $ccase->save();
+  unset($full_copy);
   };
 
 ?>
