@@ -1,46 +1,15 @@
+#!/usr/bin/php
 <?php
-//Relate Cases to Account Managers
+// Update account manager on cases
+// Load required classes
 if(!defined('sugarEntry'))define('sugarEntry', true);
 require_once('include/entryPoint.php');
 require_once('include/database/DBManagerFactory.php');
 require_once('include/SugarPHPMailer.php');
 require_once('modules/Emails/Email.php');
-require_once('modules/Cases/Case.php');
-require_once('modules/Accounts/Account.php');
 
-//Retrieve Cases
-$oacase = new aCase();
-//$full_copy = new Account();
-$blcases = $oacase->get_full_list();
-$records = count($blcases);
-echo("Found $records cases\n");
-
-//Loop over them
-$i=0;
-//foreach($blcases as $curcase) {
-while($i<=$records) {
-  if($blcases[$i]->deleted==1) { continue; };
-  phpMemorySuckingPig($blcases[$i]);
-  echo("Record $i\n");
-  $i++;
-  //$full_copy->retrieve($curcase->account_id);
-  //$full_copy->custom_fields->retrieve();
-  //$curcase->custom_fields->retrieve();
-  //$curcase->account_manager_c = $full_copy->assigned_user_name;
-  //$curcase->save();
-  //unset($blcases[$i]);
-  };
-
-function phpMemorySuckingPig($ccase) {
-  if(!isset($ccase->account_id)) { return; };
-  $full_copy = new Account();
-  echo("Acct Id: $ccase->account_id\n");
-  $full_copy->retrieve($ccase->account_id);
-  $full_copy->custom_fields->retrieve();
-  $ccase->custom_fields->retrieve();
-  $ccase->account_manager_c = $full_copy->assigned_user_name;
-  $ccase->save();
-  unset($full_copy);
-  };
-
+// Update Tables using SQL
+$query = 'update cases c inner join cases_cstm cc on c.id=cc.id_c inner join accounts a on a.id = c.account_id inner join users u on a.assigned_user_id = u.id set cc.account_manager_c = concat(u.first_name," ",u.last_name);';
+$db = DBManagerFactory::getInstance();
+$result = $db->query($query,true,'Tetra Monthly Report');
 ?>
