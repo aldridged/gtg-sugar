@@ -10,18 +10,28 @@ require_once('modules/Accounts/Account.php');
 
 //Retrieve Cases
 $oacase = new aCase();
+$full_copy = new Account();
 $blcases = $oacase->get_full_list();
 
 //Loop over them
 foreach($blcases as $curcase) {
   if($curcase->deleted==1) { continue; };
-  $full_copy = new Account();
+  phpMemorySuckingPig($curcase);
+  //$full_copy->retrieve($curcase->account_id);
+  //$full_copy->custom_fields->retrieve();
+  //$curcase->custom_fields->retrieve();
+  //$curcase->account_manager_c = $full_copy->assigned_user_name;
+  //$curcase->save();
+  //unset($curcase);
+  };
+
+function phpMemorySuckingPig($ccase) {
+  if(!isset($curcase->account_id)) { return; }
   $full_copy->retrieve($curcase->account_id);
   $full_copy->custom_fields->retrieve();
-  $curcase->custom_fields->retrieve();
-  $curcase->acct_mgr_id_c = $full_copy->assigned_user_id;
-  $curcase->save();
-  unset($full_copy);
+  $ccase->custom_fields->retrieve();
+  $ccase->account_manager_c = $full_copy->assigned_user_name;
+  $ccase->save();
   };
-  
+
 ?>
